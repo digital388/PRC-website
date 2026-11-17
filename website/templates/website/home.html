@@ -1,0 +1,663 @@
+{% extends "website/base.html" %}
+{% load static %}
+{% load nepali_numbers %}
+
+{% block title %}Pokhara Research Centre | Home{% endblock %}
+
+{% block content %}
+<!-- Hero (rotating photo band) -->
+<section class="hero compact photo-hero">
+    <div class="hero-slides" aria-hidden="true">
+        {% for photo in home_photos %}
+        <div class="hero-slide" style="background-image:url('{{ photo }}')"></div>
+        {% endfor %}
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <h1 class="hero-line">
+            <span class="nowrap en">{{ pt.home.hero_title.en }}<br>{{ pt.home.hero_title_2.en }}</span>
+            <span class="nowrap np">{{ pt.home.hero_title.np }}<br>{{ pt.home.hero_title_2.np }}</span>
+        </h1>
+    </div>
+</section>
+
+<!-- Metrics strip: minimal stats separated by the brand-blue line -->
+<section class="stats-strip">
+    <div class="container stats-grid">
+        <div class="stat">
+            <span class="stat-num" data-value="{{ stats.female_mpas }}"data-suffix="+"><span class="en">{{ stats.female_mpas }}+</span><span class="np">{{ stats.female_mpas|ne }}+</span></span>
+            <span class="stat-label"><span class="en">MPAs Engaged</span><span class="np">संलग्न सांसदहरू</span></span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-value="{{ stats.youth_trained }}" data-suffix="+"><span class="en">{{ stats.youth_trained }}+</span><span class="np">{{ stats.youth_trained|ne }}+</span></span>
+            <span class="stat-label"><span class="en">Youth Trained Nationwide</span><span class="np">देशभर युवाहरूलाई तालिम</span></span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-value="{{ stats.fellows_trained }}"><span class="en">{{ stats.fellows_trained }}</span><span class="np">{{ stats.fellows_trained|ne }}</span></span>
+            <span class="stat-label"><span class="en">Fellows Successfully Trained</span><span class="np">फेलोहरू सफलतापूर्वक प्रशिक्षित</span></span>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-value="{{ stats.legislative_discussions }}" data-suffix="+"><span class="en">{{ stats.legislative_discussions }}+</span><span class="np">{{ stats.legislative_discussions|ne }}+</span></span>
+            <span class="stat-label"><span class="en">Legislative Discussions Supported</span><span class="np">विधायी चर्चाहरूमा सहयोग</span></span>
+        </div>
+    </div>
+</section>
+
+<!-- About Us -->
+<section class="section about-tight">
+    <div class="container">
+        <div class="about-split">
+            <div class="bilingual">
+                <div class="en">
+                    <h2>{{ pt.home.about_heading.en }}</h2>
+                    <p>{{ pt.home.about_body.en }}</p>
+                </div>
+                <div class="np">
+                    <h2>{{ pt.home.about_heading.np }}</h2>
+                    <p>{{ pt.home.about_body.np }}</p>
+                </div>
+            </div>
+            <div class="prc-structure">
+                <div class="diagram-container" id="diagramContainer">
+                    <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="277" y1="38" x2="45" y2="279" class="line" />
+                        <line x1="277" y1="38" x2="237.16558837890625" y2="244.25271606445312" class="line" />
+                        <line x1="277" y1="38" x2="355" y2="348" class="line" />
+                        <line x1="45" y1="279" x2="237.16558837890625" y2="244.25271606445312" class="line" />
+                        <line x1="237.16558837890625" y1="244.25271606445312" x2="355" y2="348" class="line" />
+                        <line x1="45" y1="279" x2="355" y2="348" class="line" />
+                        <g class="node" data-node="institution" data-url="{% url 'institution' %}" tabindex="0" role="link" aria-label="Institution Cell - go to Institution page">
+                            <circle cx="277" cy="38" r="30" class="hit-area" />
+                            <g class="node-dot">
+                                <circle cx="277" cy="38" r="12" class="node-fill" />
+                                <circle cx="277" cy="38" r="20" class="node-stroke" />
+                            </g>
+                            <text x="307" y="43" class="label"><tspan class="en">Institution Cell</tspan><tspan class="np" x="307">संस्थागत सेल</tspan></text>
+                        </g>
+                        <g class="node" data-node="prc" tabindex="0" role="button" aria-label="PRC">
+                            <circle cx="237.16558837890625" cy="244.25271606445312" r="30" class="hit-area" />
+                            <g class="node-dot">
+                                <circle cx="237.16558837890625" cy="244.25271606445312" r="12" class="node-fill" />
+                                <circle cx="237.16558837890625" cy="244.25271606445312" r="20" class="node-stroke" />
+                            </g>
+                            <text x="237.16558837890625" y="284.2527160644531" text-anchor="middle" class="label">PRC</text>
+                        </g>
+                        <g class="node" data-node="province" data-url="{% url 'province' %}" tabindex="0" role="link" aria-label="Province Cell - go to Province page">
+                            <circle cx="45" cy="279" r="30" class="hit-area" />
+                            <g class="node-dot">
+                                <circle cx="45" cy="279" r="12" class="node-fill" />
+                                <circle cx="45" cy="279" r="20" class="node-stroke" />
+                            </g>
+                            <text x="45" y="319" text-anchor="middle" class="label"><tspan class="en">Province Cell</tspan><tspan class="np" x="45">प्रदेश सेल</tspan></text>
+                        </g>
+                        <g class="node" data-node="constitution" data-url="{% url 'constitution' %}" tabindex="0" role="link" aria-label="Constitution Cell - go to Constitution page">
+                            <circle cx="355" cy="348" r="30" class="hit-area" />
+                            <g class="node-dot">
+                                <circle cx="355" cy="348" r="12" class="node-fill" />
+                                <circle cx="355" cy="348" r="20" class="node-stroke" />
+                            </g>
+                            <text x="355" y="380" text-anchor="middle" class="label"><tspan class="en">Constitution Cell</tspan><tspan class="np" x="355">संविधान सेल</tspan></text>
+                        </g>
+                    </svg>
+                    <div class="tooltip" id="tooltip">
+                        <div class="tooltip-title" id="tooltipTitle"></div>
+                        <div class="tooltip-desc" id="tooltipDesc"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Photo Gallery: auto-scrolling marquee (Numiko style) -->
+<section class="section alt gallery-section">
+    <div class="container">
+        <h2><span class="en">Our Work in Pictures</span><span class="np">तस्बिरहरूमा हाम्रो काम</span></h2>
+    </div>
+    <div class="gallery-marquee">
+        <div class="gallery-track">
+            <div class="gallery-group">
+                {% for photo in gallery_photos %}
+                <img src="{{ photo }}" alt="PRC activity photo {{ forloop.counter }}" loading="lazy">
+                {% endfor %}
+            </div>
+            <div class="gallery-group" aria-hidden="true">
+                {% for photo in gallery_photos %}
+                <img src="{{ photo }}" alt="" loading="lazy">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Journey: germination -> incubation -> registration (text, not an image) -->
+<section class="section journey-section" id="our-journey">
+    <div class="container">
+        <div class="section-title-wrap">
+            <h2><span class="en">{{ pt.home.journey_heading.en }}</span><span class="np">{{ pt.home.journey_heading.np }}</span></h2>
+        </div>
+
+        <ol class="journey-steps">
+            <li class="journey-step">
+                <span class="journey-dot">
+                    <span class="journey-title">
+                        <span class="en">Germination</span>
+                        <span class="np">सङ्केत</span>
+                    </span>
+                    <span class="journey-when">
+                        <span class="en">2017</span>
+                        <span class="np">२०१७</span>
+                    </span>
+                </span>
+            </li>
+            <li class="journey-step">
+                <span class="journey-dot">
+                    <span class="journey-title">
+                        <span class="en">Incubation</span>
+                        <span class="np">विकास</span>
+                    </span>
+                    <span class="journey-when">
+                        <span class="en">2017 to 2019</span>
+                        <span class="np">२०१७ देखि २०१९</span>
+                    </span>
+                </span>
+            </li>
+            <li class="journey-step">
+                <span class="journey-dot">
+                    <span class="journey-title">
+                        <span class="en">Registration</span>
+                        <span class="np">दर्ता</span>
+                    </span>
+                    <span class="journey-when">
+                        <span class="en">28th May, 2019</span>
+                        <span class="np">२०१९ मे २८</span>
+                    </span>
+                </span>
+            </li>
+        </ol>
+
+        <div class="bilingual journey-body">
+            <div class="en">
+                <p>{{ pt.home.journey_body.en }}</p>
+            </div>
+            <div class="np">
+                <p>{{ pt.home.journey_body.np }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission & Vision: full-width brand band, two columns (layout after perc.org/about) -->
+<section class="section mv-section" id="mission-vision">
+    <div class="container">
+        <div class="mv-grid">
+            <div class="mv-item">
+                <h2 class="mv-label"><span class="en">{{ pt.home.vision_heading.en }}</span><span class="np">{{ pt.home.vision_heading.np }}</span></h2>
+                <p class="mv-text"><span class="en">{{ pt.home.vision_body.en }}</span><span class="np">{{ pt.home.vision_body.np }}</span></p>
+            </div>
+            <div class="mv-item">
+                <h2 class="mv-label"><span class="en">{{ pt.home.mission_heading.en }}</span><span class="np">{{ pt.home.mission_heading.np }}</span></h2>
+                <p class="mv-text"><span class="en">{{ pt.home.mission_body.en }}</span><span class="np">{{ pt.home.mission_body.np }}</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Objectives: numbered list below the Mission & Vision band -->
+<section class="section alt objectives-section" id="objectives">
+    <div class="container">
+        <h2><span class="en">{{ pt.home.objectives_heading.en }}</span><span class="np">{{ pt.home.objectives_heading.np }}</span></h2>
+        <ul class="objectives-list">
+            <li><span class="en">{{ pt.home.objective_1.en }}</span><span class="np">{{ pt.home.objective_1.np }}</span></li>
+            <li><span class="en">{{ pt.home.objective_2.en }}</span><span class="np">{{ pt.home.objective_2.np }}</span></li>
+            <li><span class="en">{{ pt.home.objective_3.en }}</span><span class="np">{{ pt.home.objective_3.np }}</span></li>
+            <li><span class="en">{{ pt.home.objective_4.en }}</span><span class="np">{{ pt.home.objective_4.np }}</span></li>
+            <li><span class="en">{{ pt.home.objective_5.en }}</span><span class="np">{{ pt.home.objective_5.np }}</span></li>
+            <li><span class="en">{{ pt.home.objective_6.en }}</span><span class="np">{{ pt.home.objective_6.np }}</span></li>
+        </ul>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    /* Tighter About Us section (padding only on this section, other pages unaffected) */
+    .about-tight { padding-top: clamp(32px, 5vw, 56px); padding-bottom: clamp(32px, 5vw, 56px); }
+    .about-tight .about-split {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: stretch;
+    }
+    .about-tight .about-split .bilingual p {
+        max-width: 42ch;
+        text-align: justify;
+    }
+    .about-tight .prc-structure { position: relative; min-width: 0; }
+    .about-tight .diagram-container {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        margin-top: 0;
+    }
+    .about-tight .prc-structure svg {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: auto;
+    }
+    @media (max-width: 900px) {
+        .about-tight .about-split {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        .about-tight .prc-structure { min-height: clamp(260px, 60vw, 380px); }
+    }
+    /* ===== Our Journey: three-step timeline + narrative ===== */
+
+    /* Same rhythm above and below the timeline (overrides the global 28px under .section h2) */
+    .journey-section .section-title-wrap { margin-bottom: clamp(30px, 4vw, 46px); }
+
+    .journey-steps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        list-style: none;
+        margin: 0 0 clamp(30px, 4vw, 46px);
+        padding: 0;
+    }
+    .journey-step {
+        --dot: 168px;
+        /* short, bold arrow centred in the gap between circles */
+        --arrow-shaft: 40px;
+        --arrow-head: 16px;
+        --arrow-thick: 4px;
+        position: relative;
+        text-align: center;
+        padding: 0 clamp(8px, 2vw, 22px);
+    }
+    /* Shaft */
+    .journey-step:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: calc(var(--dot) / 2 - var(--arrow-thick) / 2);
+        left: calc(100% - (var(--arrow-shaft) + var(--arrow-head)) / 2);
+        width: var(--arrow-shaft);
+        height: var(--arrow-thick);
+        background: var(--ink);
+    }
+    /* Head */
+    .journey-step:not(:last-child)::before {
+        content: "";
+        position: absolute;
+        top: calc(var(--dot) / 2 - 9px);
+        left: calc(100% - (var(--arrow-shaft) + var(--arrow-head)) / 2 + var(--arrow-shaft));
+        width: 0; height: 0;
+        border-left: var(--arrow-head) solid var(--ink);
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+    }
+    /* Big circle: milestone title + date both sit inside */
+    .journey-dot {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: var(--dot);
+        height: var(--dot);
+        border-radius: 50%;
+        border: 2px solid var(--ink);
+        background: var(--surface);
+        color: var(--ink);
+        text-align: center;
+        padding: 0 18px;
+    }
+    .journey-title {
+        display: block;
+        font-weight: 700;
+        font-size: 1.02rem;
+        line-height: 1.2;
+    }
+    .journey-when {
+        display: block;
+        font-size: .88rem;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+    .journey-dot .np { font-family: 'Noto Sans Devanagari', var(--font-ui); }
+    /* Full-width justified paragraph: overrides the global '.section p' 65ch cap */
+    .journey-body p { margin: 0; max-width: none; text-align: justify; }
+
+    @media (max-width: 700px) {
+        /* Stack the milestones; the horizontal connectors no longer apply */
+        .journey-steps { grid-template-columns: 1fr; gap: 24px; }
+        .journey-step { --dot: 150px; }
+        .journey-step:not(:last-child)::after,
+        .journey-step:not(:last-child)::before { display: none; }
+    }
+
+    /* ===== Metrics strip: minimal stats on the brand-blue hairline ===== */
+    .stats-strip {
+        border-bottom: 1px solid var(--line);
+        background: var(--surface);
+    }
+    .stats-grid {
+        display: grid; grid-template-columns: repeat(4, 1fr);
+        padding: 34px 24px;
+    }
+    .stat { position: relative; text-align: center; }
+    /* Short blue stick between the stats */
+    .stat + .stat::before {
+        content: ""; position: absolute; left: 0; top: 50%;
+        transform: translateY(-50%);
+        width: 3px; height: 46px; border-radius: 2px;
+        background: var(--accent);
+    }
+    .stat-num {
+        display: block;
+        font-family: var(--font-ui);
+        font-size: clamp(2rem, 4.5vw, 3rem);
+        font-weight: 700; line-height: 1.1;
+        color: var(--ink);
+    }
+    .stats-strip .stat-num .np {
+        font-family: 'Noto Sans Devanagari', var(--font-ui);
+        letter-spacing: 0;
+    }
+    .stat-label {
+        display: block; margin-top: 6px;
+        font-size: .82rem; font-weight: 600;
+        letter-spacing: .12em; text-transform: uppercase;
+        color: var(--muted);
+    }
+    /* Impact labels are longer sentences — keep them on two balanced lines */
+    .stat-label .en, .stat-label .np {
+        display: block;
+        max-width: 20ch;
+        margin: 0 auto;
+        text-wrap: balance;
+        line-height: 1.35;
+    }
+    @media (max-width: 700px) {
+        .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 26px 0; padding: 26px 24px; }
+        .stat:nth-child(3)::before { display: none; } /* no stick at the start of the second row */
+        .gallery-marquee {
+            margin: 20px -24px 0;
+            overflow-x: auto;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .gallery-marquee::-webkit-scrollbar { display: none; }
+        .gallery-track {
+            width: max-content;
+            animation: none;
+            transform: none;
+        }
+        .gallery-group {
+            gap: 0;
+            padding: 0;
+        }
+        .gallery-group[aria-hidden="true"] { display: none; }
+        .gallery-group img {
+            width: 100vw;
+            height: min(68vh, 520px);
+            min-height: 260px;
+            border-radius: 0;
+            scroll-snap-align: start;
+            scroll-snap-stop: always;
+        }
+    }
+
+    /* ===== Mission & Vision: simple two-column statement block separated by a blue rule ===== */
+    .mv-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: clamp(32px, 6vw, 64px);
+        align-items: start;
+    }
+    /* Blue rule separating Mission from Vision */
+    .mv-item + .mv-item {
+        border-left: 3px solid var(--accent);
+        padding-left: clamp(24px, 4vw, 48px);
+    }
+    /* "Our Mission" / "Our Vision" use the site's standard .section h2 heading size */
+    /* Each statement uses the site's normal body size (font comes from the global body-copy rule) */
+    .mv-section .mv-text {
+        margin: 0;
+        max-width: 60ch;
+        text-align: left;
+    }
+    .mv-section .np { font-family: 'Noto Sans Devanagari', var(--font-sans); }
+    @media (max-width: 767px) {
+        .mv-grid { grid-template-columns: 1fr; gap: 28px; }
+        .mv-item + .mv-item {
+            border-left: 0;
+            border-top: 3px solid var(--accent);
+            padding-left: 0;
+            padding-top: 28px;
+        }
+    }
+
+    /* ===== Objectives: bulleted two-column list below the Mission & Vision band ===== */
+    .objectives-section .objectives-list {
+        list-style: none;
+        display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px 44px; padding: 0; margin: 0;
+    }
+    .objectives-section .objectives-list li {
+        position: relative;
+        font-family: var(--font-sans);
+        padding-left: 20px; line-height: 1.55;
+    }
+    /* Accent dot marker */
+    .objectives-section .objectives-list li::before {
+        content: "";
+        position: absolute; left: 0; top: .6em;
+        width: 6px; height: 6px; border-radius: 50%;
+        background: var(--accent);
+    }
+    .objectives-section .np { font-family: 'Noto Sans Devanagari', var(--font-sans); }
+    @media (max-width: 700px) {
+        .objectives-section .objectives-list { grid-template-columns: 1fr; gap: 14px; }
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const strip = document.querySelector('.stats-strip');
+        if (!strip) return;
+
+        const nums = Array.from(strip.querySelectorAll('.stat-num'));
+        const EN_DIGITS = '0123456789';
+        const NE_DIGITS = '०१२३४५६७८९';
+        const toNepaliDigits = value => String(value).replace(/[0-9]/g, digit => NE_DIGITS[EN_DIGITS.indexOf(digit)]);
+        // Targets come from data-value so a trailing "+" (350+, 80+) is not counted as a digit
+        const targets = nums.map(el => parseInt(el.dataset.value, 10) || 0);
+        const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        function render(el, value) {
+            const suffix = el.dataset.suffix || '';
+            el.querySelector('.en').textContent = String(value) + suffix;
+            el.querySelector('.np').textContent = toNepaliDigits(value) + suffix;
+        }
+
+        function animate() {
+            if (reducedMotion) {
+                nums.forEach((el, index) => render(el, targets[index]));
+                return;
+            }
+
+            const duration = 1200;
+            let start = null;
+            function step(timestamp) {
+                if (start === null) start = timestamp;
+                const progress = Math.min((timestamp - start) / duration, 1);
+                const easedProgress = 1 - Math.pow(1 - progress, 3);
+                nums.forEach((el, index) => render(el, Math.round(targets[index] * easedProgress)));
+                if (progress < 1) requestAnimationFrame(step);
+            }
+            requestAnimationFrame(step);
+        }
+
+        if (!('IntersectionObserver' in window)) {
+            animate();
+            return;
+        }
+
+        const observer = new IntersectionObserver(entries => {
+            if (!entries.some(entry => entry.isIntersecting)) return;
+            observer.disconnect();
+            animate();
+        }, { threshold: 0.35 });
+        observer.observe(strip);
+    });
+</script>
+<script>
+    // PRC Core Structure diagram (runs after DOM is parsed)
+    document.addEventListener('DOMContentLoaded', function () {
+        const nodeDescriptions = {
+            institution: {
+                title: { en: "Institution Cell", ne: "संस्थागत सेल" },
+                desc: { en: "Builds the organization's core identity.", ne: "संस्थाको मूल पहिचान निर्माण गर्दछ।" }
+            },
+            province: {
+                title: { en: "Province Cell", ne: "प्रदेश सेल" },
+                desc: { en: "Champions decentralized governance and provincial autonomy.", ne: "विकेन्द्रीकृत शासन र प्रादेशिक स्वायत्तताको पक्षपोषण गर्दछ।" }
+            },
+            constitution: {
+                title: { en: "Constitution Cell", ne: "संविधान सेल" },
+                desc: { en: "Educates the public on their constitutional rights.", ne: "नागरिकका संवैधानिक हकबारे जनचेतना फैलाउँछ।" }
+            },
+            prc: {
+                title: { en: "PRC", ne: "पीआरसी" },
+                desc: { en: "Central hub connecting the Institution, Province, and Constitution cells.", ne: "संस्थागत, प्रदेश र संविधान सेलहरूलाई जोड्ने केन्द्रीय कोश।" }
+            }
+        };
+        let currentLang = (document.body.classList.contains('lang-ne')) ? 'ne' : 'en';
+        document.addEventListener('langchange', (e) => { currentLang = e.detail.lang; });
+
+        const container = document.getElementById('diagramContainer');
+        if (!container) return;
+        const tooltip = document.getElementById('tooltip');
+        const tooltipTitle = document.getElementById('tooltipTitle');
+        const tooltipDesc = document.getElementById('tooltipDesc');
+        const nodes = container.querySelectorAll('.node');
+        const supportsHover = window.matchMedia('(hover: hover)').matches;
+        let activeNode = null;
+
+        function circleRectOverlap(rectLeft, rectTop, rectW, rectH, cx, cy, cr) {
+            const closestX = Math.min(Math.max(cx, rectLeft), rectLeft + rectW);
+            const closestY = Math.min(Math.max(cy, rectTop), rectTop + rectH);
+            const dx = cx - closestX;
+            const dy = cy - closestY;
+            return (dx * dx + dy * dy) < (cr * cr);
+        }
+
+        function showTooltip(node) {
+            const key = node.dataset.node;
+            const data = nodeDescriptions[key];
+            if (!data) return;
+            tooltipTitle.textContent = data.title[currentLang] || data.title.en;
+            tooltipDesc.textContent = data.desc[currentLang] || data.desc.en;
+            tooltip.classList.remove('flip-below', 'side-right', 'side-left');
+            const containerRect = container.getBoundingClientRect();
+            const hit = node.querySelector('.hit-area');
+            const hitRect = hit.getBoundingClientRect();
+            const hitR = hitRect.width / 2;
+            const nodeLeft = hitRect.left - containerRect.left;
+            const nodeRight = hitRect.right - containerRect.left;
+            const nodeTop = hitRect.top - containerRect.top;
+            const nodeBottom = hitRect.bottom - containerRect.top;
+            const nodeX = (nodeLeft + nodeRight) / 2;
+            const nodeCenterY = (nodeTop + nodeBottom) / 2;
+            const gap = Math.min(28, Math.max(14, containerRect.width * 0.045));
+            const margin = Math.min(10, Math.max(6, containerRect.width * 0.018));
+            const clearRadius = hitR * 0.8;
+            const straightMaxW = Math.min(230, Math.max(130, containerRect.width * 0.42));
+            const sideMaxW = Math.min(170, Math.max(110, containerRect.width * 0.30));
+            tooltip.style.maxWidth = straightMaxW + 'px';
+            const straightW = tooltip.offsetWidth;
+            const straightH = tooltip.offsetHeight;
+            tooltip.style.maxWidth = sideMaxW + 'px';
+            const sideW = tooltip.offsetWidth;
+            const sideH = tooltip.offsetHeight;
+            const others = Array.from(nodes).filter(n => n !== node).map(n => {
+                const r = n.querySelector('.hit-area').getBoundingClientRect();
+                return { cx: r.left + r.width / 2 - containerRect.left, cy: r.top + r.height / 2 - containerRect.top };
+            });
+            function clamp(box) {
+                const maxLeft = Math.max(margin, containerRect.width - box.w - margin);
+                const maxTop = Math.max(margin, containerRect.height - box.h - margin);
+                return { left: Math.min(Math.max(box.left, margin), maxLeft), top: Math.min(Math.max(box.top, margin), maxTop), w: box.w, h: box.h };
+            }
+            const candidateMap = {
+                top:    { left: nodeX - straightW / 2, top: nodeTop - gap - straightH, w: straightW, h: straightH },
+                bottom: { left: nodeX - straightW / 2, top: nodeBottom + gap,          w: straightW, h: straightH },
+                right:  { left: nodeRight + gap,       top: nodeCenterY - sideH / 2,   w: sideW,     h: sideH },
+                left:   { left: nodeLeft - gap - sideW, top: nodeCenterY - sideH / 2,  w: sideW,     h: sideH }
+            };
+            const preferredOrder = { province: ['bottom','left','top','right'], constitution: ['right','bottom','top','left'], prc: ['bottom','right','left','top'] };
+            let best;
+            if (key === 'institution') {
+                best = { dir: 'left', ...clamp(candidateMap.left) };
+            } else {
+                const order = preferredOrder[key] || ['top','right','bottom','left'];
+                best = null;
+                for (const dir of order) {
+                    const box = clamp(candidateMap[dir]);
+                    const blocked = others.some(o => circleRectOverlap(box.left, box.top, box.w, box.h, o.cx, o.cy, clearRadius));
+                    if (!blocked) { best = { dir, ...box }; break; }
+                }
+                if (!best) { const dir = order[0]; best = { dir, ...clamp(candidateMap[dir]) }; }
+            }
+            tooltip.style.maxWidth = best.w + 'px';
+            tooltip.style.left = best.left + 'px';
+            tooltip.style.top = best.top + 'px';
+            if (best.dir === 'bottom') tooltip.classList.add('flip-below');
+            if (best.dir === 'right') tooltip.classList.add('side-right');
+            if (best.dir === 'left') tooltip.classList.add('side-left');
+            if (best.dir === 'top' || best.dir === 'bottom') {
+                let arrowX = nodeX - best.left;
+                arrowX = Math.min(Math.max(arrowX, 14), best.w - 14);
+                tooltip.style.setProperty('--arrow-x', arrowX + 'px');
+            } else {
+                let arrowY = nodeCenterY - best.top;
+                arrowY = Math.min(Math.max(arrowY, 14), best.h - 14);
+                tooltip.style.setProperty('--arrow-y', arrowY + 'px');
+            }
+            tooltip.classList.add('visible');
+        }
+        function hideTooltip() { tooltip.classList.remove('visible'); }
+        nodes.forEach(node => {
+            node.addEventListener('focus', () => showTooltip(node));
+            node.addEventListener('blur', () => { if (!node.classList.contains('active')) hideTooltip(); });
+            if (supportsHover) {
+                node.addEventListener('mouseenter', () => showTooltip(node));
+                node.addEventListener('mouseleave', () => { if (!node.classList.contains('active')) hideTooltip(); });
+            }
+            node.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const url = node.dataset.url;
+                const wasActive = node.classList.contains('active');
+                nodes.forEach(n => n.classList.remove('active'));
+                if (wasActive) { hideTooltip(); activeNode = null; return; }
+                // Touch devices: first tap shows tooltip, second tap navigates
+                if (url && supportsHover) { window.location.href = url; return; }
+                if (url && !wasActive) { node.classList.add('active'); showTooltip(node); activeNode = node; return; }
+                node.classList.add('active'); showTooltip(node); activeNode = node;
+            });
+            node.addEventListener('keydown', (e) => {
+                if ((e.key === 'Enter' || e.key === ' ') && node.dataset.url) {
+                    e.preventDefault();
+                    window.location.href = node.dataset.url;
+                }
+            });
+        });
+        document.addEventListener('click', () => {
+            if (activeNode) { activeNode.classList.remove('active'); activeNode = null; hideTooltip(); }
+        });
+    });
+</script>
+{% endblock %}

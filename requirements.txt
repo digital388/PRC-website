@@ -1,0 +1,5 @@
+Django>=5.2,<6
+whitenoise>=6.7
+Pillow>=10.3
+PyMySQL>=1.1  # pure-Python MySQL driver, used when DJANGO_DB=mysql (cPanel hosting)
+cryptography>=42  # required by PyMySQL for MySQL 8 sha256_password / caching_sha2_password logins

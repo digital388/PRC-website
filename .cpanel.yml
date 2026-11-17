@@ -1,0 +1,18 @@
+---
+# cPanel > Git Version Control > Manage > "Deploy HEAD Commit" runs these tasks.
+# It copies the repository into the Python app root. Database migrations and
+# collectstatic are run manually afterwards (see docs/GITHUB_DEPLOY notes) so a
+# deploy can never half-apply a schema change.
+#
+# If your app root is not ~/prcapp, change DEPLOYPATH here (one line).
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/prcapp
+    - /bin/mkdir -p $DEPLOYPATH/config $DEPLOYPATH/website
+    - /bin/cp -f manage.py app.py passenger_wsgi.py requirements.txt prc_data.json $DEPLOYPATH/
+    # -u = only copy files newer than the server copy, so a routine deploy does
+    # not rewrite hundreds of MB of images that did not change.
+    - /bin/cp -Ru config/. $DEPLOYPATH/config/
+    - /bin/cp -Ru website/. $DEPLOYPATH/website/
+    # media/ and the static photo library are deliberately not in git; they stay
+    # in ~/prcapp on the server and are untouched by a deploy.

@@ -1,0 +1,266 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}Institution | Pokhara Research Centre{% endblock %}
+
+{% block content %}
+<!-- Page hero (rotating photo band) -->
+<section class="hero compact photo-hero">
+    <div class="hero-slides" aria-hidden="true">
+        {% for photo in cell_photos %}
+        <div class="hero-slide" style="background-image:url('{{ photo }}')"></div>
+        {% endfor %}
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <h1 class="hero-line"><span class="nowrap en">{{ pt.institution.hero_title.en }}</span><span class="nowrap np">{{ pt.institution.hero_title.np }}</span></h1>
+    </div>
+</section>
+
+<!-- Mission -->
+<section class="section">
+    <div class="container">
+        <div class="about-split">
+            <div class="bilingual">
+                <div class="en">
+                    <h2><span class="en">{{ pt.institution.mission_heading.en }}</span><span class="np">{{ pt.institution.mission_heading.np }}</span></h2>
+                <p>{{ pt.institution.mission_body.en }}</p>
+            </div>
+            <div class="np">
+                <h2>संस्थागत सेल</h2>
+                <p>{{ pt.institution.mission_body.np }}</p>
+            </div>
+            </div>
+            <div class="about-media">
+                <img class="about-photo" src="{% static 'website/images/pages/institution/institution-01.jpg' %}" alt="Pokhara Research Centre team" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% comment %} Projects section hidden for now — re-enable by removing this block.
+<!-- Projects -->
+<section class="section alt only-en institution-projects">
+    <div class="container">
+        <h2>Our Projects</h2>
+        <div class="grid grid-3">
+            {% for project in projects %}
+            <div class="card">
+                <h3>{{ project.title }}</h3>
+                <p><strong>{{ project.type }}</strong></p>
+                <p>{{ project.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Projects (Nepali) -->
+<section class="section only-ne institution-projects">
+    <div class="container">
+        <h2>हाम्रा परियोजनाहरू</h2>
+        <div class="table-wrap institution-projects-table">
+            <table class="data">
+                <thead>
+                    <tr><th>शीर्षक</th><th>प्रकार</th><th>विवरण</th></tr>
+                </thead>
+                <tbody>
+                    {% for project in projects %}
+                    <tr>
+                        <td>{{ project.title_np }}</td>
+                        <td>{{ project.type_np }}</td>
+                        <td>{{ project.description_np }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+{% endcomment %}
+
+<!-- Team -->
+
+<section class="section alt" id="team">
+    <div class="container">
+        <h2><span class="en">People</span><span class="np">सदस्यहरू</span></h2>
+        {% for group in team_groups %}
+        <div class="team-group">
+            <h3 class="team-group-title"><span class="en">{{ group.label_en }}</span><span class="np">{{ group.label_np }}</span></h3>
+            <div class="team-grid">
+                {% for member in group.members %}
+                <a class="team-card" href="{% url 'team_member' member.slug %}">
+                    <img class="photo" src="{{ member.photo }}" alt="{{ member.en_name }}" loading="lazy">
+                    <h4><span class="en">{{ member.en_name }}</span><span class="np">{{ member.np_name }}</span></h4>
+                    <p><span class="en">{{ member.role_en }}</span><span class="np">{{ member.role_np }}</span></p>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% if board_members %}
+<!-- Board of Directors -->
+<section class="section" id="board">
+    <div class="container">
+        <h2><span class="en">Board of Directors</span><span class="np">सञ्चालक समिति</span></h2>
+        <div class="board-grid">
+            {% for member in board_members %}
+            <div class="board-card">
+                <div class="board-photo">
+                    {% if member.photo %}
+                    <img src="{{ member.photo }}" alt="{{ member.en_name }}" loading="lazy">
+                    {% else %}
+                    <span class="board-initials" aria-hidden="true">{{ member.en_name|first }}</span>
+                    {% endif %}
+                    <div class="board-detail">
+                        <div class="board-name"><span class="en">{{ member.en_name }}</span><span class="np">{{ member.np_name }}</span></div>
+                        <div class="board-role"><span class="en">{{ member.role_en }}</span><span class="np">{{ member.role_np }}</span></div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Partners -->
+<section class="section" id="patrons">
+    <div class="container">
+        <h2 class="en">Our Patrons</h2>
+        <h2 class="np">हाम्रा साझेदारहरू</h2>
+        <div class="partners-grid">
+            {% for p in partners %}
+            <div class="partner-tile {% if not p.logo %}no-logo{% endif %}" tabindex="0">
+                {% if p.logo %}
+                <img class="partner-logo" src="{{ p.logo }}" alt="{{ p.en }}" loading="lazy">
+                {% else %}
+                <span class="partner-initials">
+                    <span class="en">{{ p.en }}</span>
+                    <span class="np">{{ p.np }}</span>
+                </span>
+                {% endif %}
+                <div class="partner-info">
+                    <strong class="partner-name">
+                        <span class="en">{{ p.en }}</span>
+                        <span class="np">{{ p.np }}</span>
+                    </strong>
+                    <span class="partner-type">
+                        <span class="en">{{ p.type_en }}</span>
+                        <span class="np">{{ p.type_np }}</span>
+                    </span>
+                    <span class="partner-since">
+                        <span class="en">Since {{ p.since }}</span>
+                        <span class="np">साझेदारी मिति: {{ p.since }}</span>
+                    </span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Funding -->
+<section class="section alt" id="funding">
+    <div class="container">
+        <h2><span class="en">How We Are Funded</span><span class="np">हामी कसरी कोष प्राप्त गर्छौं</span></h2>
+        <div class="funding-grid">
+            <div class="funding-panel">
+                <div class="funding-head">
+                    <span class="funding-num">01</span>
+                    <div>
+                        <h3><span class="en">General sources of funding</span><span class="np">सामान्य कोषका स्रोतहरू</span></h3>
+                        <p><span class="en">Recurring support that keeps our work running</span><span class="np">हाम्रो काम चलायमान राख्ने आवर्ती सहयोग</span></p>
+                    </div>
+                </div>
+                <ul class="funding-list">
+                    {% for item in funding_general %}<li><span class="en">{{ item.0 }}</span><span class="np">{{ item.1 }}</span></li>{% endfor %}
+                </ul>
+            </div>
+            <div class="funding-panel">
+                <div class="funding-head">
+                    <span class="funding-num">02</span>
+                    <div>
+                        <h3><span class="en">Project based grants</span><span class="np">परियोजना आधारित अनुदान</span></h3>
+                        <p><span class="en">Time-bound funding tied to specific research and programs</span><span class="np">विशिष्ट अनुसन्धान तथा कार्यक्रमसँग सम्बन्धित समयबद्ध कोष</span></p>
+                    </div>
+                </div>
+                <ul class="funding-list">
+                    {% for item in funding_project %}<li><span class="en">{{ item.0 }}</span><span class="np">{{ item.1 }}</span></li>{% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+        /* Board of Directors — portrait tiles with name/role labels over the image */
+        .board-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
+        .board-card { position: relative; transition: transform .2s ease; }
+        .board-card:hover { transform: translateY(-4px); }
+        .board-photo {
+            position: relative; height: 300px; overflow: hidden; border-radius: 14px;
+            background: rgba(16,16,20,.05);
+            display: flex; align-items: center; justify-content: center;
+        }
+        .board-photo img {
+            width: 100%; height: 100%; display: block;
+            object-fit: cover; object-position: center top;
+        }
+        .board-initials {
+            color: var(--muted); font-size: 2.4rem; font-weight: 700; letter-spacing: .02em;
+        }
+        .board-detail { position: absolute; left: 0; bottom: 0; max-width: 90%; z-index: 1; }
+        .board-name, .board-role { background: #fff; padding: 4px 6px; }
+        .board-name { color: inherit; font-size: 15px; font-weight: 700; line-height: 1.2; transition: color .2s ease; }
+        .board-role { color: var(--muted); font-size: 12px; line-height: 1.2; margin-bottom: 12px; }
+        .board-card:hover .board-name { color: var(--accent); }
+        @media (max-width: 1024px) {
+            .board-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+            .board-photo { height: 320px; }
+            .board-name { font-size: 17px; }
+            .board-role { font-size: 14px; }
+        }
+        @media (max-width: 860px) {
+            .board-grid { grid-template-columns: 1fr; gap: 24px; }
+            .board-photo { height: 380px; }
+        }
+        /* Photo matches the paragraph column's height exactly (1:1 with the text) */
+        .about-split .about-media { position: relative; align-self: stretch; min-height: 220px; }
+    .funding-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 28px; }
+    .funding-panel {
+        background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+        padding: 28px 30px 18px; box-shadow: 0 4px 14px rgba(16,16,20,.07);
+        position: relative; overflow: hidden;
+    }
+    .funding-panel::before {
+        content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+        background: var(--accent);
+    }
+    .funding-head { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
+    .funding-num {
+        width: 46px; height: 46px; flex: 0 0 46px; border-radius: 12px;
+        background: var(--accent); color: #fff;
+        display: flex; align-items: center; justify-content: center;
+        font-weight: 800; font-size: 1.05rem; letter-spacing: .02em;
+    }
+    .funding-head h3 { margin: 0; font-size: 1.12rem; }
+    .funding-head p { margin: 3px 0 0; color: var(--muted); font-size: .87rem; line-height: 1.4; }
+    .funding-list { list-style: none; margin: 0; padding: 0; }
+    .funding-list li {
+        padding: 13px 2px; border-top: 1px dashed var(--line);
+        font-weight: 600; font-size: .97rem;
+    }
+    @media (max-width: 860px) { .funding-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 700px) {
+        .institution-projects { min-height: 0 !important; }
+        .institution-projects-table table.data { min-width: 680px; }
+    }
+</style>
+{% endblock %}

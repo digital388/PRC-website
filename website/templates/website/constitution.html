@@ -1,0 +1,176 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}Constitution | Pokhara Research Centre{% endblock %}
+
+{% block content %}
+<!-- Page hero (rotating photo band) -->
+<section class="hero compact photo-hero">
+    <div class="hero-slides" aria-hidden="true">
+        {% for photo in constitution_recent %}
+        <div class="hero-slide" style="background-image:url('{{ photo }}')"></div>
+        {% endfor %}
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <h1 class="hero-line"><span class="nowrap en">{{ pt.constitution.hero_title.en }}</span><span class="nowrap np">{{ pt.constitution.hero_title.np }}</span></h1>
+    </div>
+</section>
+
+<!-- Mission -->
+<section class="section">
+    <div class="container">
+        <div class="about-split">
+            <div class="bilingual">
+                <div class="en">
+                    <h2><span class="en">{{ pt.constitution.mission_heading.en }}</span><span class="np">{{ pt.constitution.mission_heading.np }}</span></h2>
+                <p>{{ pt.constitution.mission_body.en }}</p>
+            </div>
+            <div class="np">
+                <h2>{{ pt.constitution.mission_heading.np }}</h2>
+                <p>{{ pt.constitution.mission_body.np }}</p>
+            </div>
+            </div>
+            <div class="about-media">
+                <img class="about-photo" src="{% static 'website/images/pages/constitution/constitution-01.jpg' %}" alt="Constitution Cell program" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Constitution logo -->
+<section class="section alt">
+    <div class="container">
+        <div class="grid grid-2" style="align-items: center;">
+            <img src="{% static 'website/images/constitution/constitution-logo.jpg' %}" alt="Constitution Cell logo" style="border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.12);">
+            <div>
+                <h2 data-no-numeral style="margin-bottom: 8px;">CON2072@10</h2>
+                <p><span class="en">The Constitution Cell works on citizen participation in the political and constitutional process, commemorating the Constitution of Nepal (2072) through exhibitions, research, and civic programs.</span><span class="np">संविधान सेलले प्रदर्शनी, अनुसन्धान र नागरिक कार्यक्रमहरूमार्फत नेपालको संविधान (२०७२) सम्झना गर्दै राजनीतिक तथा संवैधानिक प्रक्रियामा नागरिक सहभागितामा काम गर्दछ।</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Photos -->
+<section class="section">
+    <div class="container">
+        <h2><span class="en">From Our Programs</span><span class="np">हाम्रा कार्यक्रमहरूबाट</span></h2>
+        <div class="photo-grid">
+            {% for photo in constitution_photos %}
+            <img src="{{ photo }}" alt="Constitution Cell program photo {{ forloop.counter }}" loading="lazy">
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Virtual Exhibition -->
+<section class="section">
+    <div class="container">
+        <h2><span class="en">Virtual Exhibition</span><span class="np">भर्चुअल प्रदर्शनी</span></h2>
+        <div class="grid grid-2" style="align-items: center;">
+            <div>
+                <img src="{% static 'website/images/constitution/exhibition-1.jpg' %}" alt="CON@11 exhibition" loading="lazy" style="border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.12); margin-bottom: 12px;">
+                <img src="{% static 'website/images/constitution/exhibition-2.jpg' %}" alt="CON@11 exhibition view" loading="lazy" style="border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.12);">
+            </div>
+            <div>
+                <div class="bilingual">
+                    <div class="en">
+                        <p>Click below for the Virtual Exhibition on Metasteps 3D Immersive Experience.</p>
+                        <a class="btn" href="https://metasteps.com/viewer/bb17481d-7945-49a9-a4dd-6de684ec391f" target="_blank" rel="noopener">Explore</a>
+                    </div>
+                    <div class="np">
+                        <p>मेटास्टेप्स थ्रीडी इमर्सिभ अनुभवमा भर्चुअल प्रदर्शनीको लिङ्क</p>
+                        <a class="btn" href="https://metasteps.com/viewer/bb17481d-7945-49a9-a4dd-6de684ec391f" target="_blank" rel="noopener">अन्वेषण गर्नुहोस्</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Constitution video -->
+<section class="section">
+    <div class="container">
+        <h2><span class="en">Video</span><span class="np">भिडियो</span></h2>
+        <div class="constitution-videos">
+            <div class="constitution-video">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/pXK3QCaMpG4"
+                    title="Constitution Cell video"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="constitution-video">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/okiDH4yTj8o"
+                    title="Constitution Cell video 2"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_head %}
+{{ block.super }}
+<style>
+    .constitution-videos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+    }
+
+    .constitution-video {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border-radius: 8px;
+        background: #000;
+    }
+
+    .constitution-video iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    @media (max-width: 640px) {
+        .constitution-videos {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .section {
+            padding: 36px 18px;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+        }
+
+        .photo-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+        }
+
+        .photo-grid img {
+            height: auto;
+            aspect-ratio: 4 / 3;
+        }
+
+        .constitution-videos {
+            gap: 14px;
+        }
+    }
+</style>
+{% endblock %}

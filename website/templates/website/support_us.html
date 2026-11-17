@@ -1,0 +1,48 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}Support Us | Pokhara Research Centre{% endblock %}
+
+{% block meta_description %}Help Pokhara Research Centre drive evidence-based policy and socio-economic change in Nepal. Your support empowers research, advocacy, and innovation.{% endblock %}
+
+{% block content %}
+<!-- Support Our Efforts: text + QR side by side -->
+<section class="section">
+    <div class="container">
+        <div class="support-split">
+            <div class="bilingual">
+                <div class="en">
+                    <h2>Support Our Efforts</h2>
+                    <p>PRC uses an instrument of matching grants to make its funding base adaptive and resilient.</p>
+                    <p>Matching Grant is a conditional funding award where a grantor (like a foundation, corporation, government or an individual) provides funds that must be matched by the recipient organization's own fundraising efforts or contributions.</p>
+                </div>
+                <div class="np">
+                    <h2>हाम्रा प्रयासहरूमा सहयोग गर्नुहोस्</h2>
+                    <p>पोखरा रिसर्च सेन्टरले आफ्नो कोषको आधारलाई अनुकूलनशील र सुदृढ बनाउन 'म्याचिङ ग्रान्ट' (पूरक अनुदान) लाई एक माध्यमको रूपमा प्रयोग गर्दछ।</p>
+                    <p>'म्याचिङ ग्रान्ट' एक ससर्त अनुदान हो, जहाँ अनुदानदाता (जस्तै कुनै संस्था, निगम, सरकार वा व्यक्ति) ले रकम उपलब्ध गराउँछन्, जुन प्राप्त गर्ने संस्थाले आफ्नै कोष सङ्कलन वा योगदानमार्फत बराबरको रकम जुटाएर थप गर्नुपर्ने हुन्छ।</p>
+                </div>
+            </div>
+
+            <img class="qr-img" src="{% static 'website/images/support-qr.jpg' %}" alt="FonePay QR - Pokhara Research Centre" width="240" height="240" loading="lazy">
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .support-split {
+        display: flex; align-items: center; gap: 56px; flex-wrap: wrap;
+    }
+    .support-split .bilingual { flex: 1 1 340px; }
+    .support-split .np h2 { white-space: nowrap; }
+    @media (max-width: 560px) {
+        .support-split .np h2 { font-size: 1.15rem; }
+    }
+    .qr-img {
+        width: 240px; height: 240px; object-fit: cover; flex-shrink: 0;
+        margin: 0 auto;
+        border: 1px solid var(--line); border-radius: 10px; background: #fff; padding: 8px;
+    }
+</style>
+{% endblock %}

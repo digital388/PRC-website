@@ -1,0 +1,176 @@
+{% extends "website/base.html" %}
+
+{% block title %}Archives | Pokhara Research Centre{% endblock %}
+
+{% block meta_description %}An organized record of our research activities, public engagements, and policy work, maintained to ensure transparency and long-term access.{% endblock %}
+
+{% block content %}
+<!-- Intro -->
+<section class="section" style="padding-top: 40px;">
+    <div class="container">
+        <div class="bilingual">
+            <div class="en">
+                <p>An organized record of our research activities, public engagements, and policy work, maintained to ensure transparency and long-term access.</p>
+            </div>
+            <div class="np">
+                <p>हाम्रा अनुसन्धान गतिविधि, सार्वजनिक सरोकार तथा नीतिगत कार्यहरूको सुव्यवस्थित अभिलेख, पारदर्शिता र दीर्घकालीन पहुँच सुनिश्चित गर्नका लागि कायम राखिएको।</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Repository -->
+<section class="section alt" id="repository" style="padding-top: 40px;">
+    <div class="container">
+        <div class="bilingual">
+            <div class="en">
+                <h2><span class="en">Repository</span><span class="np">अभिलेखागार</span></h2>
+                <p>Access our digital archive and research database via Omeka.</p>
+                <a class="btn" href="https://provincecell.omeka.net/" target="_blank" rel="noopener">Access</a>
+            </div>
+            <div class="np">
+                <h2>अभिलेखागार</h2>
+                <p>ओमेका मार्फत हाम्रा डिजिटल अभिलेख र अनुसन्धान डाटाबेसहरूमा पहुँच प्राप्त गर्नुहोस्।</p>
+                <a class="btn" href="https://provincecell.omeka.net/" target="_blank" rel="noopener">पहुँच</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Publications -->
+<section class="section alt">
+    <div class="container">
+        <div class="bilingual">
+            <div class="en">
+                <h2><span class="en">Publications</span><span class="np">प्रकाशनहरू</span></h2>
+                <p>Access our latest research papers, policy briefs, and academic journals to stay informed on our findings.</p>
+                <a class="btn" href="{% url 'publications' %}">View Publications</a>
+            </div>
+            <div class="np">
+                <h2>प्रकाशनहरू</h2>
+                <p>हाम्रा नवीनतम अनुसन्धान पत्रहरू, नीतिगत संक्षिप्त विवरणहरू र प्राज्ञिक जर्नलहरू मार्फत हाम्रा निष्कर्षहरूबारे जानकारी प्राप्त गर्नुहोस्।</p>
+                <a class="btn" href="{% url 'publications' %}">प्रकाशनहरू हेर्नुहोस्</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% comment %} Blogs section hidden for now — re-enable by removing this block.
+<!-- Blogs (placeholder) -->
+<section class="section">
+    <div class="container">
+        <div class="bilingual">
+            <div class="en">
+                <h2>Blogs</h2>
+                <p>Insights and reflections from our researchers on policy, governance, and current public affairs. Posts will be published here soon.</p>
+            </div>
+            <div class="np">
+                <h2>ब्लगहरू</h2>
+                <p>नीति, सुशासन र समसामयिक विषयवस्तुमा हाम्रा अनुसन्धानकर्ताहरूका विचार र अनुभवहरू। लेखहरू चाँडै यहाँ प्रकाशित हुनेछन्।</p>
+            </div>
+        </div>
+
+        <form class="blog-toolbar" onsubmit="return false;">
+            <input type="text" id="blogSearch" class="blog-search" data-en-ph="Search blogs by title or author" data-ne-ph="शीर्षक वा लेखकअनुसार ब्लग खोज्नुहोस्">
+            <select id="blogSort" class="blog-sort">
+                <option value="default" data-en="Sort By Default" data-ne="पूर्वनिर्धारित क्रम">Sort By Default</option>
+                <option value="latest" data-en="Latest First" data-ne="पहिले नयाँ">Latest First</option>
+                <option value="oldest" data-en="Oldest First" data-ne="पहिले पुरानो">Oldest First</option>
+            </select>
+        </form>
+
+        <div class="blog-grid" id="blogGrid">
+            {% for b in blogs %}
+            <article class="blog-card" data-search="{{ b.title|lower }} {{ b.author|lower }} {{ b.title_np }} {{ b.author_np }}" data-iso="{{ b.iso }}">
+                <div class="blog-image">
+                    {% if b.image %}<img src="{{ b.image }}" alt="{{ b.title }}" loading="lazy">{% else %}<div class="blog-cover-ph"><span>PRC</span></div>{% endif %}
+                </div>
+                <div class="blog-content">
+                    <small class="blog-date"><span class="en">{{ b.date }}</span><span class="np">{{ b.date_np }}</span></small>
+                    <h3 class="blog-title"><span class="en">{{ b.title }}</span><span class="np">{{ b.title_np }}</span></h3>
+                    <p class="blog-by"><span class="en">By: {{ b.author }}</span><span class="np">लेखक: {{ b.author_np }}</span></p>
+                    <div class="blog-button">
+                        <a class="btn" href="#" aria-disabled="true"><span class="en">Read More</span><span class="np">पूरा पढ्नुहोस्</span></a>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <p class="blog-empty" id="blogEmpty" hidden><span class="en">No blogs match your search.</span><span class="np">कुनै ब्लग खोजीसँग मिलेन।</span></p>
+    </div>
+</section>
+{% endcomment %}
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .blog-toolbar { display: flex; gap: 14px; margin: 26px 0 26px; flex-wrap: wrap; }
+    .blog-search {
+        flex: 1 1 260px; font-family: var(--font-ui); font-size: .95rem; color: var(--ink);
+        padding: 11px 14px; border: 1.5px solid var(--line); border-radius: 8px; background: #fff;
+    }
+    .blog-sort {
+        flex: 0 0 200px; font-family: var(--font-ui); font-size: .92rem; color: var(--ink);
+        padding: 10px 10px; border: 1.5px solid var(--line); border-radius: 8px; background: #fff;
+    }
+    .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .blog-card {
+        background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+        overflow: hidden; box-shadow: 0 4px 14px rgba(16,16,20,.07);
+        display: flex; flex-direction: column;
+        transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .blog-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(16,16,20,.14); }
+    .blog-image { aspect-ratio: 16 / 10; overflow: hidden; }
+    .blog-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .blog-cover-ph {
+        width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+        background: linear-gradient(135deg, var(--accent) 0%, #23406b 100%);
+    }
+    .blog-cover-ph span {
+        color: rgba(255,255,255,.85); font-weight: 800; letter-spacing: .3em; font-size: 1.4rem;
+    }
+    .blog-content { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 7px; flex: 1; }
+    .blog-date {
+        font-size: .76rem; font-weight: 700; letter-spacing: .08em;
+        text-transform: uppercase; color: var(--muted);
+    }
+    .blog-title { margin: 0; font-size: 1.08rem; line-height: 1.45; }
+    .blog-by { margin: 0; color: var(--muted); font-size: .9rem; }
+    .blog-button { margin-top: auto; padding-top: 10px; }
+    .blog-button .btn { font-size: .85rem; padding: 8px 18px; }
+    .blog-empty { color: var(--muted); padding: 20px 0; }
+    @media (max-width: 1000px) { .blog-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 700px) { .blog-grid { grid-template-columns: 1fr; } }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const grid = document.getElementById('blogGrid');
+        const search = document.getElementById('blogSearch');
+        const sort = document.getElementById('blogSort');
+        const empty = document.getElementById('blogEmpty');
+        if (!grid) return;
+        const cards = Array.from(grid.querySelectorAll('.blog-card'));
+
+        function apply() {
+            const q = search.value.trim().toLowerCase();
+            let shown = 0;
+            cards.forEach(c => {
+                const ok = !q || c.dataset.search.includes(q);
+                c.hidden = !ok;
+                if (ok) shown++;
+            });
+            empty.hidden = shown > 0;
+            const mode = sort.value;
+            if (mode !== 'default') {
+                const sorted = cards.slice().sort((a, b) =>
+                    mode === 'latest' ? b.dataset.iso.localeCompare(a.dataset.iso)
+                                      : a.dataset.iso.localeCompare(b.dataset.iso));
+                sorted.forEach(c => grid.appendChild(c));
+            }
+        }
+        search.addEventListener('input', apply);
+        sort.addEventListener('change', apply);
+    });
+</script>
+{% endblock %}

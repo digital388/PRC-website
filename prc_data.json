@@ -1,0 +1,5591 @@
+[
+{
+ "model": "website.pagetext",
+ "pk": 1,
+ "fields": {
+  "key": "home.hero_title",
+  "page": "Home",
+  "label": "Hero Title",
+  "text_en": "Informing Discourse | Shaping Debate",
+  "text_np": "संवादलाई सूचित | बहसलाई आकार",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 2,
+ "fields": {
+  "key": "home.about_heading",
+  "page": "Home",
+  "label": "About Heading",
+  "text_en": "About Us",
+  "text_np": "हाम्रोबारे",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 3,
+ "fields": {
+  "key": "home.about_body",
+  "page": "Home",
+  "label": "About Body",
+  "text_en": "Pokhara Research Center (PRC), is a not-profit distributing company registered in the year 2019. PRC defies itself as a public policy research institute with the aspiration of developing into a leading thinktank and an institution of excellence in Nepal. The centre was established as a unique response to the changing political climate in Nepal. Through research, public dialogue, and collaboration, PRC brings evidence and diverse perspectives into policy discussions. Its work focuses on strengthening accountable governance and connecting citizens, policymakers, and institutions.",
+  "text_np": "पोखरा रिसर्च सेन्टरले नेपालमा अग्रणी थिङ्क ट्याङ्कका रूपमा विकास हुने लक्ष्यसहित आफूलाई सार्वजनिक नीतिगत अनुसन्धान संस्थाका रूपमा परिभाषित गरेको छ। नेपालको परिवर्तनशील राजनीतिक परिवेशबाट उत्पन्न आवश्यकता र चुनौतीहरूको सुसंगत प्रक्रिया स्वरूपमा यस सेन्टरको स्थापना गरिएको हो। अनुसन्धान, सार्वजनिक संवाद र सहकार्यमार्फत PRC ले नीतिगत छलफलमा प्रमाण र विविध दृष्टिकोण समेट्ने काम गर्छ। जवाफदेही शासनलाई सुदृढ बनाउनु र नागरिक, नीति निर्माता तथा संस्थाहरूबीच सम्बन्ध जोड्नु यसको कामको मुख्य उद्देश्य हो।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 4,
+ "fields": {
+  "key": "home.gallery_heading",
+  "page": "Home",
+  "label": "Gallery Heading",
+  "text_en": "Our Work in Pictures",
+  "text_np": "तस्बिरहरूमा हाम्रो काम",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 5,
+ "fields": {
+  "key": "institution.hero_title",
+  "page": "Institution",
+  "label": "Hero Title",
+  "text_en": "Identity  | Strategy | Collaboration",
+  "text_np": "पहिचान | रणनीति | सहकार्य",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 6,
+ "fields": {
+  "key": "institution.mission_heading",
+  "page": "Institution",
+  "label": "Mission Heading",
+  "text_en": "Institution Cell",
+  "text_np": "संस्थागत सेल",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 7,
+ "fields": {
+  "key": "institution.mission_body",
+  "page": "Institution",
+  "label": "Mission Body",
+  "text_en": "In December 2017, two years after the promulgation of the current constitution, Sujan Regmi, the founder of the company, recognising the gap in development policy in Nepal and realizing the rights bestowed by the constitution began the incubation exercise. This led to the creation of the first cell namely, Institution cell with the objective of formulating the center's identity, public profile, processes and stakeholder relations.",
+  "text_np": "नेपाल तथा विश्वस्तरमा उत्कृष्ट अनुसंन्धान कम्पनीका रूपमा पोखरा रिसर्च सेन्टर लाई स्थापित गर्नु यस सेलको मुख्य उद्देश्य हो। उच्च गुणस्तरको, प्रमाण–आधारित अनुसन्धान तथा कार्यान्वयनयोग्य नीतिगत सिफारिसहरू उत्पादन गर्दै लोकतान्त्रिक शासन प्रणालीलाई सुदृढ बनाउने, सार्वजनिक क्षेत्रको कार्यसम्पादन सुधार गर्ने, निजी उद्यमलाई प्रवर्द्धन गर्ने तथा समावेशी सामाजिक–आर्थिक विकासमा योगदान पुर्‍याउने यस सेलको लक्ष्य हो। गहन विश्लेषण र विश्वसनीय ज्ञान उत्पादनमार्फत यस सेलले सक्षम सार्वजनिक संस्था निर्माण र सचेत मतदाता तयार पार्न सहयोग पुर्‍याउँछ, साथै गुणस्तरीय रोजगारी सिर्जनामा योगदान गर्दछ।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 8,
+ "fields": {
+  "key": "institution.projects_heading",
+  "page": "Institution",
+  "label": "Projects Heading",
+  "text_en": "Our Projects",
+  "text_np": "हाम्रा परियोजनाहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 9,
+ "fields": {
+  "key": "institution.team_heading",
+  "page": "Institution",
+  "label": "Team Heading",
+  "text_en": "Team Members",
+  "text_np": "टिम सदस्यहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 10,
+ "fields": {
+  "key": "institution.partners_heading",
+  "page": "Institution",
+  "label": "Partners Heading",
+  "text_en": "Our Patrons",
+  "text_np": "हाम्रा साझेदारहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 11,
+ "fields": {
+  "key": "institution.funding_heading",
+  "page": "Institution",
+  "label": "Funding Heading",
+  "text_en": "How We Are Funded",
+  "text_np": "हामी कसरी कोष प्राप्त गर्छौं",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 12,
+ "fields": {
+  "key": "institution.funding_general_heading",
+  "page": "Institution",
+  "label": "Funding General Heading",
+  "text_en": "General sources of funding",
+  "text_np": "सामान्य कोषका स्रोतहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 13,
+ "fields": {
+  "key": "institution.funding_general_body",
+  "page": "Institution",
+  "label": "Funding General Body",
+  "text_en": "Recurring support that keeps our work running",
+  "text_np": "हाम्रो काम चलायमान राख्ने आवर्ती सहयोग",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 14,
+ "fields": {
+  "key": "institution.funding_project_heading",
+  "page": "Institution",
+  "label": "Funding Project Heading",
+  "text_en": "Project based grants",
+  "text_np": "परियोजना आधारित अनुदान",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 15,
+ "fields": {
+  "key": "institution.funding_project_body",
+  "page": "Institution",
+  "label": "Funding Project Body",
+  "text_en": "Time-bound funding tied to specific research and programs",
+  "text_np": "विशिष्ट अनुसन्धान तथा कार्यक्रमसँग सम्बन्धित समयबद्ध कोष",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 16,
+ "fields": {
+  "key": "province.hero_title",
+  "page": "Province",
+  "label": "Hero Title",
+  "text_en": "Provincial Autonomy | Responsive Governance",
+  "text_np": "प्रादेशिक स्वायत्तता | उत्तरदायी शासन",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 17,
+ "fields": {
+  "key": "province.mission_heading",
+  "page": "Province",
+  "label": "Mission Heading",
+  "text_en": "Province Cell",
+  "text_np": "प्रदेश सेल",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 18,
+ "fields": {
+  "key": "province.mission_body_1",
+  "page": "Province",
+  "label": "Mission Body 1",
+  "text_en": "In 2019, PRC was formally registered in its namesake Pokhara Metropolitan City in Kaski district of Gandaki Province. The YO Strategic Directive led by the Institution Cell, was enacted to create the first project cell namely, Province Cell with the mission to promote economic freedom of the individual through good governance in the provinces.",
+  "text_np": "पोखरा रिसर्च सेन्टरको 'प्रदेश सेल'ले अनुसन्धान, नीति विश्लेषण र सरोकारवालासँगको संवादमार्फत प्रादेशिक स्वायत्तताको पक्षपोषण गर्दै नेपालमा विकेन्द्रीकृत, समावेशी र उत्तरदायी शासन प्रणालीको प्रवर्द्धन गर्दछ। स्थानीय स्तरका समाधानद्वारा निर्देशित दिगो विकास र पारदर्शी नीतिगत प्रणाली सुनिश्चित गर्न यो सेलले स्थानीय संस्थाहरू एवं नागरिकको सशक्तीकरणमा जोड दिन्छ।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 19,
+ "fields": {
+  "key": "province.mission_body_2",
+  "page": "Province",
+  "label": "Mission Body 2",
+  "text_en": "The primary objective of the Province cell is to reduce excessive centralization in Nepal and enhance provincial autonomy with the aim to bring the government closer to citizens. The Province Cell dissects its work in three wings pursuant to the three facets of provincial governance in Nepal, namely, Province Assembly (inc. 2019), Province Government (inc. 2021) and Intergovernmental Relations (inc. 2023).",
+  "text_np": "प्रदेश सेलको प्रमुख उद्देश्य नेपालमा अत्यधिक केन्द्रीकरण घटाउने र प्रादेशिक स्वायत्तता बढाउने हो, जसले सरकारलाई नागरिकसँग नजिक ल्याउँछ। प्रदेश सेलले आफ्नो कामलाई नेपालको प्रादेशिक शासनका तीन पक्षअनुसार तीन विभागमा विभाजन गर्छ, अर्थात् प्रदेश सभा (स्था. २०१९), प्रदेश सरकार (स्था. २०२१) र अन्तर–सरकारी सम्बन्ध (स्था. २०२३)।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 20,
+ "fields": {
+  "key": "province.flagship_heading",
+  "page": "Province",
+  "label": "Flagship Heading",
+  "text_en": "Our Flagship Programs",
+  "text_np": "हाम्रा प्रमुख कार्यक्रमहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 21,
+ "fields": {
+  "key": "province.projects_heading",
+  "page": "Province",
+  "label": "Projects Heading",
+  "text_en": "Past Projects",
+  "text_np": "सम्पन्न परियोजनाहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 22,
+ "fields": {
+  "key": "constitution.hero_title",
+  "page": "Constitution",
+  "label": "Hero Title",
+  "text_en": "Well Informed Electorate | Civic Action",
+  "text_np": "सूचित मतदाता | नागरिक सक्रियता",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 23,
+ "fields": {
+  "key": "constitution.mission_heading",
+  "page": "Constitution",
+  "label": "Mission Heading",
+  "text_en": "Constitution Cell",
+  "text_np": "संविधान सेल",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 24,
+ "fields": {
+  "key": "constitution.mission_body",
+  "page": "Constitution",
+  "label": "Mission Body",
+  "text_en": "In September 2025, witnessing the \"Gen-Z Protests\" in the country and releasing the gap in public knowledge on constitutional freedoms and rights, the Institution cell created the Constitution Cell with the aim of creating a well informed electorate through periodic citizen engagement deliverables in a series of events celebrating the freedoms of the Nepalese Constitution annually.",
+  "text_np": "नवीन कार्यक्रम, अनुभवजन्य अनुसन्धान तथा रणनीतिक ज्ञान प्रसारमार्फत राजनीतिक तथा संवैधानिक प्रक्रियामा नागरिकको अर्थपूर्ण सहभागिता विस्तार गर्नु यस सेलको उद्देश्य हो। समावेशी सहभागिताका अवसरहरू सिर्जना गर्दै नागरिकलाई नीति निर्माण प्रक्रिया बुझ्न, प्रभाव पार्न र सह–निर्माण गर्न सक्षम बनाइन्छ। यस सेलले नागरिकहरू आफ्ना जीवनमा प्रत्यक्ष प्रभाव पार्ने निर्णयहरूमा सक्रिय भूमिका खेल्ने, सूचित, संलग्न र सहकार्यपूर्ण नागरिक संस्कृतिको विकास गर्दै लोकतान्त्रिक शासन प्रणालीलाई सुदृढ बनाउन प्रतिबद्धता जनाउँछ।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 25,
+ "fields": {
+  "key": "constitution.programs_heading",
+  "page": "Constitution",
+  "label": "Programs Heading",
+  "text_en": "From Our Programs",
+  "text_np": "हाम्रा कार्यक्रमहरूबाट",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 26,
+ "fields": {
+  "key": "constitution.exhibition_heading",
+  "page": "Constitution",
+  "label": "Exhibition Heading",
+  "text_en": "Virtual Exhibition",
+  "text_np": "भर्चुअल प्रदर्शनी",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 27,
+ "fields": {
+  "key": "constitution.exhibition_body",
+  "page": "Constitution",
+  "label": "Exhibition Body",
+  "text_en": "Click below for the Virtual Exhibition on Metasteps 3D Immersive Experience.",
+  "text_np": "मेटास्टेप्स थ्रीडी इमर्सिभ अनुभवमा भर्चुअल प्रदर्शनीको लिङ्क",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 28,
+ "fields": {
+  "key": "constitution.projects_heading",
+  "page": "Constitution",
+  "label": "Projects Heading",
+  "text_en": "Projects",
+  "text_np": "परियोजनाहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 29,
+ "fields": {
+  "key": "events.hero_title",
+  "page": "Events",
+  "label": "Hero Title",
+  "text_en": "Events",
+  "text_np": "कार्यक्रमहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 30,
+ "fields": {
+  "key": "events.empty_text",
+  "page": "Events",
+  "label": "Empty Text",
+  "text_en": "No events in this category.",
+  "text_np": "यो श्रेणीमा कुनै कार्यक्रम छैन।",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 31,
+ "fields": {
+  "key": "ypg.hero_title",
+  "page": "Ypg",
+  "label": "Hero Title",
+  "text_en": "Youth In Policy | Governance Fellowship",
+  "text_np": "नीतिमा युवा | सुशासन फेलोसिप",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 32,
+ "fields": {
+  "key": "ypg.about_body",
+  "page": "Ypg",
+  "label": "About Body",
+  "text_en": "Our flagship fellowship that equips young Nepali leaders with the skills, exposure, and mentoring to engage with provincial policy. Across multiple cohorts, fellows gain hands-on research experience, take part in youth assemblies, and work directly with lawmakers — building a pipeline of informed, capable leaders for stronger provincial governance.",
+  "text_np": "हाम्रो प्रमुख फेलोसिप कार्यक्रम, जसले युवा नेपाली नेतृत्वकर्ताहरूलाई प्रदेश नीतिमा सहभागी हुनका लागि सीप, अभ्यास र मार्गदर्शन प्रदान गर्दछ। विभिन्न समूहहरूमा फेलोहरूले व्यावहारिक अनुसन्धान अनुभव प्राप्त गर्छन्, युवा सभाहरूमा भाग लिन्छन् र प्रत्यक्ष रूपमा विधायकहरूसँग काम गर्छन् — सुदृढ प्रादेशिक सुशासनका लागि जानकार र सक्षम नेतृत्वकर्ताहरूको शृङ्खला निर्माण गर्दै।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 33,
+ "fields": {
+  "key": "ypg.milestones_heading",
+  "page": "Ypg",
+  "label": "Milestones Heading",
+  "text_en": "Milestones",
+  "text_np": "उपलब्धिहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 34,
+ "fields": {
+  "key": "ypg.fellows_heading",
+  "page": "Ypg",
+  "label": "Fellows Heading",
+  "text_en": "Our Fellows",
+  "text_np": "हाम्रा फेलोहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 35,
+ "fields": {
+  "key": "ypg.testimonials_heading",
+  "page": "Ypg",
+  "label": "Testimonials Heading",
+  "text_en": "Fellows' Voices",
+  "text_np": "फेलोहरूको आवाज",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 36,
+ "fields": {
+  "key": "ypg.cohorts_heading",
+  "page": "Ypg",
+  "label": "Cohorts Heading",
+  "text_en": "Fellowship Cohorts",
+  "text_np": "फेलोसिप समूहहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 37,
+ "fields": {
+  "key": "support.hero_title",
+  "page": "Support",
+  "label": "Hero Title",
+  "text_en": "Support Us",
+  "text_np": "हामीलाई सहयोग गर्नुहोस्",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 38,
+ "fields": {
+  "key": "publications.hero_title",
+  "page": "Publications",
+  "label": "Hero Title",
+  "text_en": "Publications",
+  "text_np": "प्रकाशनहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 39,
+ "fields": {
+  "key": "archives.hero_title",
+  "page": "Archives",
+  "label": "Hero Title",
+  "text_en": "Archives",
+  "text_np": "अभिलेख",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 40,
+ "fields": {
+  "key": "nav.menu_label",
+  "page": "Nav",
+  "label": "Menu Label",
+  "text_en": "Menu",
+  "text_np": "मेनु",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 41,
+ "fields": {
+  "key": "nav.close_label",
+  "page": "Nav",
+  "label": "Close Label",
+  "text_en": "Close",
+  "text_np": "बन्द",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 42,
+ "fields": {
+  "key": "footer.tagline",
+  "page": "Footer",
+  "label": "Tagline",
+  "text_en": "A public policy research institute based in Pokhara, working to inform discourse and shape debate for accountable governance in Gandaki Province and beyond.",
+  "text_np": "पोखरामा आधारित सार्वजनिक नीति अनुसन्धान संस्था, गण्डकी प्रदेश र त्यसबाहिर जवाफदेही शासनका लागि संवादलाई सूचित र बहसलाई आकार दिन काम गर्दै।",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 43,
+ "fields": {
+  "key": "home.hero_title_2",
+  "page": "Home",
+  "label": "Hero Title 2",
+  "text_en": "Ideas For Accountable Governance",
+  "text_np": "जवाफदेही शासनका लागि विचार",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 44,
+ "fields": {
+  "key": "ypg.about_heading",
+  "page": "Ypg",
+  "label": "About Heading",
+  "text_en": "Youth In Policy & Governance (YPG) Fellowship Program",
+  "text_np": "नीति तथा सुशासनमा युवा (वाईपीजी) फेलोसिप कार्यक्रम",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 45,
+ "fields": {
+  "key": "home.mission_heading",
+  "page": "Home",
+  "label": "Mission Heading",
+  "text_en": "Our Mission",
+  "text_np": "हाम्रो उद्देश्य",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 46,
+ "fields": {
+  "key": "home.mission_body",
+  "page": "Home",
+  "label": "Mission Body",
+  "text_en": "Our mission is to strengthen Nepal's federalism by promoting provincial autonomy, reducing centralization, and informing citizens through research, programs, and strategic communication.",
+  "text_np": "हाम्रो उद्देश्य प्रादेशिक स्वायत्तता प्रवर्द्धन, केन्द्रीकरण न्यूनीकरण, र अनुसन्धान, कार्यक्रम तथा रणनीतिक सञ्चारमार्फत नागरिकलाई सूचित गर्दै नेपालको संघीयतालाई सुदृढ बनाउनु हो।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 47,
+ "fields": {
+  "key": "home.vision_heading",
+  "page": "Home",
+  "label": "Vision Heading",
+  "text_en": "Our Vision",
+  "text_np": "हाम्रो दृष्टिकोण",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 48,
+ "fields": {
+  "key": "home.vision_body",
+  "page": "Home",
+  "label": "Vision Body",
+  "text_en": "A democratic Nepal with empowered subnational governments and a well-informed electorate.",
+  "text_np": "सशक्त उपराष्ट्रिय सरकारहरू र सुसूचित मतदाता वर्ग भएको लोकतान्त्रिक नेपाल।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 49,
+ "fields": {
+  "key": "home.objectives_heading",
+  "page": "Home",
+  "label": "Objectives Heading",
+  "text_en": "Our Core Values",
+  "text_np": "हाम्रा मूल्यमान्यताहरू",
+  "is_heading": true
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 50,
+ "fields": {
+  "key": "home.objective_1",
+  "page": "Home",
+  "label": "Objective 1",
+  "text_en": "Independence and Integrity: Nonpartisan, financially and intellectually autonomous, and transparent and ethical in all our work.",
+  "text_np": "स्वतन्त्रता र निष्ठा: गैरदलीय, आर्थिक तथा बौद्धिक रूपमा स्वायत्त, र आफ्ना सबै कार्यमा पारदर्शी तथा नैतिक रहने।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 51,
+ "fields": {
+  "key": "home.objective_2",
+  "page": "Home",
+  "label": "Objective 2",
+  "text_en": "Rigor and Innovation: Sound methods, credible evidence, and thorough review, paired with sustainable, forward-looking approaches to delivering our mission.",
+  "text_np": "गहनता र नवप्रवर्तन: विश्वसनीय प्रमाण, सुदृढ विधि र गहन समीक्षाका साथै दिगो तथा दूरदर्शी दृष्टिकोण अपनाउने।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 52,
+ "fields": {
+  "key": "home.objective_3",
+  "page": "Home",
+  "label": "Objective 3",
+  "text_en": "Public Benefit: Research and capacity-building that fill knowledge gaps and inform the public on current issues.",
+  "text_np": "सार्वजनिक हित: अनुसन्धान तथा क्षमता विकासमार्फत विद्यमान ज्ञानका रिक्तता पूरा गर्ने र समसामयिक विषयमा जनतालाई सूचित गर्ने।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 53,
+ "fields": {
+  "key": "home.objective_4",
+  "page": "Home",
+  "label": "Objective 4",
+  "text_en": "Inclusivity: Gender parity in participation and positions of authority.",
+  "text_np": "समावेशिता: सहभागिता तथा नेतृत्वदायी पदहरूमा लैङ्गिक समानता सुनिश्चित गर्ने।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.pagetext",
+ "pk": 54,
+ "fields": {
+  "key": "home.objective_5",
+  "page": "Home",
+  "label": "Objective 5",
+  "text_en": "Collaboration: Constructive partnerships with government, civil society, academia, and development partners, both nationally and internationally.",
+  "text_np": "सहकार्य: राष्ट्रिय तथा अन्तर्राष्ट्रिय स्तरमा सरकार, नागरिक समाज, प्राज्ञिक क्षेत्र र विकास साझेदारहरूसँग रचनात्मक साझेदारी गर्ने।",
+  "is_heading": false
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "slug": "sujan-regmi",
+  "en_name": "Sujan Regmi",
+  "np_name": "सुजन रेग्मी",
+  "role_en": "Executive Director",
+  "role_np": "कार्यकारी निर्देशक",
+  "title_en": "Executive Director",
+  "title_np": "कार्यकारी निर्देशक",
+  "bio_en": "Sujan leads PRC as its Executive Director. Since PRC’s inception, he has been instrumental in informing debate and shaping dialogue on the state of public policy implementation in Nepal. He directs the Programs and Outreach Divisions of the company designing and executing format based dialogue and consultation series with elected representatives across four Provincial Assemblies as well as running youth skill development programs to train future public leaders.",
+  "bio_np": "सुजन रेग्मीले पोखरा रिसर्च सेन्टरको कार्यकारी निर्देशकको रूपमा नेतृत्व प्रदान गर्दै आएका छन्। सेन्टरको स्थापनाकालदेखि नै उनले नेपालमा सार्वजनिक नीति कार्यान्वयनको अवस्थाबारे सार्थक बहस र संरचित संवाद निर्माणमा महत्वपूर्ण भूमिका खेलेका छन्। उनको नेतृत्वमा कार्यक्रम तथा पहुँच (Programs and Outreach) विभाग सञ्चालन हुँदै आएको छ, जसअन्तर्गत नेपालका चारवटा प्रदेश सभामा निर्वाचित जनप्रतिनिधिहरूसँग प्रारूप–आधारित संवाद तथा परामर्श शृंखलाहरू डिजाइन र कार्यान्वयन गरिन्छ। साथै, उनले भविष्यका सार्वजनिक नेतृत्व निर्माण गर्ने उद्देश्यले युवा सीप विकास तथा क्षमता अभिवृद्धि कार्यक्रमहरूको पनि नेतृत्व गर्छन्।",
+  "photo": "team/t1.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "slug": "kuldeep-niraula",
+  "en_name": "Kuldeep Niraula Ph.D",
+  "np_name": "डा. कुलदीप निरौला",
+  "role_en": "Research Advisor",
+  "role_np": "अनुसन्धान सल्लाहकार",
+  "title_en": "Research Advisor",
+  "title_np": "अनुसन्धान सल्लाहकार",
+  "bio_en": "Kuldeep Niraula, Ph.D. in Conflict Analysis and Resolution from George Mason University’s Carter School for Peace and Conflict Resolution, USA, serves as a Research Advisor at Pokhara Research Centre, advising on the centre’s research agenda and publications. He contributes to the development of research proposals and provides technical inputs to ongoing research projects. He also proactively contributes to institutional narrative writing, working both independently and collaboratively with the research team.",
+  "bio_np": "डा. कुलदीप निरौला (जर्ज मेसन युनिभर्सिटी, कार्टर स्कुल फर पिस एन्ड कन्फ्लिक्ट रिजोलुसन, अमेरिका, द्वन्द्व विश्लेषण तथा समाधानमा विद्यावारिधि), पोखरा रिसर्च सेन्टरमा अनुसन्धान सल्लाहकारका रूपमा कार्यरत हुनुहुन्छ। उहाँले केन्द्रको अनुसन्धान तथा प्रकाशनसम्बन्धी कार्यमा सल्लाह दिनुका साथै अनुसन्धान प्रस्ताव तयार गर्न र अनुसन्धान परियोजनाहरूमा प्राविधिक सहयोग प्रदान गर्नुहुन्छ। साथै, उहाँ संस्थागत लेखनमा पनि सक्रिय रूपमा संलग्न रहँदै अनुसन्धान टिमसँग स्वतन्त्र तथा सहकार्यात्मक रूपमा कार्य गर्नुहुन्छ।",
+  "photo": "team/t2.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 3,
+ "fields": {
+  "order": 3,
+  "slug": "annapurna-adhikari",
+  "en_name": "Annapurna Adhikari",
+  "np_name": "अन्नपूर्णा अधिकारी",
+  "role_en": "Incharge - Administration",
+  "role_np": "संस्थाको किचन इन्चार्ज",
+  "title_en": "Incharge - Administration",
+  "title_np": "संस्थाको किचन इन्चार्ज",
+  "bio_en": "Annapurna manages the Kitchen and Housekeeping duties of the Centre ensuring an enabling environment for its employees and visitors. She is also responsible for procurement, preparation, budgeting and reporting for the Kitchen providing a hearty home cooked Nepali lunch for twelve to twenty five people on any given day.",
+  "bio_np": "अन्नपूर्णा अधिकारीले केन्द्रको भान्सा तथा हाउसकिपिङ व्यवस्थापन गर्दै कर्मचारी तथा आगन्तुकका लागि सुरक्षित, स्वच्छ र सहयोगी कार्य–वातावरण सुनिश्चित गर्छिन्। उनी भान्सासम्बन्धी खरिद, तयारी, बजेट निर्माण तथा प्रतिवेदनको जिम्मेवारी सम्हाल्दै दैनिक रूपमा १२ देखि २५ जनासम्मका लागि घरायसी नेपाली भोजन व्यवस्थापन गर्छिन्।",
+  "photo": "team/t3.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 4,
+ "fields": {
+  "order": 4,
+  "slug": "monika-ranabhat",
+  "en_name": "Monika Ranabhat",
+  "np_name": "मोनिका रानाभाट",
+  "role_en": "Advisor - Research & Programs",
+  "role_np": "सल्लाहकार – अनुसन्धान तथा कार्यक्रम",
+  "title_en": "Advisor - Research & Programs",
+  "title_np": "सल्लाहकार – अनुसन्धान तथा कार्यक्रम",
+  "bio_en": "Monika advises the Institution Cell on the various products, programs and projects of the centre’s mission-based cells with a special focus on gender parity initiatives in the workplace. As a research advisor she also facilitates policy research on provincial affairs, public policy and institutional reform.",
+  "bio_np": "मोनिकाले सेन्टरको मिसन–आधारित सेलहरूका विभिन्न उत्पादन, कार्यक्रम र परियोजनाहरूका सम्बन्धमा संस्थागत सेल (Institution Cell) लाई सल्लाह प्रदान गर्दछिन्। यसमा कार्यस्थलमा लैंगिक समानता कायम गर्ने पहलहरूमा उनको विशेष जोड रहने गर्दछ। अनुसन्धान सल्लाहकारको रूपमा उनले प्रादेशिक मामिला, सार्वजनिक नीति र संस्थागत सुधारका क्षेत्रमा हुने नीतिगत अनुसन्धानमा समेत सहजीकरण गर्दछिन्।",
+  "photo": "team/t4.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 5,
+ "fields": {
+  "order": 5,
+  "slug": "saurab-wagle",
+  "en_name": "Saurab Wagle",
+  "np_name": "सौरब वाग्ले",
+  "role_en": "Manager - Finance",
+  "role_np": "प्रबन्धक – वित्त",
+  "title_en": "Manager - Finance",
+  "title_np": "प्रबन्धक – वित्त",
+  "bio_en": "Saurab Wagle serves as the Manager, Finance at Pokhara Research Centre. He oversees the Centre’s overall financial management, including budgeting, accounting, financial records, and documentation. He also manages the financial aspects of the Centre’s programmes and activities and supports administrative coordination and effective use of resources.",
+  "bio_np": "सौरब वाग्ले सेन्टरमा वित्त प्रबन्धक का रूपमा कार्यरत छन्। उनले सेन्टरको समग्र वित्तीय व्यवस्थापनअन्तर्गत बजेट, लेखा, वित्तीय अभिलेख तथा कागजात व्यवस्थापन गर्छन्। साथै, उनी सेन्टरका कार्यक्रम तथा गतिविधिहरूको वित्तीय व्यवस्थापन, प्रशासनिक समन्वय तथा स्रोत–साधनको प्रभावकारी उपयोग सुनिश्चित गर्न सक्रिय रूपमा संलग्न छन्।",
+  "photo": "team/t5.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 6,
+ "fields": {
+  "order": 6,
+  "slug": "shree-krishna-dhoj-basnet",
+  "en_name": "Shree Krishna Dhoj Basnet",
+  "np_name": "श्री कृष्ण ध्वज बस्नेत",
+  "role_en": "Associate - Research & Communications",
+  "role_np": "सहायक – अनुसन्धान र कम्युनिकेशंस",
+  "title_en": "Associate - Research & Communications",
+  "title_np": "सहायक–सहयोगी – अनुसन्धान र कम्युनिकेशंस",
+  "bio_en": "Shree is the Communication Associate for the Province Cell, overseeing product development and the execution of key programs. He leads the efforts of the center’s Nepali Language Committee, focusing on grassroots outreach and effective community engagement fostering policy partnerships to strengthen communication between the center and its diverse stakeholders.",
+  "bio_np": "श्रीकृष्ण ध्वज बस्नेत प्रदेश र संविधान सेलसँग आबद्ध सञ्चार सहयोगी हुन्, जसले सेन्टरका नीति-आधारित उत्पादन विकास र कार्यक्रम कार्यान्वयनमा सक्रिय योगदान पुर्‍याउँछन्। उनी सेन्टरको नेपाली भाषा समितिको नेतृत्व गर्दै स्थानीय तहसम्म प्रभावकारी सञ्चार र नीतिगत संवादलाई अघि बढाउँछन्। यस भूमिकामा उनले सेन्टर र विभिन्न सरोकारवालाहरूबीच रणनीतिक साझेदारी प्रवर्द्धन गर्न विशेष जोड दिन्छन्।",
+  "photo": "team/t6.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 7,
+ "fields": {
+  "order": 7,
+  "slug": "suyasha-pun",
+  "en_name": "Suyasha Pun",
+  "np_name": "सुयशा पुन",
+  "role_en": "Associate - Communications & Outreach",
+  "role_np": "सहायक – सञ्चार तथा प्रचार",
+  "title_en": "Associate - Communications & Outreach",
+  "title_np": "सहायक–सहयोगी – सञ्चार तथा प्रचार",
+  "bio_en": "Suyasha coordinates the engagement activities for the centre’s Province Cell’s stakeholders. She translates data driven research into communication briefs and outreach material enabling decisive policy dialogue and fostering inclusive participation across the execution of its programs. She also contributes towards the development of knowledge products for elected representatives in provincial assemblies.",
+  "bio_np": "सुयशा पुनले सेन्टरको प्रदेश कोषिकासँग सम्बन्धित सरोकारवालासँगको संलग्नता तथा पहुँच गतिविधिहरूको समन्वय गर्छिन्। उनी डेटा–आधारित अनुसन्धानलाई नीतिगत सञ्चार सामग्री, संक्षेप (Briefs) र पहुँच सामग्रीमा रूपान्तरण गर्दै प्रभावकारी नीति संवाद र समावेशी सहभागिता सुनिश्चित गर्छिन्। साथै, प्रदेश सभाका निर्वाचित प्रतिनिधिहरूका लागि ज्ञान–आधारित सामग्री विकासमा पनि योगदान पुर्‍याउँछिन्।",
+  "photo": "team/t7.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 8,
+ "fields": {
+  "order": 8,
+  "slug": "prabesh-subedi",
+  "en_name": "Prabesh Subedi",
+  "np_name": "प्रवेश सुवेदी",
+  "role_en": "Manager - Programs & Communications",
+  "role_np": "प्रबन्धक – कार्यक्रम तथा सञ्चार",
+  "title_en": "Manager - Programs & Communications",
+  "title_np": "प्रबन्धक – कार्यक्रम तथा सञ्चार",
+  "bio_en": "Prabesh manages various projects of the centre’s programs division implementing its grant projects, actualising its products and leading partnership activities for different government and international grant programs. He additionally coordinates interconnected efforts, manages shared resources and ensures the collective impact by forging new partnerships across multiple interest groups in Nepal.",
+  "bio_np": "प्रवेशले सेन्टरको कार्यक्रम विभागका विभिन्न परियोजनाहरूको व्यवस्थापन गर्दै अनुदान परियोजनाहरू कार्यान्वयन, संस्थागत उत्पादनहरूको प्रयोग तथा विभिन्न सरकारी एवं अन्तर्राष्ट्रिय अनुदान कार्यक्रमहरूका लागि साझेदारी गतिविधिको नेतृत्व गर्छन्। उनले अन्तरसम्बन्धित प्रयासहरूको समन्वय र साझा स्रोतहरूको व्यवस्थापन गर्छन् भने नेपालका विभिन्न सरोकारवाला समूहहरूसँग नयाँ साझेदारी निर्माणमार्फत सामूहिक प्रभाव सुनिश्चित गर्छन्।",
+  "photo": "team/t8.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 9,
+ "fields": {
+  "order": 9,
+  "slug": "sankalpa-baral",
+  "en_name": "Sankalpa Baral",
+  "np_name": "संकल्प बराल",
+  "role_en": "Associate Manager - Programs & Outreach",
+  "role_np": "सहायक प्रबन्धक – कार्यक्रम तथा प्रचार",
+  "title_en": "Associate Manager - Programs & Outreach",
+  "title_np": "सहायक प्रबन्धक – कार्यक्रम तथा प्रचार",
+  "bio_en": "Sankalpa manages the Programs Division of the centre implementing its grant projects, deploying its products and leading engagement activities for various stakeholders of the Province Cell. He additionally coordinates interconnected efforts, manages shared resources and ensures the collective impact through the centre’s social media presence.",
+  "bio_np": "संकल्प बरालले केन्द्रको कार्यक्रम विभागको व्यवस्थापन गर्दै अनुदान परियोजनाहरू कार्यान्वयन, संस्थागत उत्पादनहरूको प्रयोग तथा प्रदेश कोषिकाका सरोकारवालासँग संलग्नता गतिविधिको नेतृत्व गर्छन्। उनी विभिन्न विभागबीच समन्वय, साझा स्रोत व्यवस्थापन तथा केन्द्रको सामाजिक सञ्जाल उपस्थितिमार्फत संस्थागत प्रभाव र पहुँच विस्तार सुनिश्चित गर्छन्।",
+  "photo": "team/t9.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 10,
+ "fields": {
+  "order": 10,
+  "slug": "cimonika-ghimire",
+  "en_name": "Cimonika Ghimire",
+  "np_name": "सिमोनिका घिमिरे",
+  "role_en": "Associate - Administration",
+  "role_np": "सहायक – प्रशासन",
+  "title_en": "Associate - Administration",
+  "title_np": "सहायक – प्रशासन",
+  "bio_en": "Cimonika assists the general administration of the centre maintaining efficient record management, daily financial log ensuring resource optimization and central administrative coordination. She additionally participates in ICT integration in office administration and financial record management.",
+  "bio_np": "सिमोनिका घिमिरेले सेन्टरको सामान्य प्रशासनमा सहयोग गर्दै अभिलेख व्यवस्थापन, दैनिक वित्तीय अभिलेख तथा स्रोत–साधनको प्रभावकारी उपयोग सुनिश्चित गर्छिन्। साथै, उनी कार्यालय प्रशासन र वित्तीय प्रणालीमा सूचना तथा सञ्चार प्रविधि (ICT) एकीकरणका प्रयासमा सक्रिय रूपमा संलग्न हुन्छिन्।",
+  "photo": "team/t10.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 11,
+ "fields": {
+  "order": 11,
+  "slug": "sujal-gurung",
+  "en_name": "Sujal Gurung",
+  "np_name": "सुजल गुरुङ",
+  "role_en": "Associate - Administration",
+  "role_np": "सहायक – प्रशासन",
+  "title_en": "Associate - Administration",
+  "title_np": "सहायक – प्रशासन",
+  "bio_en": "Sujal assists the general administration of the centre enabling operational efficiency by operationalising procurement, maintaining supply chains and other such related activities. He also coordinates with several logistics partners, financial institutions and regulatory authorities.",
+  "bio_np": "सुजल गुरुङले खरिद प्रक्रिया सञ्चालन, आपूर्ति शृंखला व्यवस्थापन तथा सम्बन्धित प्रशासनिक कार्यमार्फत सेन्टरको सञ्चालन दक्षता अभिवृद्धि गर्छन्। उनी विभिन्न ढुवानी साझेदार, वित्तीय संस्था तथा नियामक निकायसँग आवश्यक समन्वयको जिम्मेवारी पनि सम्हाल्छन्।",
+  "photo": "team/t11.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 12,
+ "fields": {
+  "order": 12,
+  "slug": "samita-ghimire",
+  "en_name": "Samita Ghimire",
+  "np_name": "समिता घिमिरे",
+  "role_en": "Associate - Research & Communication",
+  "role_np": "सहायक – अनुसन्धान तथा सञ्चार",
+  "title_en": "Associate - Research & Communication",
+  "title_np": "सहायक – अनुसन्धान तथा सञ्चार",
+  "bio_en": "She supports the Institution’s strategic and research initiatives by contributing to its impact agenda, ensuring the quality and relevance of institutional outputs, and assisting in research management and publications. She also co-manages development and strategy efforts, supports partnerships and fundraising initiatives, and represents the Institution in policy, academic, and stakeholder engagements.",
+  "bio_np": "उहाँ संस्थाको प्रभावमुखी तथा अनुसन्धानसम्बन्धी कार्यहरूमा योगदान पुर्‍याउँदै संस्थागत उत्पादनहरूको गुणस्तर र सान्दर्भिकता सुनिश्चित गर्न सहयोग गर्नुहुन्छ। साथै, विकास तथा रणनीति सम्बन्धी कार्य, साझेदारी तथा स्रोत परिचालनका पहलहरूमा सहकार्य गर्दै नीतिगत, शैक्षिक तथा सरोकारवालासँगका विभिन्न कार्यक्रममा संस्थाको प्रतिनिधित्व गर्नुहुन्छ।",
+  "photo": "team/t12.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 13,
+ "fields": {
+  "order": 13,
+  "slug": "sohan-thapa",
+  "en_name": "Sohan Thapa",
+  "np_name": "सोहन थापा",
+  "role_en": "Assistant - Communications",
+  "role_np": "सहायक – सञ्चार",
+  "title_en": "Assistant - Communications",
+  "title_np": "सहायक – सञ्चार",
+  "bio_en": "Sohan Thapa participates in the production and management of various deliverables of PRC-Digital - the tech group that manages the various digital tools associated with one of three project divisions of the company: research, programs and communications. He assists in the development of ICT tools in Monitoring, Learning & Evaluation of project deliverables making efforts accessible, and measurable.",
+  "bio_np": "सोहन थापाले सेन्टरको वेबसाइट तथा अनुसन्धान, कार्यक्रम र सञ्चार विभागसँग सम्बन्धित डिजिटल उपकरणहरूको व्यवस्थापन गर्छन्। उनले अनुगमन, सिकाइ तथा मूल्यांकन (Monitoring, Learning & Evaluation - MLE) का लागि ICT उपकरण विकासमा सहयोग गर्दै परियोजना परिणामहरूलाई अन्तरक्रियात्मक, पहुँचयोग्य र मापनयोग्य बनाउने काम गर्छन्।",
+  "photo": "team/t13.jpg"
+ }
+},
+{
+ "model": "website.teammember",
+ "pk": 14,
+ "fields": {
+  "order": 14,
+  "slug": "divya-pokhrel",
+  "en_name": "Divya Pokhrel",
+  "np_name": "दिव्या पोख्रेल",
+  "role_en": "Assistant - Program & Communications",
+  "role_np": "सहायक – कार्यक्रम तथा सञ्चार",
+  "title_en": "Assistant - Program & Communications",
+  "title_np": "सहायक – कार्यक्रम तथा सञ्चार",
+  "bio_en": "Divya assists in the implementation and management of various deliverables within the Programs & Communications division—the group responsible for executing grant projects, actualising products, and maintaining partnerships. She supports the coordination of shared resources and interconnected efforts across different government and international programs, helping ensure the collective impact of the centre’s initiatives across multiple interest groups in Nepal.",
+  "bio_np": "दिव्याले कार्यक्रम तथा सञ्चार विभाग अन्तर्गतका विभिन्न उपलब्धिहरूको कार्यान्वयन र व्यवस्थापनमा सहयोग पुर्‍याउँछिन्— जुन विभाग अनुदान आयोजनाहरूको सञ्चालन, उत्पादनहरूको बजारीकरण तथा प्रवर्द्धन, र साझेदारीहरू कायम राख्न जिम्मेवार छ। उनले विभिन्न सरकारी तथा अन्तर्राष्ट्रिय कार्यक्रमहरू बीच साझा स्रोतहरूको परिचालन र अन्तरसम्बन्धित प्रयासहरूको समन्वयमा सहयोग गर्दै नेपालका विभिन्न सरोकारवाला समूहहरूमा केन्द्रका प्रयासहरूको सामूहिक प्रभाव सुनिश्चित गर्न मद्दत गर्दछिन्।",
+  "photo": "team/t14.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "en_name": "The Samriddhi Foundation",
+  "np_name": "समृद्धि फाउण्डेशन",
+  "type_en": "National & Subnational",
+  "type_np": "राष्ट्रिय र उप-राष्ट्रिय",
+  "since": "A.D 2019",
+  "logo": "partners/samriddhi.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "en_name": "ATLAS Network",
+  "np_name": "एटलस नेटवर्क",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2019",
+  "logo": "partners/atlas-network.svg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 3,
+ "fields": {
+  "order": 3,
+  "en_name": "The United States Embassy in Kathmandu",
+  "np_name": "अमेरिकी दूतावास, काठमाडौं",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2019",
+  "logo": "partners/US-Embassy-Kathmandu-20.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 4,
+ "fields": {
+  "order": 4,
+  "en_name": "Gandaki Province Assembly Secretariat",
+  "np_name": "गण्डकी प्रदेश सभा सचिवालय",
+  "type_en": "Government",
+  "type_np": "सरकारी",
+  "since": "A.D 2019",
+  "logo": "partners/gandaki-assembly.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 5,
+ "fields": {
+  "order": 5,
+  "en_name": "Centre for International Private Enterprise",
+  "np_name": "सेन्टर फर इन्टरनेशनल प्राइभेट इन्टरप्राइज",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2020",
+  "logo": "partners/cipe.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 6,
+ "fields": {
+  "order": 6,
+  "en_name": "Prithvi Narayan Campus, Tribhivan University",
+  "np_name": "पृथ्वीनारायण क्याम्पस, त्रिभुवन विश्वविद्यालय",
+  "type_en": "Academia",
+  "type_np": "शैक्षिक",
+  "since": "A.D. 2020",
+  "logo": "partners/prithvi-narayan-campus.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 7,
+ "fields": {
+  "order": 7,
+  "en_name": "Gandaki Province Planning Commission",
+  "np_name": "गण्डकी प्रदेश नीति तथा योजना आयोग",
+  "type_en": "Government",
+  "type_np": "सरकारी",
+  "since": "A.D. 2021",
+  "logo": "partners/Gandaki Province Planning Commission.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 8,
+ "fields": {
+  "order": 8,
+  "en_name": "National Endowment for Democracy",
+  "np_name": "नेशनल इन्डोमेन्ट फर डेमोक्रेसी",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2021",
+  "logo": "partners/ned.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 9,
+ "fields": {
+  "order": 9,
+  "en_name": "Hriti Foundation",
+  "np_name": "ऋति फाउण्डेशन",
+  "type_en": "National & Subnational",
+  "type_np": "राष्ट्रिय र उप-राष्ट्रिय",
+  "since": "A.D 2022",
+  "logo": "partners/hriti.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 10,
+ "fields": {
+  "order": 10,
+  "en_name": "United Nations Development Program",
+  "np_name": "संयुक्त राष्ट विकास कार्यक्रम",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2023",
+  "logo": "partners/undp.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 11,
+ "fields": {
+  "order": 11,
+  "en_name": "National Democratic Institute (NDI)",
+  "np_name": "नेशनल डेमोक्रेटिक इन्स्टिच्युट",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2023",
+  "logo": "partners/NDI.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 12,
+ "fields": {
+  "order": 12,
+  "en_name": "Bikalpa - an alternative Foundation",
+  "np_name": "विकल्प - एन अल्टरनेटिभ फाउण्डेशन",
+  "type_en": "National & Subnational",
+  "type_np": "राष्ट्रिय र उप-राष्ट्रिय",
+  "since": "A.D 2023",
+  "logo": "partners/bikalpa.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 13,
+ "fields": {
+  "order": 13,
+  "en_name": "The Asia Foundation",
+  "np_name": "द एसिया फाउण्डेशन",
+  "type_en": "International",
+  "type_np": "अन्तर्राष्ट्रिय",
+  "since": "A.D 2024",
+  "logo": "partners/asia-foundation.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 14,
+ "fields": {
+  "order": 14,
+  "en_name": "Pokhara Metropolitan Corporation",
+  "np_name": "पोखरा महानगरपालिका",
+  "type_en": "Government",
+  "type_np": "सरकारी",
+  "since": "A.D. 2024",
+  "logo": "partners/Pokhara_Metropolitan_Corporation.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 15,
+ "fields": {
+  "order": 15,
+  "en_name": "Business Promotion Center, Kaski, Pokhara",
+  "np_name": "व्यवसाय प्रवर्द्धन केन्द्र, कास्की, पोखरा",
+  "type_en": "Government",
+  "type_np": "सरकारी",
+  "since": "A.D. 2024",
+  "logo": "partners/bpc.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 16,
+ "fields": {
+  "order": 16,
+  "en_name": "Institute of Agriculture and Animal Sciences, Lamjung Campus, Tribhuvan University",
+  "np_name": "कृषि र पशु विज्ञान अध्ययन संस्थान लमजुङ क्याम्पस, त्रिभुवन विश्वविद्यालय",
+  "type_en": "Academia",
+  "type_np": "शैक्षिक",
+  "since": "A.D 2025",
+  "logo": "partners/lamjung-campus.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 17,
+ "fields": {
+  "order": 17,
+  "en_name": "College of Natural Resource Management, Agriculture Forest University",
+  "np_name": "प्राकृतिक स्रोत व्यवस्थापन कलेज, कृषि तथा वन विज्ञान विश्वविद्यालय",
+  "type_en": "Academia",
+  "type_np": "शैक्षिक",
+  "since": "A.D 2025",
+  "logo": "partners/College of Natural Resource Management, Agriculture Forest University.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 18,
+ "fields": {
+  "order": 18,
+  "en_name": "Gandaki University",
+  "np_name": "गण्डकी विश्वविद्यालय",
+  "type_en": "Academia",
+  "type_np": "शैक्षिक",
+  "since": "A.D 2025",
+  "logo": "partners/gandaki-university.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 19,
+ "fields": {
+  "order": 19,
+  "en_name": "Pokhara University",
+  "np_name": "पोखरा विश्वविद्यालय",
+  "type_en": "Academia",
+  "type_np": "शैक्षिक",
+  "since": "A.D. 2025",
+  "logo": "partners/pokhara-university.png"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 20,
+ "fields": {
+  "order": 20,
+  "en_name": "Gandaki Province Training Academy",
+  "np_name": "गण्डकी प्रदेश प्रशिक्षण प्रतिष्ठान",
+  "type_en": "Government",
+  "type_np": "सरकारी",
+  "since": "A.D 2025",
+  "logo": "partners/gpta.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 21,
+ "fields": {
+  "order": 21,
+  "en_name": "Ministry of Agriculture and Land Management",
+  "np_name": "कृषि तथा भूमि व्यवस्था मन्त्रालय",
+  "type_en": "Government",
+  "type_np": "सरकारी",
+  "since": "A.D. 2025",
+  "logo": "partners/ministry-agriculture.jpg"
+ }
+},
+{
+ "model": "website.partner",
+ "pk": 22,
+ "fields": {
+  "order": 22,
+  "en_name": "Nepalese Young Entrepreneurs Forum, Pokhara Chapter",
+  "np_name": "नेप्लिज योङ इन्टरप्रेन्योर्स फोरम, पोखरा च्याप्टर",
+  "type_en": "Provincial",
+  "type_np": "प्रादेशीक",
+  "since": "A.D. 2026",
+  "logo": "partners/nyef.png"
+ }
+},
+{
+ "model": "website.institutionproject",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "title": "MYOP",
+  "title_np": "एम.वाई.ओ.पी.",
+  "type": "Five year strategic plan",
+  "type_np": "५ वर्षे प्रशासनिक योजना",
+  "description": "The Multi-Year Operational Plan actualises an outcomes based approach to producing results. The MYOP 2026-2030's central theme takes inspiration from the Constitution of Nepal (Preamble): ELIMINATING all forms of discrimination and oppression resulted from all feudalistic, autocratic, centralized, unitary, system of governance of the State.",
+  "description_np": "बहुवर्षीय कार्य योजनाले (MYOP) तथ्यमा आधारित दृष्टिकोणलाई वास्तविकतामा रूपान्तरण गर्दछ। MYOP २०२६-२०३० को केन्द्रीय विषयवस्तु नेपालको संविधान (प्रस्तावना) बाट प्रेरणा लिन्छ: राज्यको सामन्तवादी, निरंकुश, केन्द्रीकृत, एकात्मक शासन प्रणालीबाट उत्पन्न सबै प्रकारका भेदभाव र उत्पीडनको उन्मूलन गर्न।"
+ }
+},
+{
+ "model": "website.institutionproject",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "title": "NAPI",
+  "title_np": "नापी",
+  "type": "Strategy Project",
+  "type_np": "रणनीतिक नवपर्वतन परियोजना",
+  "description": "NAPI lies at the intersectionality of skill education, technology and local solutions. With the tagline, “Measure. Learn. Share” NAPI hopes to foster innovation through various skills based programs and research deliverables. NAPI is named for the rabbits that live in our office.",
+  "description_np": "नापी सीप शिक्षा, प्रविधि र स्थानीय समाधानहरूको अन्तरसम्बन्धमा अवस्थित छ। “मापन । सिक्ने । साझा” भन्ने ट्यागलाइनको साथ नापीले विभिन्न सीपमा आधारित कार्यक्रमहरू र वितरण योग्य अनुसन्धानहरू मार्फत नवप्रवर्तनलाई बढावा दिने लक्ष्य राख्छ। “नापी” हाम्रो कार्यालयमा बस्ने खरायोहरूको नामबाट राखिएको हो।"
+ }
+},
+{
+ "model": "website.institutionproject",
+ "pk": 3,
+ "fields": {
+  "order": 3,
+  "title": "Y5",
+  "title_np": "Y5",
+  "type": "Development Initiatives",
+  "type_np": "विकासका पहलहरू",
+  "description": "The Y5 strategic initiatives are a compendium of deliverables emerging from the essence of work here at PRC. Those deliverables includes company programs like our annual fundraiser to team activities like growing lotus plants at the workplace.",
+  "description_np": "Y5 पहलहरू, पोखरा रिसर्च सेन्टरको कार्यप्रवाहबाट विकसित उपलब्धिहरूको संक्षिप्त संकलन हुन्। ती उपलब्धिहरूमा वार्षिक कोष सङ्कलन कार्यक्रमजस्ता संस्थागत पहलहरूदेखि कार्यस्थलमा कमलका बिरुवा रोप्ने जस्ता अभ्यासहरूसम्म समावेश छन्।"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 78,
+ "fields": {
+  "order": 1,
+  "category": "general",
+  "en": "Individual & Institutional Donations",
+  "np": "व्यक्तिगत तथा संस्थागत दान"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 79,
+ "fields": {
+  "order": 2,
+  "category": "general",
+  "en": "Matching Grants",
+  "np": "म्याचिङ ग्रान्ट (पूरक अनुदान)"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 80,
+ "fields": {
+  "order": 3,
+  "category": "general",
+  "en": "Company Funds",
+  "np": "कम्पनी कोष"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 81,
+ "fields": {
+  "order": 1,
+  "category": "project",
+  "en": "Government Grants",
+  "np": "सरकारी अनुदान"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 82,
+ "fields": {
+  "order": 2,
+  "category": "project",
+  "en": "Single Project Grants (3-9 months)",
+  "np": "एकल परियोजना अनुदान (३–९ महिना)"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 83,
+ "fields": {
+  "order": 3,
+  "category": "project",
+  "en": "Multi Year Project Grants (3-5 years)",
+  "np": "बहुवर्षीय परियोजना अनुदान (३–५ वर्ष)"
+ }
+},
+{
+ "model": "website.fundingitem",
+ "pk": 84,
+ "fields": {
+  "order": 4,
+  "category": "project",
+  "en": "Innovation Fund / Awards",
+  "np": "नवप्रवर्तन कोष / पुरस्कार"
+ }
+},
+{
+ "model": "website.provinceproject",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "code": "PRN",
+  "name": "Province ROP Nepal",
+  "status": "Ongoing",
+  "detail": "Published on Play Store; updating new features.",
+  "link": "",
+  "link_label": "View Details"
+ }
+},
+{
+ "model": "website.provinceproject",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "code": "PAT",
+  "name": "Province Assembly Traineeship Program",
+  "status": "Completed",
+  "detail": "4 Hon. MPAs of Gandaki Province Assembly & trainees selected for pilot program.",
+  "link": "https://www.pokharacentre.org/_files/ugd/292b7b_1597a48145004ad69e7e14add808f299.pdf",
+  "link_label": "View Details"
+ }
+},
+{
+ "model": "website.provinceproject",
+ "pk": 3,
+ "fields": {
+  "order": 3,
+  "code": "PIPE",
+  "name": "Province Information Portal & Engagement Tool",
+  "status": "Planned",
+  "detail": "",
+  "link": "",
+  "link_label": "View Details"
+ }
+},
+{
+ "model": "website.provinceproject",
+ "pk": 4,
+ "fields": {
+  "order": 4,
+  "code": "PIN",
+  "name": "The Province in Nepal",
+  "status": "Planned",
+  "detail": "",
+  "link": "",
+  "link_label": "View Details"
+ }
+},
+{
+ "model": "website.provinceproject",
+ "pk": 5,
+ "fields": {
+  "order": 5,
+  "code": "SGI",
+  "name": "Strengthening Governance Initiatives",
+  "status": "Planned",
+  "detail": "PMC, Business Promotion Centre : 2026",
+  "link": "",
+  "link_label": "View Details"
+ }
+},
+{
+ "model": "website.flagshipprogram",
+ "pk": 2,
+ "fields": {
+  "order": 1,
+  "title_en": "Youth In Policy & Governance (YPG) Fellowship Program",
+  "title_np": "नीति तथा सुशासनमा युवा (वाईपीजी) फेलोसिप कार्यक्रम",
+  "description_en": "Our flagship fellowship that equips young Nepali leaders with the skills, exposure, and mentoring to engage with provincial policy. Across multiple cohorts, fellows gain hands-on research experience, take part in youth assemblies, and work directly with lawmakers — building a pipeline of informed, capable leaders for stronger provincial governance.",
+  "description_np": "हाम्रो प्रमुख फेलोसिप कार्यक्रम, जसले युवा नेपाली नेतृत्वकर्ताहरूलाई प्रदेश नीतिमा सहभागी हुनका लागि सीप, अभ्यास र मार्गदर्शन प्रदान गर्दछ। विभिन्न समूहहरूमा फेलोहरूले व्यावहारिक अनुसन्धान अनुभव प्राप्त गर्छन्, युवा सभाहरूमा भाग लिन्छन् र प्रत्यक्ष रूपमा विधायकहरूसँग काम गर्छन् — सुदृढ प्रादेशिक सुशासनका लागि जानकार र सक्षम नेतृत्वकर्ताहरूको शृङ्खला निर्माण गर्दै।",
+  "image": "flagship/YPG fellows picture/YPG Logo.png",
+  "link": "/province/ypg-fellowship/",
+  "link_label_en": "Explore",
+  "link_label_np": "थप हेर्नुहोस्"
+ }
+},
+{
+ "model": "website.flagshipprogram",
+ "pk": 3,
+ "fields": {
+  "order": 2,
+  "title_en": "Capacity Building Program for Women MPA's and Marginalized MPA's",
+  "title_np": "महिला तथा अल्पसङ्ख्यक सांसदहरूको क्षमता अभिवृद्धि कार्यक्रम",
+  "description_en": "A dedicated program that strengthens the leadership, legislative skills, and confidence of women and marginalized Members of Provincial Assembly — enabling inclusive representation and more equitable policy-making in Gandaki Province.",
+  "description_np": "महिला तथा अल्पसङ्ख्यक प्रदेश सभा सदस्यहरूको नेतृत्व, विधायी सीप र आत्मविश्वास अभिवृद्धि गर्ने विशेष कार्यक्रम — गण्डकी प्रदेशमा समावेशी प्रतिनिधित्व र अधिक न्यायपूर्ण नीति निर्माण सक्षम बनाउँछ।",
+  "image": "flagship/DSC04218.jpg",
+  "link": "#",
+  "link_label_en": "Explore",
+  "link_label_np": "थप हेर्नुहोस्"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 78,
+ "fields": {
+  "order": 1,
+  "year": "2020/21",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "participation": "3 Male, 9 Female",
+  "ratio": "1:3"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 79,
+ "fields": {
+  "order": 2,
+  "year": "2021/22",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "participation": "6 Male, 6 Female",
+  "ratio": "1:1"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 80,
+ "fields": {
+  "order": 3,
+  "year": "2021/22",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "participation": "6 Male, 6 Female",
+  "ratio": "1:1"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 81,
+ "fields": {
+  "order": 4,
+  "year": "2022/23",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "participation": "4 Male, 8 Female",
+  "ratio": "1:2"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 82,
+ "fields": {
+  "order": 5,
+  "year": "2022/23",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "participation": "6 Male, 6 Female",
+  "ratio": "1:1"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 83,
+ "fields": {
+  "order": 6,
+  "year": "2023/24",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "participation": "6 Male, 6 Female",
+  "ratio": "1:1"
+ }
+},
+{
+ "model": "website.ypgbatch",
+ "pk": 84,
+ "fields": {
+  "order": 7,
+  "year": "2023/24",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "participation": "6 Male, 6 Female",
+  "ratio": "1:1"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 94,
+ "fields": {
+  "order": 1,
+  "title": "Uddhyam Clinic",
+  "cell": "",
+  "year": "2026",
+  "partner": "BPC-PMC",
+  "period": "2026",
+  "summary": "",
+  "details": ""
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 95,
+ "fields": {
+  "order": 2,
+  "title": "Measuring the Knowledge Economy Contribution",
+  "cell": "",
+  "year": "2026",
+  "partner": "Gandaki Province Training Academy",
+  "period": "2026",
+  "summary": "",
+  "details": ""
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 96,
+ "fields": {
+  "order": 3,
+  "title": "Gandaki Province Assembly Traineeship Program",
+  "cell": "",
+  "year": "2026",
+  "partner": "PRC",
+  "period": "2026",
+  "summary": "",
+  "details": ""
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 97,
+ "fields": {
+  "order": 4,
+  "title": "Capacity Building Program for Women MPA's and Marginalized MPA's",
+  "cell": "",
+  "year": "2025",
+  "partner": "UNDP",
+  "period": "2025",
+  "summary": "",
+  "details": ""
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 98,
+ "fields": {
+  "order": 5,
+  "title": "Gandaki Agriculture Hackathon 2025",
+  "cell": "",
+  "year": "2025",
+  "partner": "Gandaki University, Pokhara University, Tribhuvan University, The Asia Foundation",
+  "period": "2025",
+  "summary": "",
+  "details": ""
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 99,
+ "fields": {
+  "order": 6,
+  "title": "Reforming Gandaki Tourism Act for Inclusive Growth",
+  "cell": "",
+  "year": "2025",
+  "partner": "ATLAS Network",
+  "period": "2025",
+  "summary": "",
+  "details": ""
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 100,
+ "fields": {
+  "order": 7,
+  "title": "YPG Symposium 2023",
+  "cell": "",
+  "year": "2024",
+  "partner": "US Embassy Nepal",
+  "period": "March 18–19, 2024",
+  "summary": "The YPG Alumni Symposium, held on March 18th and 19th, was a transformative gathering that brought together graduates of the YPG Fellowship Program.",
+  "details": "Program Description:\n\nThe YPG Alumni Symposium, held on March 18th and 19th, was a transformative gathering that brought together graduates of the YPG Fellowship Program. This two-day event served as an inclusive platform, uniting alumni, policymakers, experts, and wider community members for dynamic ideas, skills, and insights exchanges. Representing Gandaki, Koshi, and Karnali provinces, YPG Fellows joined distinguished guests including Members of the Provincial Assembly (MPAs), US Embassy Officials, and other relevant personalities.\n\nVenue: Atithi Resort and Spa, Lakeside\n\nTestimony: Video"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 101,
+ "fields": {
+  "order": 8,
+  "title": "Consultancy for Leading Capacity Building Support for Women MPAs and Marginalized MPAs (PSP)",
+  "cell": "",
+  "year": "2024",
+  "partner": "UNDP",
+  "period": "March 15 – November 30, 2024",
+  "summary": "To create support mechanism within the province, where women MPA's and MPA's from marginalized groups can share, learn and network for common agenda and exchange of idea.",
+  "details": "Objective:\n\n- To create support mechanism within the province, where women MPA's and MPA's from marginalized groups can share, learn and network for common agenda and exchange of idea.\n- To enable women MPA's and MPA's from marginalnizedgroups with knowledge, skill,practice to bemore confident and resourceful parliamenterian\n- To support an enabling environment in the province for the sensization and implementation of gender and human rights impact analyis sin parliamentary functions.\n\nActivities:\n\n- 2 experience sharing and learning program\n- 3 capacity Building training\n- One on One Mentoring Program"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 102,
+ "fields": {
+  "order": 9,
+  "title": "Elevate PRC: Advancing Institutional Impact",
+  "cell": "",
+  "year": "2024",
+  "partner": "ATLAS Network",
+  "period": "February 1 – October 1, 2024",
+  "summary": "Increasing Instituional Capacity",
+  "details": "Objective:\n\nIncreasing Instituional Capacity\n\nOutput:\n\n-Successfully completed ongoing Four projects of PRC at 100%.\n- Produce standard research methodology and guidelines (1) for PRC’s research\nstandardization along with policy briefs (1), articles (5), and research papers (1),\nGandaki province Budget Analysis.\n- Organize three Gandaki Leaders Circle (GLC), two consultative meetings, targeted two\nengagement programs for policymakers, and provide two policy recommendation\npapers as knowledge.\n- Relocate to a larger office space with 50% more space, acquire 2 necessary office\nequipment (Projector, television), and procure 2 essential paid software (Finance\nkeeping and G-suit)\n- Create a minimum of 6 impactful content in terms of social media posts, articles, blogs,\nand presentations, host (2) webinars, optimize the website SEO 50% better and\ndisseminate research findings through conference\n\nOutcome:\n\n- Enhance organizational visibility and credibility by renewing ongoing partnerships at a\n75% retention rate from four ongoing partnerships and 2 more new partnerships\nwithin 12 months. Strengthen PRC's reputation and credibility by achieving a 50%\nalignment of outcomes across all ongoing projects.\n- Raise awareness and understanding of key policy issues in Gandaki Province by\nachieving 3 national and 6 local media mentions and policy discussions referencing\nPRC& it's research work within the next 12 months.\n- Influence at least one significant policy change within Gandaki Province or 2-4 times\ncitation of our input in the Gandaki parliamentary session within the next year.\n- Improve operational efficiency by achieving a 20% reduction in equipment downtime\nand a 25% decrease in project turnaround time which is currently a 20% project delay\non the overall timeline within the next 12 months\n- Elevate PRC's thought leadership in policy discourse by achieving a 20% increase in the\nnumber of online engagement metrics (likes, shares, comments) and a 10% increase in\nwebsite traffic and newsletter subscription within 12 months."
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 103,
+ "fields": {
+  "order": 10,
+  "title": "Youth in Policy & Governance Madhesh Province",
+  "cell": "",
+  "year": "2023",
+  "partner": "US Embassy Nepal",
+  "period": "October 2, 2023 – September 30, 2024",
+  "summary": "",
+  "details": "Objective:\r\n\r\na. To educate and train 50 youths of Madhesh Province with focus on politics, public policy, federalism, law making etc. It will be aware, inform of its importance, and entail involvement from a vibrant democracy pratice.\r\n\r\nb. To strengthen provincial legislation by capitating members of Provincial Assembly to be accessible to youth input and participation. With the goal to connect youth to policy makers and assist in the legislative process.\r\n\r\nc. To promote sustainable citizen participants by creating a platform for provincial legislators and trained youth to collaborate and work together. Technically, as a YPG fellow, Youth will support assigned MPs as knowledge assistance.\r\n\r\nActivities:\r\n\r\nNeed Assessment & Partnership Building :\r\n22-24 December, 2023\r\n4 to 8 January, 2024\r\n\r\nYPG Madhesh Training Camp-I :\r\n10-12 April, 2024"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 104,
+ "fields": {
+  "order": 11,
+  "title": "Consultancy for Leading Capacity Building Support for Women MPAs and Marginalized MPAs (PSP)",
+  "cell": "",
+  "year": "2023",
+  "partner": "UNDP",
+  "period": "June 1 – December 10, 2023",
+  "summary": "To create sharing and learning platform among former women mPA's and mp's from marginalized groups(including leadership like Deputy speaker and commmittees chairs) of Gandaki PA to discuss their experience in the parlilament and committees…",
+  "details": "Objective:\n\n- To create sharing and learning platform among former women mPA's and mp's from marginalized groups(including leadership like Deputy speaker and commmittees chairs) of Gandaki PA to discuss their experience in the parlilament and committees\n- To lead skill based trainings for womrn MPA's and MPA's from Marginalized group\n- To lead mentoring progeams for womrn MPA's and MPA's from marginalized groups that are designed yo meet specific capacity needs of the selected MPA's on regular basis.\n\nActivities:\n\n-2 Experience Sharing Program\n- 2 Capacity Building programs\n-One on One Mentoring Program\n- Bill discussion on the purposed bill in committees and providing detailed report\n\n- August 11, 2023: Experience Sharing\n- September 28, 2023: workshop on Gender Inclusivity in Parliamentary Proceedings and Parliamentary Information Dissemination\n- 3 December, 2023: Mentorship program on Performance Management of the Public Accounts Committee to the Members of Public Accounts Committee, Gandaki Province Assembly"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 105,
+ "fields": {
+  "order": 12,
+  "title": "Nepal: Strengthening Federal Democracy by Improving Governance and Enabling Markets",
+  "cell": "",
+  "year": "2023",
+  "partner": "CIPE",
+  "period": "February 1, 2023 – January 31, 2025",
+  "summary": "To increase opportuntities for citizens/priivate sector to strenghten federalism by improving their access to information by monitoring budgetary process and identifying barriers to improving the business climate - To build capacity of…",
+  "details": "Objective:\n\n- To increase opportuntities for citizens/priivate sector to strenghten federalism by improving their access to information by monitoring budgetary process and identifying barriers to improving the business climate\n- To build capacity of grassroots actors to hold government officials and elected representatives accountable for reforms by conducting strategic public outreach\n\nActivities:\n\n- 3 Gandaki Leaders Circle meeting\n- 1 Research Papers with related stakeholder's consultation on 'A study in Gandaki Province's Tax Regime\"\n- 2 Stakeholders discussion and statistical comparison report"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 106,
+ "fields": {
+  "order": 13,
+  "title": "Youth in Policy & Governance Koshi Province",
+  "cell": "",
+  "year": "2022",
+  "partner": "US Embassy Nepal",
+  "period": "October 3, 2022 – March 31, 2024",
+  "summary": "",
+  "details": "Objective:\r\n\r\na. To educate and train 50 youths of Koshi Province with focus on politics, public policy, federalism, law making etc. It will be aware, inform of its importance, and entail involvement from a vibrant democracy pratice.\r\n\r\nb. To strengthen provincial legislation by capitating members of Provincial Assembly to be accessible to youth input and participation. With the goal to connect youth to policy makers and assist in the legislative process.\r\n\r\nc. To promote sustainable citizen participants by creating a platform for provincial legislators and trained youth to collaborate and work together. Technically, as a YPG fellow, Youth will support assigned MPs as knowledge assistance.\r\n\r\nActivities:\r\n\r\nYPG Koshi Training Camp-I :\r\n25-27 February, 2023\r\n\r\nYPG Koshi Training Camp-II:\r\n8-11 April, 2023\r\n\r\nYPG Koshi Training Camp-III:\r\n12-14 May, 2023\r\n\r\nGraduation Ceremony:\r\n20 Febraury, 2024\r\n\r\nYPG Koshi Training Camp-I :\r\n25-27 February, 2023\r\n\r\nYPG Koshi Training Camp-II:\r\n8-11 April, 2023\r\n\r\nYPG Koshi Training Camp-III:\r\n12-14 May, 2023\r\n\r\nYPG Fellows Meet up with Koshi Provincial Assembly Members:\r\n13 May, 2023\r\n\r\nIntroduction to Legislative Research Course :\r\nMay 25-June 23, 2023\r\n\r\nYouth with Policy Makers:\r\n16th Oct. 2023\r\n\r\nFellowship Placement:\r\n1st May 2023-31st March 2024"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 107,
+ "fields": {
+  "order": 14,
+  "title": "Strengthening Youth Political Participation",
+  "cell": "",
+  "year": "2022",
+  "partner": "National Endowment for Democracy (NED)",
+  "period": "October 1, 2022 – September 30, 2024",
+  "summary": "To promote yoth political participation and engagemnet  in public policymaking and the legislative process.",
+  "details": "Objective:\n\nTo promote yoth political participation and engagemnet  in public policymaking and the legislative process. Through a research and legislative training program, yoth will support provincial parliamentarians in advancing informed, data driven, centered policy formulation\n\nActivities:\n\nThe Pokhara Research Centre (PRC) will continue to implement the Pre-Professionals Parliamentary Support Program (PPSP) -- a year-long capacity-building program for 50 youth from Gandaki’s 11 districts. Youth aged 20-30 years currently enrolled in undergraduate or graduate programs or recent graduates are eligible to apply and the PRC will promote the opportunity widely through local media, newspapers, and online educational sites to ensure broad, diverse, and inclusive outreach. The initial participant screening process will involve submission of a detailed application and an in-person interview. The PRC will prioritize applicants with an interest in government, public policy, policymaking, and/or with a strong record of community engagement.\n\n2022/23\nYPG Gandaki Training Camp-I :\n13-17 January, 2023\n\nYPG Gandaki Training Camp-II:\n16-19 Febraury, 2023\n\nYPG Gandaki Training Camp-III:\n5-7 May, 2023\n\nYPG Fellows Meet up with Gandaki Provincial Assembly Members:\n6 May, 2023\n\nIntroduction to Legislative Research Course :\nMay 25-June 23, 2023\n\nFellowship Placement:\n1 May 2023-30 October 2024"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 108,
+ "fields": {
+  "order": 15,
+  "title": "Nepal: Investing to Support Nepal's Transition Toward a Market-Oriented Federal Democracy",
+  "cell": "",
+  "year": "2022",
+  "partner": "CIPE",
+  "period": "July 1, 2022 – January 1, 2023",
+  "summary": "To build the capacity of grassroorts actors to hold provincial and local officials accountable for the reforms in nepal",
+  "details": "Objective:\n\n- To build the capacity of grassroorts actors to hold provincial and local officials accountable for the reforms in nepal\n\nActivities:\n\n- 3 policy brief of provincial level\n- 3 provincial stakeholders consultation on polcy briefs engaging provincial sectorial experts, policy makers, regulators, civil society actors, journalists, and general public\n- 3 Gandaki Leaders circle meeting\nPRC Enterprenuership Bootcamp"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 109,
+ "fields": {
+  "order": 16,
+  "title": "PRC Poverty and Freedom Grant 2022",
+  "cell": "",
+  "year": "2022",
+  "partner": "ATLAS Network",
+  "period": "December 1, 2022 – August 31, 2023",
+  "summary": "To provide creative and scrutinized policy recommendations as policy briefs which will foster economic freedom and rights through research and advocacy.",
+  "details": "Objective:\n\n-To provide creative and scrutinized policy recommendations as policy briefs which will foster economic freedom and rights through research and advocacy.\n\nOutput:\n\n- 4 Legislative policy briefs on Selected Acts\n- 4 stakeholders consultative meetings prior finalizing policy brief\n- 3-4 minutes long 2 impact story video reflecting the barriers and hurdles of emtreprenuers\n- 12 blog articles in websites and 4 newspaper articles in national daily highlights in finding, sugestions and impacts\n\nOutcome:\n\n- Knowledge is produced to share with 20 Provincial and 35 local policy makers to help them in informed decisions.\n- At least 20 people including legal experts, sectoral experts, businessman, entreprenuers and public intellectuals engaged in process to ensure their buy_in to our brief\n- At least 100k reach on combined form social media and youtube (by both organic and inorganic means)\n- Minimum reach of combined 200k people accross the country and aware and insights people on the situation."
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 110,
+ "fields": {
+  "order": 17,
+  "title": "Pre-Professionals Parliamentary Support Program (PPSP) Karnali Province",
+  "cell": "",
+  "year": "2021",
+  "partner": "US Embassy Nepal",
+  "period": "October 1, 2021 – December 30, 2022",
+  "summary": "",
+  "details": "Objective:\r\n\r\na. select 50 youth (age range 20-30) through open competition\r\n\r\nb. orhanize three closed camps and train yyouth on public policy making processes. Trainers include Probincial legislators, elected local level policy makers, bureaucrats, business entrepreneurs, intellectuals, civil society leaders, journalist and other related stakeholders on public policy.\r\n\r\nc. Aftre three camps, 12 youth policy fellows will be selected and placed as subject matter experts/knowledge assistants for parliamentarians and ministers.\r\n\r\nActivities:\r\n\r\nPPSP Karnali Training Camp-I :\r\n4-6 March, 2022\r\n\r\nPPSP Karnali Training Camp-II:\r\n28 April-3 May, 2022\r\n\r\nPPSP Karnali Training Camp-III:\r\n17-19 June, 2022\r\n\r\nGraduation Ceremony:\r\n13th December, 2022\r\n\r\nPPSP Karnali Training Camp-I :\r\n4-6 March, 2022\r\n\r\nPPSP Karnali Training Camp-II:\r\n28 April-3 May, 2022\r\n\r\nPPSP Karnali Training Camp-III:\r\n17-19 June, 2022\r\n\r\nFellowship Placement:\r\n1 July-30 December, 2022"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 111,
+ "fields": {
+  "order": 18,
+  "title": "Strengthening Youth Political Participation",
+  "cell": "",
+  "year": "2021",
+  "partner": "National Endowment for Democracy (NED)",
+  "period": "July 1, 2021 – September 30, 2022",
+  "summary": "To promote yoth political participation and engagemnet  in public policymaking and the legislative process.",
+  "details": "Objective:\n\nTo promote yoth political participation and engagemnet  in public policymaking and the legislative process. Through a research and legislative training program, yoth will support provincial parliamentarians in advancing informed, data driven, centered policy formulation\n\nActivities:\n\nPPSP Gandaki Training Camp-I :\n16-20 December, 2021\n\nPPSP Gandaki Training Camp-II:\n24-28 February, 2022\n\nPPSP Gandaki Training Camp-III:\n\nInteraction Program of PPSP Fellows with Members of Gandaki Province Assembly\n25 July, 2022\n\nGraduation Ceremony:\n22 September, 2022"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 112,
+ "fields": {
+  "order": 19,
+  "title": "Morality of Capitalism Translation",
+  "cell": "",
+  "year": "2020",
+  "partner": "ATLAS Network",
+  "period": "August 15, 2020 – May 31, 2021",
+  "summary": "To educate, inform and inspire Nepali people with an alternative narrative to Nepal’s development discourse through access to classical liberal texts in local language.",
+  "details": "Objective:\n\n- To educate, inform and inspire Nepali people with an alternative narrative to Nepal’s development discourse through access to classical liberal texts in local language.\n\nOutput:\n\n- Translation of Morality of Capitalism to Nepali\n- Publicaiton of 1000 copies of Nepali Version\n- Organization of talk progeams regarding the contents of the book to engage students, journalists, and intellectuals\n- Publication of book reviews from reknnowned Nepali Public intellectuals in mass media platforms (like daily Newspaper)\n\nOutcome:\n\n- Nepali readers have an access to new pro freedom and market text in local language in market which is heavily skewed in favor of leftist\n- Additioanl product in PRC's repertoire that PRC can leverage to secure more visibility and news partnerships in the days to come\n- Young intellectuals are inspired to explore alternatives ideas to what is the dominant development narrative in Nepal. Free Thinking is promoted in Nepal\n - Secure a buy-in of general mass on these \"new ideas in Nepali Context\" by leveraging the public intellectuals/opinion shapers thfat they follow"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 113,
+ "fields": {
+  "order": 20,
+  "title": "Think Tank Startup Grant",
+  "cell": "",
+  "year": "2020",
+  "partner": "ATLAS Network",
+  "period": "April 15, 2020 – April 4, 2021",
+  "summary": "To establish and grow PRC as a new organization committed to advancing Liberty",
+  "details": "Objective:\n\n- To establish and grow PRC as a new organization committed to advancing Liberty\n\nOutput:\n\n- 6 Policy briefs, 12 disccources with related stakeholdxers will be published and delivered respectivelty\n- 3 Advpcacy videos on hurdles of entreprenuership\n- Research paper on contribution of Tourism sector. in provincial eonomy of Gandaki Province\n- 12 PPSP Fellows will be selected for Gandaki provincial assembly members through Pre-Professional Parliamentary Support Program\n- Holdiing a fund raising dinner for current donors and private entreprenuers\n\nOutcome:\n\n- PRC will be recognized as a research based thinktank that provide the pragmatic market solution to public policy ad it's necessary economic reform.\n- More than 50 thousands views on social medias of PRC that develop generdal public'ss and policy makers news perspective regarding hurdles of enterprises enterprise development.\n- Assessment of the real contribution of to uerism sector in Provincial Economy\n- PPSP Fellows will work as knowledge and Research Assistant for the member of Provincial Assemvly in Gandaki Province which will increase the youth participation in pplicy making Process\n- Gain at least 5 potential low level donors and 2 high level donors and raise around 5000 dollars in calender year"
+ }
+},
+{
+ "model": "website.pastproject",
+ "pk": 114,
+ "fields": {
+  "order": 21,
+  "title": "Pre-Professionals Parliamentary Support Program (PPSP) Gandaki Province",
+  "cell": "",
+  "year": "2019",
+  "partner": "US Embassy Nepal",
+  "period": "October 7, 2019 – December 31, 2021",
+  "summary": "Youth engagement in real time parliamentary  process to assist the policymakers in policy formulation process with evidence based research gindings on the matters that are under implication on new federal structure.",
+  "details": "Objective:\n\nYouth engagement in real time parliamentary  process to assist the policymakers in policy formulation process with evidence based research gindings on the matters that are under implication on new federal structure.\n\nTo train pool of youth of Gandaki sate and educate them for evidence-based policy formulation.\n\nTo develop reserach for constutuency-related issues, legislative reserach, background research on state parliamentary debates and research for standing committee meetings.\n\nActivities:\n\nPPSP Gandaki Training Camp-I :\n15-19 September, 2020\n\nPPSP Gandaki Training Camp-II:\n12-27 February, 2021\n\nPPSP Gandaki Training Camp-III:\n25-28 September, 2021\n\nGraduation Ceremony:\n25 March, 2022\n\nPPSP Gandaki Training Camp-I :\n15-19 September, 2020\n\nPPSP Gandaki Training Camp-II:\n12-27 February, 2021\n\nPPSP Gandaki Training Camp-III:\n25-28 September, 2021\n\nFellowship Placement:\n1 October-31 December 2022"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 1,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०-२१",
+  "image": "ypg/fellows/pages/ypg/fellows-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 2,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०-२१",
+  "image": "ypg/fellows/pages/ypg/fellows-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 3,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०-२१",
+  "image": "ypg/fellows/pages/ypg/fellows-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 4,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१-२२",
+  "image": "ypg/fellows/pages/ypg/fellows-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 5,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१-२२",
+  "image": "ypg/fellows/pages/ypg/fellows-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 6,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१-२२",
+  "image": "ypg/fellows/pages/ypg/fellows-06.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 7,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 8,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 9,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 10,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 11,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३-२४",
+  "image": "ypg/fellows/pages/ypg/fellows-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 12,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१-२२",
+  "image": "ypg/fellows/pages/ypg/fellows-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 13,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-13.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 14,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-14.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 15,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२-२३",
+  "image": "ypg/fellows/pages/ypg/fellows-15.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 16,
+ "fields": {
+  "order": 0,
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३-२४",
+  "image": "ypg/fellows/pages/ypg/fellows-16.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 17,
+ "fields": {
+  "order": 0,
+  "cohort_en": "YPG Fellows",
+  "cohort_np": "वाईपीजी फेलो",
+  "image": "ypg/fellows/pages/ypg/fellows-17.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 18,
+ "fields": {
+  "order": 0,
+  "cohort_en": "YPG Fellows",
+  "cohort_np": "वाईपीजी फेलो",
+  "image": "ypg/fellows/pages/ypg/fellows-18.jpg"
+ }
+},
+{
+ "model": "website.ypgfellow",
+ "pk": 19,
+ "fields": {
+  "order": 0,
+  "cohort_en": "YPG Fellows",
+  "cohort_np": "वाईपीजी फेलो",
+  "image": "ypg/fellows/pages/ypg/fellows-19.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 26,
+ "fields": {
+  "order": 1,
+  "slug": "gandaki-2020_21-01",
+  "name_en": "Aarati Baral",
+  "name_np": "आरती बराल",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BA",
+  "education_np": "बीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Opinion Beat Cordinator, The kathmandu Post",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 27,
+ "fields": {
+  "order": 2,
+  "slug": "gandaki-2020_21-02",
+  "name_en": "Barun Chhetri",
+  "name_np": "बरुण छेत्री",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Program and Development Officer, Pokhara Research Centre",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 28,
+ "fields": {
+  "order": 3,
+  "slug": "gandaki-2020_21-03",
+  "name_en": "Bhanwana Bhandari",
+  "name_np": "भानुवना भण्डारी",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Co Founder, United for Impact",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 29,
+ "fields": {
+  "order": 4,
+  "slug": "gandaki-2020_21-04",
+  "name_en": "Deepa Adhikari",
+  "name_np": "दीपा अधिकारी",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Advocate; Research Officer, Pokhara Research Centre",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 30,
+ "fields": {
+  "order": 5,
+  "slug": "gandaki-2020_21-05",
+  "name_en": "Manju Lohani",
+  "name_np": "मंजु लोहनी",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "MSW",
+  "education_np": "एमएसडब्ल्यू",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Lamjung",
+  "address_np": "लमजुङ",
+  "current_engagement": "Provincial Technical Officer, People in Need, Madhesh",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 31,
+ "fields": {
+  "order": 6,
+  "slug": "gandaki-2020_21-06",
+  "name_en": "Milan Gurung",
+  "name_np": "मिलन गुरुङ",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white_A60ZFws.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 32,
+ "fields": {
+  "order": 7,
+  "slug": "gandaki-2020_21-07",
+  "name_en": "Mini Kusum Paudel",
+  "name_np": "मिनी कुसुम पौडेल",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BE",
+  "education_np": "बीई",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Studying in USA",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 33,
+ "fields": {
+  "order": 8,
+  "slug": "gandaki-2020_21-08",
+  "name_en": "Parbati Adhikari",
+  "name_np": "पार्वती अधिकारी",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BPH",
+  "education_np": "बीपीएच",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Project Manager, Waste service Pvt.Ltd",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 34,
+ "fields": {
+  "order": 9,
+  "slug": "gandaki-2020_21-09",
+  "name_en": "Prawesh Gautam",
+  "name_np": "प्रवेश गौतम",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "MBA",
+  "education_np": "एमबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in Canada",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 35,
+ "fields": {
+  "order": 10,
+  "slug": "gandaki-2020_21-10",
+  "name_en": "Smriti Baral",
+  "name_np": "स्मृति बराल",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BE",
+  "education_np": "बीई",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Former Secretary, Secretariat of Member of the House of the Representatives,( Bidhya Bhattarai)",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 36,
+ "fields": {
+  "order": 11,
+  "slug": "gandaki-2020_21-11",
+  "name_en": "Sushmita Chhetri",
+  "name_np": "सुष्मिता छेत्री",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Former Secretary, Secretariat of Member of the House of the Representatives,(Nisha Dangi",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 37,
+ "fields": {
+  "order": 12,
+  "slug": "gandaki-2020_21-12",
+  "name_en": "Swikriti Kutal",
+  "name_np": "स्वीकृति कुटल",
+  "year_en": "2020-21",
+  "year_np": "२०२०/२१",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2020-21",
+  "cohort_np": "गण्डकी २०२०/२१",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Lamjung",
+  "address_np": "लमजुङ",
+  "current_engagement": "Advocate, orion legal solution",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2020_21-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 38,
+ "fields": {
+  "order": 13,
+  "slug": "gandaki-2021_22-01",
+  "name_en": "Prachand Shakti Gurung",
+  "name_np": "प्रचण्ड शक्ति गुरुङ",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 39,
+ "fields": {
+  "order": 14,
+  "slug": "gandaki-2021_22-02",
+  "name_en": "Agrata Sharma",
+  "name_np": "अग्रता शर्मा",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BE",
+  "education_np": "बीई",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 40,
+ "fields": {
+  "order": 15,
+  "slug": "gandaki-2021_22-03",
+  "name_en": "Kushal Khattri",
+  "name_np": "कुशल खत्री",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in Canada",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 41,
+ "fields": {
+  "order": 16,
+  "slug": "gandaki-2021_22-04",
+  "name_en": "Nisha Bharati",
+  "name_np": "निशा भारती",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in USA",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 42,
+ "fields": {
+  "order": 17,
+  "slug": "gandaki-2021_22-05",
+  "name_en": "Prakriti Thapa Chhetri",
+  "name_np": "प्रकृति थापा छेत्री",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BE",
+  "education_np": "बीई",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in Australia",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white_km8W0ZB.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 43,
+ "fields": {
+  "order": 18,
+  "slug": "gandaki-2021_22-06",
+  "name_en": "Deepa Chhetri",
+  "name_np": "दीपा छेत्री",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Banker, Rastrya Badijya Bank",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-06.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 44,
+ "fields": {
+  "order": 19,
+  "slug": "gandaki-2021_22-07",
+  "name_en": "Kshitij Timilsina",
+  "name_np": "क्षितिज तिमिल्सिना",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BDEVS",
+  "education_np": "बीडेभएस",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Syangja",
+  "address_np": "स्याङ्जा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 45,
+ "fields": {
+  "order": 20,
+  "slug": "gandaki-2021_22-08",
+  "name_en": "Prabhat Neupane",
+  "name_np": "प्रभात न्यौपाने",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "Bsc.MLT",
+  "education_np": "बीएससी एमएलटी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in Australia",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 46,
+ "fields": {
+  "order": 21,
+  "slug": "gandaki-2021_22-09",
+  "name_en": "Manisha Adhikari",
+  "name_np": "मनिषा अधिकारी",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "MPA",
+  "education_np": "एमपीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Child Care advisor,NELUMBO, Nepal",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 47,
+ "fields": {
+  "order": 22,
+  "slug": "gandaki-2021_22-10",
+  "name_en": "Ishan Giri",
+  "name_np": "ईशान गिरी",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BMTM",
+  "education_np": "बीएमटीएम",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Content Writer, Freelancer",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 48,
+ "fields": {
+  "order": 23,
+  "slug": "gandaki-2021_22-11",
+  "name_en": "Sajina Paudel",
+  "name_np": "सजिना पौडेल",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "Bsc.MLT",
+  "education_np": "बीएससी एमएलटी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Lab Technicialn, Western Regional Hospital",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 49,
+ "fields": {
+  "order": 24,
+  "slug": "gandaki-2021_22-12",
+  "name_en": "Chiranjeevi Poudel",
+  "name_np": "चिरन्जीवी पौडेल",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2021-22",
+  "cohort_np": "गण्डकी २०२१/२२",
+  "education_en": "BPH",
+  "education_np": "बीपीएच",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Studying in USA",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2021_22-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 50,
+ "fields": {
+  "order": 25,
+  "slug": "gandaki-2022_23-01",
+  "name_en": "Biruj Adhikari Kshetri",
+  "name_np": "विरुज अधिकारी क्षेत्री",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Communication Associate, Pokhara Research Centre",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 51,
+ "fields": {
+  "order": 26,
+  "slug": "gandaki-2022_23-02",
+  "name_en": "Sampada Pandey",
+  "name_np": "सम्पदा पाण्डे",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sarlahi",
+  "address_np": "सर्लाही",
+  "current_engagement": "Research Associate, Pokhara Research Centre",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 52,
+ "fields": {
+  "order": 27,
+  "slug": "gandaki-2022_23-03",
+  "name_en": "Manisha Neupane",
+  "name_np": "मनिषा न्यौपाने",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BPH",
+  "education_np": "बीपीएच",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kalikot",
+  "address_np": "कालिकोट",
+  "current_engagement": "Youth Sounding Board Member in EU, Nepal",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 53,
+ "fields": {
+  "order": 28,
+  "slug": "gandaki-2022_23-04",
+  "name_en": "Akriti Dhakal",
+  "name_np": "अकृति ढकाल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "Bachelors in Pharmacy",
+  "education_np": "ब्याचुलर फार्मेसी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Lamjung",
+  "address_np": "लमजुङ",
+  "current_engagement": "Full Time:; Pharmacy Instructor- Diploma in Pharmacy, Nursing & General Medicine; (Council for Technical Education and Vocational Training- CTEVT); Charak Institute of Health Science ; Kahubhanjyang, Pokhara; ; Part-time:; Freelance Medical Writer",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 54,
+ "fields": {
+  "order": 29,
+  "slug": "gandaki-2022_23-05",
+  "name_en": "Grishma Adhikari",
+  "name_np": "ग्रिष्मा अधिकारी",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BPH",
+  "education_np": "बीपीएच",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 55,
+ "fields": {
+  "order": 30,
+  "slug": "gandaki-2022_23-06",
+  "name_en": "Shweta Ranabhat",
+  "name_np": "श्वेता रानाभाट",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BPH",
+  "education_np": "बीपीएच",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Content Creator, Parichay Advertising Pvt Ltd",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white_dbsJr9k.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 56,
+ "fields": {
+  "order": 31,
+  "slug": "gandaki-2022_23-07",
+  "name_en": "Rekha Paudel",
+  "name_np": "रेखा पौडेल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "ENGINEERING, IOE",
+  "education_np": "इन्जिनियरिङ, आईओई",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Rupandehi",
+  "address_np": "रुपन्देही",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 57,
+ "fields": {
+  "order": 32,
+  "slug": "gandaki-2022_23-08",
+  "name_en": "Sampada Rimal",
+  "name_np": "सम्पदा रिमाल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Chitwan",
+  "address_np": "चितवन",
+  "current_engagement": "Member, Youth Thinker Society",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 58,
+ "fields": {
+  "order": 33,
+  "slug": "gandaki-2022_23-09",
+  "name_en": "Kushal Rimal",
+  "name_np": "कुशल रिमाल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Treasurer, Youth Thinker Society, Pokhara.",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 59,
+ "fields": {
+  "order": 34,
+  "slug": "gandaki-2022_23-10",
+  "name_en": "Abishek Baral",
+  "name_np": "अभिषेक बराल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "IOE PASCHIMANCHAL",
+  "education_np": "इन्जिनियरिङ, पश्चिमाञ्चल क्याम्पस",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Technical Consultant, E-Mobility Project, Global Green Growth Institute (GGGI)",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 60,
+ "fields": {
+  "order": 35,
+  "slug": "gandaki-2022_23-11",
+  "name_en": "Sagar Paudel",
+  "name_np": "सागर पौडेल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "AG",
+  "education_np": "कृषि",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Masters of Science in Development and Rural Innovation",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 61,
+ "fields": {
+  "order": 36,
+  "slug": "gandaki-2022_23-12",
+  "name_en": "Poonam Paudel",
+  "name_np": "पूनम पौडेल",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2022-23",
+  "cohort_np": "गण्डकी २०२२/२३",
+  "education_en": "MEDICAL LAB TECHNICIAN",
+  "education_np": "मेडिकल ल्याब टेक्निसियन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2022_23-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 62,
+ "fields": {
+  "order": 37,
+  "slug": "gandaki-2023_24-01",
+  "name_en": "Bikal Paudel",
+  "name_np": "विकल पौडेल",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Syangja",
+  "address_np": "स्याङ्जा",
+  "current_engagement": "Financial Advisor- Bikal and Biswas Builders.",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 63,
+ "fields": {
+  "order": 38,
+  "slug": "gandaki-2023_24-02",
+  "name_en": "Pratik Rijal",
+  "name_np": "प्रतिक रिजाल",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelor of Public Health",
+  "education_np": "ब्याचुलर अफ पब्लिक हेल्थ",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Bardiya, Lumbini",
+  "address_np": "बर्दिया, लुम्बिनी",
+  "current_engagement": "Undergraduate Bachelors in Public Health and Provincial youth volunteer at SOCHAI-Youth for nutrition and Secretary at our APPS.",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 64,
+ "fields": {
+  "order": 39,
+  "slug": "gandaki-2023_24-03",
+  "name_en": "Sujita Adhikari",
+  "name_np": "सुजिता अधिकारी",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelor Science in Agriculture",
+  "education_np": "ब्याचुलर अफ साइन्स कृषि",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Lamjung, Gandaki",
+  "address_np": "लमजुङ, Gandaki",
+  "current_engagement": "Provincial Coordinator at NYCA Pokhara and Campaigner at\" The Changemaker of Nepal Red Cross Society\"",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 65,
+ "fields": {
+  "order": 40,
+  "slug": "gandaki-2023_24-04",
+  "name_en": "Shubheksha Sharma",
+  "name_np": "शुभेक्षा शर्मा",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelor Science in Agriculture",
+  "education_np": "ब्याचुलर अफ साइन्स कृषि",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Lamjung",
+  "address_np": "लमजुङ",
+  "current_engagement": "Communication Coordinator of Pokhara Chapter of UNIFY Nepal.",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 66,
+ "fields": {
+  "order": 41,
+  "slug": "gandaki-2023_24-05",
+  "name_en": "Supriya Shrestha",
+  "name_np": "सुप्रिया श्रेष्ठ",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Tanahun",
+  "address_np": "तनहुँ",
+  "current_engagement": "Intern at Pokhara Research Center and Mentor at Clinical Law Department of Bhanubhakta +2 School of Law",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 67,
+ "fields": {
+  "order": 42,
+  "slug": "gandaki-2023_24-06",
+  "name_en": "Samir Pokhrel",
+  "name_np": "समीर पोखरेल",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelor in Computing system Engineering",
+  "education_np": "Bachelor in Computing system Engineering",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Nawalparsi East",
+  "address_np": "नवलपरासी (पूर्व)",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-06.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 68,
+ "fields": {
+  "order": 43,
+  "slug": "gandaki-2023_24-07",
+  "name_en": "Abishika Kafle",
+  "name_np": "अभिषिका काफ्ले",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelor in Public Health",
+  "education_np": "ब्याचुलर इन पब्लिक हेल्थ",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Lumbini, Nawalparasi",
+  "address_np": "लुम्बिनी, Nawalparasi",
+  "current_engagement": "Undergraduate Bachelors in Public Health and Mentor for Youth for access to Abortion for youth, Youth Champions at Yoshan",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 69,
+ "fields": {
+  "order": 44,
+  "slug": "gandaki-2023_24-08",
+  "name_en": "Nirmal Chhetri",
+  "name_np": "निर्मल छेत्री",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "BBS",
+  "education_np": "बीबीएस",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parbat",
+  "address_np": "पर्वत",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 70,
+ "fields": {
+  "order": 45,
+  "slug": "gandaki-2023_24-09",
+  "name_en": "Shiva Khadka",
+  "name_np": "शिव खड्का",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "MSC forestry",
+  "education_np": "एमएससी वन विज्ञान",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Masters in Public Policy Governance and Anti Corruption Studies",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white_lXpghwU.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 71,
+ "fields": {
+  "order": 46,
+  "slug": "gandaki-2023_24-10",
+  "name_en": "Smriti Ranabhat",
+  "name_np": "स्मृति रानाभाट",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Graduate BALLB, Content Creator at Legal Nest, works for digital legal literacy, Fellow at Body and Data Legal Fellowship",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 72,
+ "fields": {
+  "order": 47,
+  "slug": "gandaki-2023_24-11",
+  "name_en": "Shristi Ojha",
+  "name_np": "श्रीस्ति ओझा",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelors in Public Health",
+  "education_np": "ब्याचुलर इन पब्लिक हेल्थ",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Nawalparasi East",
+  "address_np": "नवलपरासी (पूर्व)",
+  "current_engagement": "Undergraduate Bachelors in Public Health",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 73,
+ "fields": {
+  "order": 48,
+  "slug": "gandaki-2023_24-12",
+  "name_en": "Prejika Thapa",
+  "name_np": "प्रेजिका थापा",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Gandaki",
+  "province_np": "गण्डकी",
+  "cohort_en": "Gandaki 2023-24",
+  "cohort_np": "गण्डकी २०२३/२४",
+  "education_en": "Bachelors in Engineering",
+  "education_np": "ब्याचुलर इन इन्जिनियरिङ",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Kaski",
+  "address_np": "कास्की",
+  "current_engagement": "Undergraduate Bachelors in Geomatics Engineering",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/gandaki-2023_24-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 74,
+ "fields": {
+  "order": 49,
+  "slug": "koshi-2022_23-01",
+  "name_en": "Anu Gupta",
+  "name_np": "अनु गुप्ता",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BALLB",
+  "education_np": "बीए एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sunsari",
+  "address_np": "सुनसरी",
+  "current_engagement": "Volunteer for SRHR (Sexual and Reproductive Health and Rights) programs in Koshi Province",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 75,
+ "fields": {
+  "order": 50,
+  "slug": "koshi-2022_23-02",
+  "name_en": "Chandra kala Ghale",
+  "name_np": "चन्द्रकला घले",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BA",
+  "education_np": "बीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Shankhuwasabha",
+  "address_np": "सङ्खुवासभा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 76,
+ "fields": {
+  "order": 51,
+  "slug": "koshi-2022_23-03",
+  "name_en": "Nisha Kumari Thakur",
+  "name_np": "निशा कुमारी ठाकुर",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "B.Ed",
+  "education_np": "बीएड",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Morang",
+  "address_np": "मोरङ",
+  "current_engagement": "Member, Digo Bikas Institute",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 77,
+ "fields": {
+  "order": 52,
+  "slug": "koshi-2022_23-04",
+  "name_en": "Ranu Sah",
+  "name_np": "रनु साह",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BSW",
+  "education_np": "बीएसडब्ल्यू",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Morang",
+  "address_np": "मोरङ",
+  "current_engagement": "Program Associates, Bikalpa-an-Alternative",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 78,
+ "fields": {
+  "order": 53,
+  "slug": "koshi-2022_23-05",
+  "name_en": "Shrijana Ghimire",
+  "name_np": "श्रीजना घिमिरे",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sunsari",
+  "address_np": "सुनसरी",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 79,
+ "fields": {
+  "order": 54,
+  "slug": "koshi-2022_23-06",
+  "name_en": "Samiksha Khadka",
+  "name_np": "समिक्षा खड्का",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BSC",
+  "education_np": "बीएससी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Okhaldhunga",
+  "address_np": "ओखलढुङ्गा",
+  "current_engagement": "Tech entrepreneur and co-founder of Algorithm",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-06.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 80,
+ "fields": {
+  "order": 55,
+  "slug": "koshi-2022_23-07",
+  "name_en": "Deepak Shah",
+  "name_np": "दीपक शाह",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BSCIT",
+  "education_np": "बीएससी सीएसआईटी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sunsari",
+  "address_np": "सुनसरी",
+  "current_engagement": "Employee, Classic Tech Company",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white_fE1snqE.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 81,
+ "fields": {
+  "order": 56,
+  "slug": "koshi-2022_23-08",
+  "name_en": "Mandip shah",
+  "name_np": "मन्दिप शाह",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BE civil engineering",
+  "education_np": "बीई सिभिल इन्जिनियरिङ",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Morang",
+  "address_np": "मोरङ",
+  "current_engagement": "Koshi Province Coordinator at Digo Bikas Institute in Biratnagar",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 82,
+ "fields": {
+  "order": 57,
+  "slug": "koshi-2022_23-09",
+  "name_en": "Ayush Shrestha",
+  "name_np": "आयुष श्रेष्ठ",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BE",
+  "education_np": "बीई",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Morang",
+  "address_np": "मोरङ",
+  "current_engagement": "Founder and Manger, Kitli Bakery and Cafe House",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 83,
+ "fields": {
+  "order": 58,
+  "slug": "koshi-2022_23-10",
+  "name_en": "Binod Uprety",
+  "name_np": "विनोद उप्रेती",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BSC CSIT",
+  "education_np": "बीएससी सीएसआईटी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Jhapa",
+  "address_np": "झापा",
+  "current_engagement": "Employee, IT Company",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 84,
+ "fields": {
+  "order": 59,
+  "slug": "koshi-2022_23-11",
+  "name_en": "Chiranjibi Shah",
+  "name_np": "चिरन्जिवी शाह",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "CA",
+  "education_np": "सीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Morang",
+  "address_np": "मोरङ",
+  "current_engagement": "Banker, Machhapuchre Bank",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 85,
+ "fields": {
+  "order": 60,
+  "slug": "koshi-2022_23-12",
+  "name_en": "Rakesh Kumar Yadav",
+  "name_np": "राकेश कुमार यादव",
+  "year_en": "2022-23",
+  "year_np": "२०२२/२३",
+  "province_en": "Koshi",
+  "province_np": "कोशी",
+  "cohort_en": "Koshi 2022-23",
+  "cohort_np": "कोशी २०२२/२३",
+  "education_en": "BBS",
+  "education_np": "बीबीएस",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sunsari",
+  "address_np": "सुनसरी",
+  "current_engagement": "Co founder, Abhimat Media Network and Research Centre.",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/koshi-2022_23-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 86,
+ "fields": {
+  "order": 61,
+  "slug": "karnali-2021_22-01",
+  "name_en": "Sagar Pariyar",
+  "name_np": "सागर परियार",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Management",
+  "education_np": "व्यवस्थापन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Jumla",
+  "address_np": "जुम्ला",
+  "current_engagement": "Works as a journalist and has received various journalism awards",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 87,
+ "fields": {
+  "order": 62,
+  "slug": "karnali-2021_22-02",
+  "name_en": "Bhupendra DC",
+  "name_np": "भूपेन्द्र डीसी",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "BSC IT",
+  "education_np": "बीएससी आईटी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Salyan",
+  "address_np": "सल्यान",
+  "current_engagement": "Pursuing a Master’s in IT, Sweden",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/white_w7gxpOh.png"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 88,
+ "fields": {
+  "order": 63,
+  "slug": "karnali-2021_22-03",
+  "name_en": "Santosh Oli",
+  "name_np": "सन्तोष ओली",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Sociology",
+  "education_np": "समाजशास्त्र",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Rukum West",
+  "address_np": "पश्चिम रुकुम",
+  "current_engagement": "Elected ward member of Tribeni Rural Municipality, Rukum West and party secretary of Nepali Congress, Tribeni Rural Municipality Committee",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 89,
+ "fields": {
+  "order": 64,
+  "slug": "karnali-2021_22-04",
+  "name_en": "Subash Sapkota",
+  "name_np": "सुबास सपकोटा",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Management",
+  "education_np": "व्यवस्थापन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Surkhet",
+  "address_np": "सुर्खेत",
+  "current_engagement": "Works as a branch coordinator of Everest Wireless Network, Babiyachaur Branch",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 90,
+ "fields": {
+  "order": 65,
+  "slug": "karnali-2021_22-05",
+  "name_en": "Sharvan Kumar Acharya",
+  "name_np": "शरवन कुमार आचार्य",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Management",
+  "education_np": "व्यवस्थापन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Dailekh",
+  "address_np": "दैलेख",
+  "current_engagement": "Pursuing a Master of Business Studies; Runs an online tuition institute (registered under the Company Act)",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 91,
+ "fields": {
+  "order": 66,
+  "slug": "karnali-2021_22-06",
+  "name_en": "Govinda Khadka",
+  "name_np": "गोविन्द खड्का",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Law",
+  "education_np": "कानुन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Surkhet",
+  "address_np": "सुर्खेत",
+  "current_engagement": "ASI in Nepal Police",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-06.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 92,
+ "fields": {
+  "order": 67,
+  "slug": "karnali-2021_22-07",
+  "name_en": "Bhabana Sharma",
+  "name_np": "भावना शर्मा",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Management",
+  "education_np": "व्यवस्थापन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Rukum",
+  "address_np": "रुकुम",
+  "current_engagement": "Member of USYC 2024 and works as a journalist",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 93,
+ "fields": {
+  "order": 68,
+  "slug": "karnali-2021_22-08",
+  "name_en": "Prekshya Khanal",
+  "name_np": "प्रेक्ष्या खनाल",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Foresty",
+  "education_np": "वन विज्ञान",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Jajarkot",
+  "address_np": "जाजरकोट",
+  "current_engagement": "Engaged in various climate and environmental initiatives",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 94,
+ "fields": {
+  "order": 69,
+  "slug": "karnali-2021_22-09",
+  "name_en": "Binita Bogati",
+  "name_np": "विनिता बोगटी",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Law",
+  "education_np": "कानुन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Surkhet",
+  "address_np": "सुर्खेत",
+  "current_engagement": "Field Works at SOSEC Nepal",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 95,
+ "fields": {
+  "order": 70,
+  "slug": "karnali-2021_22-10",
+  "name_en": "Ojashwi Paudel",
+  "name_np": "ओजस्वी पौडेल",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Law",
+  "education_np": "कानुन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Surkhet",
+  "address_np": "सुर्खेत",
+  "current_engagement": "Completed BALLB from Midwest University",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 96,
+ "fields": {
+  "order": 71,
+  "slug": "karnali-2021_22-11",
+  "name_en": "Ekta Devktoa",
+  "name_np": "एकता देवकोटा",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Law",
+  "education_np": "कानुन",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Surkhet",
+  "address_np": "सुर्खेत",
+  "current_engagement": "Completed BALLB from Midwest University",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 97,
+ "fields": {
+  "order": 72,
+  "slug": "karnali-2021_22-12",
+  "name_en": "Priyambada Khadka",
+  "name_np": "प्रियम्बदा खड्का",
+  "year_en": "2021-22",
+  "year_np": "२०२१/२२",
+  "province_en": "Karnali",
+  "province_np": "कर्णाली",
+  "cohort_en": "Karnali 2021-22",
+  "cohort_np": "कर्णाली २०२१/२२",
+  "education_en": "Agriculture",
+  "education_np": "कृषि",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Dailekh",
+  "address_np": "दैलेख",
+  "current_engagement": "Pursuing a Master’s degree",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/karnali-2021_22-12.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 98,
+ "fields": {
+  "order": 73,
+  "slug": "madhesh-2023_24-01",
+  "name_en": "Aanand Kumar Sahani",
+  "name_np": "आनन्द कुमार साहनी",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Dhanusha",
+  "address_np": "धनुषा",
+  "current_engagement": "Co Founder, Economic Progress and Innovation Centre",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-01.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 99,
+ "fields": {
+  "order": 74,
+  "slug": "madhesh-2023_24-02",
+  "name_en": "Aasha Kumari Singh",
+  "name_np": "आशा कुमारी सिंह",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "MBA, HR",
+  "education_np": "एमबीए (मानव संशाधन)",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sarlahi",
+  "address_np": "सर्लाही",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-02.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 100,
+ "fields": {
+  "order": 75,
+  "slug": "madhesh-2023_24-03",
+  "name_en": "Anil Kumar Shah",
+  "name_np": "अनिल कुमार शाह",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "B.A.LL.B",
+  "education_np": "B.A.LL.B",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Parsa",
+  "address_np": "पर्सा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-03.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 101,
+ "fields": {
+  "order": 76,
+  "slug": "madhesh-2023_24-04",
+  "name_en": "Aayush Chauhan",
+  "name_np": "आयुष चौधरी",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "Masters in Climate Change and Development",
+  "education_np": "जलवायु परिवर्तन तथा विकासमा स्नातकोत्तर",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Dhanusha",
+  "address_np": "धनुषा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-04.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 102,
+ "fields": {
+  "order": 77,
+  "slug": "madhesh-2023_24-05",
+  "name_en": "Dipika Lama",
+  "name_np": "दिपिका लामा",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "BBA",
+  "education_np": "बीबीए",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Dhanusha",
+  "address_np": "धनुषा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-05.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 103,
+ "fields": {
+  "order": 78,
+  "slug": "madhesh-2023_24-06",
+  "name_en": "Hrithik Yadav",
+  "name_np": "हृतिक यादव",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "B.A.LL.B",
+  "education_np": "B.A.LL.B",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Bara",
+  "address_np": "बारा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-06.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 104,
+ "fields": {
+  "order": 79,
+  "slug": "madhesh-2023_24-07",
+  "name_en": "Kamlesh Kumar Thakur",
+  "name_np": "कमलेश कुमार ठाकुर",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "B.A.LL.B",
+  "education_np": "B.A.LL.B",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Mahottari",
+  "address_np": "महोत्तरी",
+  "current_engagement": "Journalist",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-07.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 105,
+ "fields": {
+  "order": 80,
+  "slug": "madhesh-2023_24-08",
+  "name_en": "Nishma Adhikari",
+  "name_np": "निष्मा अधिकारी",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "BBMLLB",
+  "education_np": "बीबीएम एलएलबी",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Sarlahi",
+  "address_np": "सर्लाही",
+  "current_engagement": "Legal Research Associate, Adhikari & Associates",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-08.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 106,
+ "fields": {
+  "order": 81,
+  "slug": "madhesh-2023_24-09",
+  "name_en": "Pratibha Sah",
+  "name_np": "प्रतिभा साह",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "BSc Ag",
+  "education_np": "बीएससी कृषि",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Siraha",
+  "address_np": "सिराहा",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-09.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 107,
+ "fields": {
+  "order": 82,
+  "slug": "madhesh-2023_24-10",
+  "name_en": "Sangita Kumari Ram",
+  "name_np": "संगीता कुमारी राम",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "BSW",
+  "education_np": "बीएसडब्ल्यू",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Rautahat",
+  "address_np": "रौतहट",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-10.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 108,
+ "fields": {
+  "order": 83,
+  "slug": "madhesh-2023_24-11",
+  "name_en": "Shyam Shah",
+  "name_np": "श्याम शाह",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "B.A.LL.B",
+  "education_np": "B.A.LL.B",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Rautahat",
+  "address_np": "रौतहट",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-11.jpg"
+ }
+},
+{
+ "model": "website.ypgfellowprofile",
+ "pk": 109,
+ "fields": {
+  "order": 84,
+  "slug": "madhesh-2023_24-12",
+  "name_en": "Puspa Das",
+  "name_np": "पुष्पा दास",
+  "year_en": "2023-24",
+  "year_np": "२०२३/२४",
+  "province_en": "Madhesh",
+  "province_np": "मधेश",
+  "cohort_en": "Madhesh 2023-24",
+  "cohort_np": "मधेश २०२३/२४",
+  "education_en": "B.Pharm",
+  "education_np": "बी फार्म",
+  "post_grad_en": "",
+  "post_grad_np": "",
+  "address_en": "Saptari",
+  "address_np": "सप्तरी",
+  "current_engagement": "Student",
+  "bio_en": "",
+  "bio_np": "",
+  "image": "ypg/fellow_profiles/pages/ypg/fellows/madhesh-2023_24-12.jpg"
+ }
+},
+{
+ "model": "website.ypgtestimonial",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "image": "ypg/testimonials/pages/ypg/testimonial-01.jpg"
+ }
+},
+{
+ "model": "website.ypgtestimonial",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "image": "ypg/testimonials/pages/ypg/testimonial-02.jpg"
+ }
+},
+{
+ "model": "website.ypgtestimonial",
+ "pk": 3,
+ "fields": {
+  "order": 3,
+  "image": "ypg/testimonials/pages/ypg/testimonial-03.jpg"
+ }
+},
+{
+ "model": "website.ypgtestimonial",
+ "pk": 4,
+ "fields": {
+  "order": 4,
+  "image": "ypg/testimonials/pages/ypg/testimonial-04.jpg"
+ }
+},
+{
+ "model": "website.ypgtestimonial",
+ "pk": 5,
+ "fields": {
+  "order": 5,
+  "image": "ypg/testimonials/pages/ypg/testimonial-05.jpg"
+ }
+},
+{
+ "model": "website.constitutionproject",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "name": "3D Exhibition",
+  "name_np": "थ्रीडी प्रदर्शनी",
+  "type": "Product",
+  "type_np": "उत्पादन",
+  "description": "Virtual exhibition replicating the physical exhibition of CON@11 held at PRC premises from Ashoj 1 - Ashoj 4, 2083",
+  "description_np": "पोखरा रिसर्च सेन्टर परिसरमा असोज १ – असोज ४, २०८३ मा आयोजित CON@11 को भौतिक प्रदर्शनीलाई भर्चुअल रूपमा प्रतिलिपि गरिएको प्रदर्शनी"
+ }
+},
+{
+ "model": "website.event",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "title": "Presentation Program on the Uddhyam Clinic Consolidated Report – 2083",
+  "image": "events/g9.jpg",
+  "display_date": "July 13, 2026",
+  "date_iso": "2026-07-13",
+  "day": "13",
+  "month": "Jul",
+  "year": "2026",
+  "type": "Report Launch",
+  "is_ongoing": false,
+  "description": "Co-organized by BPC and PRC, this presentation released a field-based study of SME sustainability and competitiveness across Pokhara, featuring a business-friendliness index framework and generating multi-stakeholder discussion on taxation, registration, and rent-regulation reform, with policy commitments from Pokhara Metropolitan City.",
+  "reach": "Business Promotion Center, PMC Economic Development Department, PRC, Lekhnath & Pokhara Chambers of Commerce, NYEF Pokhara Chapter, SME/business owners across tourism, hospitality, agriculture, manufacturing, construction",
+  "participants": "",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "title": "CON@10 Exhibition : Nepal's Constitution, A Decade of Democracy",
+  "image": "events/constitution/exhibition-1.jpg",
+  "display_date": "12th to 17th October 2025",
+  "date_iso": "2025-10-12",
+  "day": "12",
+  "month": "Oct",
+  "year": "2025",
+  "type": "Exhibition",
+  "is_ongoing": false,
+  "description": "A multi-stall interactive exhibition marking the tenth anniversary of Nepal's Constitution, tracing the constitution-making process through historical archives, multilingual displays, and comparative constitutional data across eleven thematic stalls, culminating in a petition for a Law Book Library in the Province Capital.",
+  "reach": "PRC, Gandaki Province Assembly, artists, government bureaucrats, province-level institutions, young professionals, tourists (94 participants)",
+  "participants": "94 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 4,
+ "fields": {
+  "order": 4,
+  "title": "Gandaki Agriculture Hackathon",
+  "image": "events/g4.jpg",
+  "display_date": "December 20, 2025",
+  "date_iso": "2025-12-20",
+  "day": "20",
+  "month": "Dec",
+  "year": "2025",
+  "type": "Hackathon",
+  "is_ongoing": false,
+  "description": "A PRC initiative convening students, farmers, and private-sector actors to co-create tech-enabled policy solutions for agricultural commercialization and governance, culminating in a pitch event and post-event mentorship producing policy-ready proposals for the provincial government.",
+  "reach": "PRC, The Asia Foundation Nepal, Ministry of Agriculture, Land Management and Cooperatives, five academic partner institutions, students, farmers, agri-business owners",
+  "participants": "",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 5,
+ "fields": {
+  "order": 5,
+  "title": "Multi-Stakeholder Dialogue on Digital Entrepreneurship, Remote Work Ecosystem, and IT Infrastructure Development in Gandaki Province",
+  "image": "events/g8.jpg",
+  "display_date": "August 12, 2026",
+  "date_iso": "2026-08-12",
+  "day": "12",
+  "month": "Aug",
+  "year": "2026",
+  "type": "Dialogue",
+  "is_ongoing": false,
+  "description": "Co-organized by NYEF and PRC, this NOIS-framework dialogue examined barriers to Gandaki's digital economy and the stalled Pokhara IT Park, drawing government, industry, and academic input toward a forthcoming policy advocacy report.",
+  "reach": "PRC, NYEF Pokhara Chapter, UNDP, Government of Gandaki Province, Pokhara Metropolitan City, Nepal Rastra Bank, FNCCI, GTEVT, IT companies, academia, media (112 participants)",
+  "participants": "112 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 6,
+ "fields": {
+  "order": 6,
+  "title": "International Women's Day Celebration — Women in Leadership & Entrepreneurship",
+  "image": "events/gallery/g4.jpg",
+  "display_date": "March 28 2026",
+  "date_iso": "2026-03-28",
+  "day": "28",
+  "month": "March",
+  "year": "2026",
+  "type": "Celebration",
+  "is_ongoing": false,
+  "description": "An interactive session at PRC's Fishtail Rooftop featuring women sharing their journeys through moderated experience-sharing, Q&A, and networking, celebrating women's leadership and resilience.",
+  "reach": "PRC, women entrepreneurs, KOPILA Nepal, Press Register, Pahilo Paila Nepal, young professionals (24 participants)",
+  "participants": "24 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 7,
+ "fields": {
+  "order": 7,
+  "title": "FCDO Regional Workshop : Understanding Youth Mobilization Around September 2025 Events and Its Implications for Political Change in Nepal",
+  "image": "events/gallery/g5.jpg",
+  "display_date": "June 23, 2026",
+  "date_iso": "2026-06-23",
+  "day": "23",
+  "month": "Jun",
+  "year": "2026",
+  "type": "Workshop",
+  "is_ongoing": false,
+  "description": "Commissioned by FCDO through PEI, with PRC as local logistics partner, this workshop examined why Gen Z-led mobilizations bypassed traditional intermediary structures through structured small-group discussions on institutional unaccountability and post-movement political dynamics.",
+  "reach": "PEI, FCDO, PRC, Pokhara Chamber of Commerce and Industry, regional civil society, youth/Gen Z civic actors (22 participants)",
+  "participants": "22 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 8,
+ "fields": {
+  "order": 8,
+  "title": "Open Door Weekend (4-Day Combined Program)",
+  "image": "events/open_door.JPG",
+  "display_date": "14th–17th January 2026",
+  "date_iso": "2026-01-14",
+  "day": "14",
+  "month": "Jan",
+  "year": "2026",
+  "type": "Programme",
+  "is_ongoing": false,
+  "description": "A flagship stakeholder engagement event combining static exhibits, dynamic dialogues, and digital outreach across four days: Ward 11 community inauguration, youth-focused sessions (social media debate, PAT orientation, Gen-Z policy dialogue), sector roundtables (trekking guides, tech professionals), and an inter-level women's leadership dialogue.",
+  "reach": "PRC, Ward 11 community, youth/Gen-Z civic actors, trekking guides, tech entrepreneurs and IT students, women MPAs and local women leaders",
+  "participants": "",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 11,
+ "fields": {
+  "order": 11,
+  "title": "Statistical Analysis of Province Assembly Events (PAE): A Dataset Approach - Stakeholder Consultation",
+  "image": "events/Statistical_Analysis_of_PAE_dataset.jpg",
+  "display_date": "June 1, 2026",
+  "date_iso": "2026-06-01",
+  "day": "01",
+  "month": "Jun",
+  "year": "2026",
+  "type": "Consultation",
+  "is_ongoing": false,
+  "description": "A closed-door roundtable bridging legislative data and academic interpretation, showcasing the PAE Dataset's methodology to postgraduate Economics students, with discussion on the dataset's governance implications and PRC's role as Gandaki's provincial think tank.",
+  "reach": "PRC, Prithvi Narayan Campus (Tribhuvan University), postgraduate MBS/MA Economics students, Gandaki Province Assembly",
+  "participants": "",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 13,
+ "fields": {
+  "order": 13,
+  "title": "Expert Consultation and Feedback Session on Knowledge-Based Transformation & Knowledge Economy",
+  "image": "events/1783003337419.jpg",
+  "display_date": "July 2, 2026",
+  "date_iso": "2026-07-02",
+  "day": "02",
+  "month": "Jul",
+  "year": "2026",
+  "type": "Consultation",
+  "is_ongoing": false,
+  "description": "Co-organized by PRC and GPTA, this consultation presented PRC's Knowledge Economy paper to government officials and academics, gathering feedback on the framework's feasibility ahead of finalization.",
+  "reach": "PRC, GPTA, Government of Gandaki Province officials, academicians, policy experts (30 participants)",
+  "participants": "30 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 16,
+ "fields": {
+  "order": 16,
+  "title": "Province Assembly Traineeship (PAT) : Capacity Building Programme for Gandaki Provincial Assembly",
+  "image": "events/constitution/c1.jpg",
+  "display_date": "March 16 – June 16, 2026",
+  "date_iso": "2026-03-16",
+  "day": "16",
+  "month": "Mar",
+  "year": "2026",
+  "type": "Capacity Building",
+  "is_ongoing": false,
+  "description": "A capacity-building programme placed four trained youth research assistants with MPAs to strengthen accountability questioning, bill drafting, and evidence-based debate, marking the first time Assembly questions were prepared with dedicated research support.",
+  "reach": "Gandaki Province Assembly, PRC Province Cell, youth trainees/research assistants",
+  "participants": "",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 17,
+ "fields": {
+  "order": 0,
+  "title": "Pokhara Dialogue Series V1S1: Technology, Talent and Research in Nepa",
+  "image": "events/IMG.png",
+  "display_date": "17 August 2026",
+  "date_iso": "2026-08-17",
+  "day": "17",
+  "month": "Aug",
+  "year": "2026",
+  "type": "Dialogue",
+  "is_ongoing": false,
+  "description": "Er. Bikram Adhikari, an engineer and AI professional based in Silicon Valley, joined PRC for a conversation on brain drain, the gap between academia and the job market, and how AI is changing work. The PRC team also sought his feedback on the Province Information and Engagement Portal (PIPE), including its research design and a realistic six-month scope. The session ended with a proposal for a Pokhara Reading Group to encourage critical thinking and discussion",
+  "reach": "",
+  "participants": "11 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 18,
+ "fields": {
+  "order": 0,
+  "title": "Pokhara Dialogue Series V1S2: Strengthening Think Tanks and Provincial Governanc",
+  "image": "events/IMG_8362_1.JPG",
+  "display_date": "20 August 2026",
+  "date_iso": "2026-08-20",
+  "day": "20",
+  "month": "Aug",
+  "year": "2026",
+  "type": "Dialogue",
+  "is_ongoing": false,
+  "description": "Dr. Kuldeep Niraula, a researcher and Fulbright scholar with experience in US government, NGO and think tank work, discussed how think tanks can build stakeholder relationships, choose research priorities and communicate with the public through simple, engaging narratives. The conversation also covered how to shift public perception of provincial government and what it will take to put constitutionally guaranteed provincial powers into practice",
+  "reach": "",
+  "participants": "11 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 19,
+ "fields": {
+  "order": 0,
+  "title": "The Cost of Politics",
+  "image": "events/Cost_of_Politics.jpg",
+  "display_date": "October 1, 2026",
+  "date_iso": "2026-10-01",
+  "day": "01",
+  "month": "Oct",
+  "year": "2026",
+  "type": "Programme",
+  "is_ongoing": false,
+  "description": "The Pokhara Research Centre (PRC), with the support of the Westminster Foundation for Democracy (WFD), organised a discussion on “The Cost of Politics,” drawing on findings from WFD’s research on the financial costs of political participation in Nepal at Hotel Batika, Pokhara.\r\nThe session featured a presentation by Mr. Dinesh Wagle, followed by reflections from Dr. Deepak Prakash Bhatt, former Member of Parliament, House of Representatives. Participants actively engaged in the discussion, sharing perspectives on the financial barriers to political participation, inclusive representation, and Nepal’s political and electoral processes.",
+  "reach": "WFD, Youth leaders, Political parties representative, Media (Samadhan and Yatrasamachar), PMC - Youth Council",
+  "participants": "23 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.event",
+ "pk": 20,
+ "fields": {
+  "order": 0,
+  "title": "Developers Community Meetup Pokhara",
+  "image": "events/Developers_committee.jpg",
+  "display_date": "Aug 22, 2026",
+  "date_iso": "2026-08-22",
+  "day": "22",
+  "month": "Aug",
+  "year": "2026",
+  "type": "Programme",
+  "is_ongoing": false,
+  "description": "Facilitated interactive program at PRC where  Developers Community Pokhara, had an insightful and interactive session with Bikram Adhikari, Founder of Nētly.AI & The Reading Revellers.\r\nDiscussion around:\r\nWhy should developers read?\r\nWhat & how should we read?\r\nWhat can we build from what we read?",
+  "reach": "Tech companies, Tech leaders, Students, Tech Expert",
+  "participants": "17 participants",
+  "link": ""
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 1,
+ "fields": {
+  "order": 0,
+  "title": "Pre-Budget Discussion 2081/82 Agriculture Budget",
+  "partner": "TAF",
+  "wing": "PG:Ministry of Economic Affairs",
+  "year": "2025",
+  "cover": "publications/pub-01.jpg",
+  "link": "https://drive.google.com/file/d/1hHSW5-I22TWc_CPic3WegWSaNkNAzidT/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 2,
+ "fields": {
+  "order": 0,
+  "title": "Taxation & Compliance Ecosystem for Small & Medium Enterprise Gandaki Province",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Economic Affairs",
+  "year": "2025",
+  "cover": "publications/pub-02.jpg",
+  "link": "https://drive.google.com/file/d/1h738f9KsG8FcH8cgpF4CzhZnoE5fmYNk/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 3,
+ "fields": {
+  "order": 0,
+  "title": "Building Bridges- Youth Voices of Koshi's Policy Discourse",
+  "partner": "US Embassy Kathmandu",
+  "wing": "PA:Koshi",
+  "year": "2025",
+  "cover": "publications/pub-03.jpg",
+  "link": "https://drive.google.com/file/d/1xeVmktO4Jqo38sylmjSdEe0KICTYyJ3J/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 4,
+ "fields": {
+  "order": 0,
+  "title": "उद्यम क्लिनिक",
+  "partner": "PMC",
+  "wing": "IGR:PMC",
+  "year": "2025",
+  "cover": "publications/pub-04.jpg",
+  "link": "https://drive.google.com/file/d/1Jk5rwZqAC8mPpUepsjK-hmEf8IsoT4ST/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 5,
+ "fields": {
+  "order": 0,
+  "title": "Gandaki Province Budget Analysis FY-2023/24",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Economic Affairs",
+  "year": "2025",
+  "cover": "publications/pub-05.jpg",
+  "link": "https://drive.google.com/file/d/1Psqz_QbLiZ5hntHwBePzT6TYRg2ZZs2o/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 6,
+ "fields": {
+  "order": 0,
+  "title": "गण्डकी प्रदेश दलित अधिकार तथा सशक्तिकरण सम्बन्धमा व्यवस्था गर्न बनेको विधेयक अध्ययन तथा राय प्रतिवेदन",
+  "partner": "UNDP",
+  "wing": "PA:Gandaki",
+  "year": "2025",
+  "cover": "publications/pub-06.jpg",
+  "link": "https://drive.google.com/file/d/1N6xH1X5Aqb72HYFk7UU49SW2AwHywZ1T/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 7,
+ "fields": {
+  "order": 0,
+  "title": "Navigating Oppurtunities: Future of key tourism sector in gandaki province",
+  "partner": "TAF",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2024",
+  "cover": "publications/pub-07.jpg",
+  "link": "https://drive.google.com/file/d/1wjn_DkOmht_OGbydShNSWmIBhyM2MZaH/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 8,
+ "fields": {
+  "order": 0,
+  "title": "Agriculture and Sub-sector",
+  "partner": "TAF",
+  "wing": "PG:Ministry of Land Management, Agriculture, Cooperatives and Poverty Alleviation",
+  "year": "2024",
+  "cover": "publications/pub-08.jpg",
+  "link": "https://drive.google.com/file/d/1JcXhTnCR34I7BOFTG9eczt3epQZ_OS4B/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 9,
+ "fields": {
+  "order": 0,
+  "title": "Market system analysis of the mechanization subsidy program in the Gandaki Province ꞉ A case of mini tiller subsidy program in Pokhara Metropolitan City (English)",
+  "partner": "TAF",
+  "wing": "PG:Ministry of Land Management, Agriculture, Cooperatives and Poverty Alleviation",
+  "year": "2024",
+  "cover": "publications/pub-09.jpg",
+  "link": "https://drive.google.com/file/d/1sQLm6Godm5JFFBjLsfNyKcXSEFjllnXV/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 10,
+ "fields": {
+  "order": 0,
+  "title": "Overseeing Gandaki Province Budget: A Primer",
+  "partner": "CIPE",
+  "wing": "PA:Gandaki",
+  "year": "2023",
+  "cover": "publications/pub-10.jpg",
+  "link": "https://drive.google.com/file/d/1uttaCJ_8WkrSF_6TsdaD-PJK70qIXwX3/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 11,
+ "fields": {
+  "order": 0,
+  "title": "De-mystifying Agriculture Act of Pokhara Metropolitan City (Nepali)",
+  "partner": "ATLAS",
+  "wing": "IGR:PMC",
+  "year": "2023",
+  "cover": "publications/pub-11.jpg",
+  "link": "https://drive.google.com/file/d/1j_8vJVKtg39uV2l2tASjIq6i8OzSaBET/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 12,
+ "fields": {
+  "order": 0,
+  "title": "Streamlining Private Firm Registration: A study of Gandaki Province",
+  "partner": "ATLAS NETWORK",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2023",
+  "cover": "publications/pub-12.jpg",
+  "link": "https://drive.google.com/file/d/1-rf6CTHuWKMwoAvJPt23ygn75_OeWbMg/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 13,
+ "fields": {
+  "order": 0,
+  "title": "Gandaki Province Pre-Budget Round Table Discussion Fiscal Year 2023/24",
+  "partner": "Centre for International Private Entreprieses",
+  "wing": "PA:OCMCM",
+  "year": "2023",
+  "cover": "publications/pub-13.jpg",
+  "link": "https://drive.google.com/file/d/1p5Sf7IM8TVpfJsTAMD5Wc7op1wUbv10C/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 14,
+ "fields": {
+  "order": 0,
+  "title": "De-mystifying Agriculture Act of Pokhara Metropolitan City (English)",
+  "partner": "ATLAS",
+  "wing": "IGR:PMC",
+  "year": "2023",
+  "cover": "publications/pub-14.jpg",
+  "link": "https://drive.google.com/file/d/1l5eZqPhccE8fhSBr6LW21t77WXVqcxNi/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 15,
+ "fields": {
+  "order": 0,
+  "title": "गण्डकी प्रदेशको वनलाई नियमन र व्यवस्थापन गर्न बनेको विधेयकको अध्ययन तथा राय प्रतिवेदन",
+  "partner": "UNDP",
+  "wing": "PG:Ministry of Forests and Environment",
+  "year": "2023",
+  "cover": "publications/pub-15.jpg",
+  "link": "https://drive.google.com/file/d/1YhZkYEx-PAMVPm_P_rbx4jkWDP2r3xfO/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 16,
+ "fields": {
+  "order": 0,
+  "title": "Policy Brief on Gandaki Province Tourism Act, 2022 (English)",
+  "partner": "ATLAS",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2022",
+  "cover": "publications/pub-16.jpg",
+  "link": "https://drive.google.com/file/d/15TYGziJkGz9Zt3QqFpb3Iw4o5LrUct1B/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 17,
+ "fields": {
+  "order": 0,
+  "title": "Policy Brief on Province Industrial Enterprise Act, 2019 Gandaki Province (Nepali)",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2022",
+  "cover": "publications/pub-17.jpg",
+  "link": "https://drive.google.com/file/d/1BXwRxZsywCFUNr2kTgGtF-TmZh9vSuIY/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 18,
+ "fields": {
+  "order": 0,
+  "title": "Policy Brief on Gandaki Province Tourism Act, 2022 (Nepali)",
+  "partner": "ATLAS",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2022",
+  "cover": "publications/pub-18.jpg",
+  "link": "https://drive.google.com/file/d/1bVknhcaBGc4OpXrfmWoJeuvil7AhRl05/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 19,
+ "fields": {
+  "order": 0,
+  "title": "Market system analysis of the mechanization subsidy program in the Gandaki Province ꞉ A case of mini tiller subsidy program in Pokhara Metropolitan City (Nepali)",
+  "partner": "TAF",
+  "wing": "PG:Ministry of Land Management, Agriculture, Cooperatives and Poverty Alleviation",
+  "year": "2024",
+  "cover": "publications/pub-19.jpg",
+  "link": "https://drive.google.com/file/d/1uVp3khXG4-btT0DQ1LDZ-Ip9KV7fzFRK/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 20,
+ "fields": {
+  "order": 0,
+  "title": "MCSIs in Gandaki Province: The Province-Level Policy Instruments and Challenges Facing Them",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2024",
+  "cover": "publications/pub-20.jpg",
+  "link": "https://drive.google.com/file/d/1BXDrp2JyV-NCqa2XsLsVqXbGS7c0tYnA/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 21,
+ "fields": {
+  "order": 0,
+  "title": "Industry Sector in Gandaki Province",
+  "partner": "TAF",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2024",
+  "cover": "publications/pub-21.jpg",
+  "link": "https://drive.google.com/file/d/1y3tHpW-L1aRQt_lD72Seesw0KVj7lexD/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 22,
+ "fields": {
+  "order": 0,
+  "title": "Mid-Term Budget Review: Fiscal Year 2080/81",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Economic Affairs",
+  "year": "2024",
+  "cover": "publications/pub-22.jpg",
+  "link": "https://drive.google.com/file/d/13eMcXHQv-eKa743fTDYDDDG1J81WyACN/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 23,
+ "fields": {
+  "order": 0,
+  "title": "Gandaki Province Budget Summary FY-2024/25",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Economic Affairs",
+  "year": "2024",
+  "cover": "publications/pub-23.jpg",
+  "link": "https://drive.google.com/file/d/1R-io0es583_qOfnfPKUWgT4t1dsAmatR/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 24,
+ "fields": {
+  "order": 0,
+  "title": "Provincial Assembly Procedures A Primer",
+  "partner": "Institutional",
+  "wing": "PA:Gandaki",
+  "year": "2023",
+  "cover": "publications/pub-24.jpg",
+  "link": "https://drive.google.com/file/d/1lGHM7s80DO9gnNntNihMSdCQdIJvb7LM/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 25,
+ "fields": {
+  "order": 0,
+  "title": "Budget Analysis of Gandaki Province",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Economic Affairs",
+  "year": "2023",
+  "cover": "publications/pub-25.jpg",
+  "link": "https://drive.google.com/file/d/13537Z6Ir2cLgGVCaUj6U8wdbk9cFEEHP/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 26,
+ "fields": {
+  "order": 0,
+  "title": "Agribusiness Promotion Act of PMC",
+  "partner": "ATLAS",
+  "wing": "IGR:PMC",
+  "year": "2023",
+  "cover": "publications/pub-26.jpg",
+  "link": "https://drive.google.com/file/d/1jFzoiE459u1Wcq35A9saVsCLMMgefxPV/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 27,
+ "fields": {
+  "order": 0,
+  "title": "The Koshi Province Primer",
+  "partner": "Institutional",
+  "wing": "PA:Koshi",
+  "year": "2023",
+  "cover": "publications/pub-27.jpg",
+  "link": "https://drive.google.com/file/d/1pzqprTbcyNK-9bfJZ8xFskhvlDxpM717/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 28,
+ "fields": {
+  "order": 0,
+  "title": "Analyzing Motor Vehicle Tax in Gandaki Province",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Physical Infrastructure and Transport Management",
+  "year": "2023",
+  "cover": "publications/pub-28.jpg",
+  "link": "https://drive.google.com/file/d/1Qk6usnO7d22X0fpF0Z_cw45kvNivbXQ_/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 29,
+ "fields": {
+  "order": 0,
+  "title": "Policy Brief on Province Industrial Enterprise Act, 2019 Gandaki Province (English)",
+  "partner": "CIPE",
+  "wing": "PG:Ministry of Industry, Tourism, Commerce and Supplies",
+  "year": "2022",
+  "cover": "publications/pub-29.jpg",
+  "link": "https://drive.google.com/file/d/1wfv3sf32WjcwRwZsZrI4CfvyNcdH6Am_/view?usp=share_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 30,
+ "fields": {
+  "order": 0,
+  "title": "Pokhara Metropolitan City’s Smart City Initiatives : Turning Ambitions Into Reality Pokhara",
+  "partner": "ATLAS NETWORK",
+  "wing": "IGR:PMC",
+  "year": "2021",
+  "cover": "publications/pub-30.jpg",
+  "link": "https://drive.google.com/file/d/1pLf943zJqj732Ugw9flZkeqcQ_hXwbwZ/view?usp=drive_link"
+ }
+},
+{
+ "model": "website.publication",
+ "pk": 31,
+ "fields": {
+  "order": 0,
+  "title": "Strategic Approach To Solve Parking Problem In Pokhara",
+  "partner": "ATLAS NETWORK",
+  "wing": "IGR:PMC",
+  "year": "2021",
+  "cover": "publications/pub-31.jpg",
+  "link": "https://drive.google.com/file/d/1z0FKsHTJEPdh7HVY5SwcWmtq7EVe_kNC/view?usp=share_link"
+ }
+},
+{
+ "model": "website.blogpost",
+ "pk": 1,
+ "fields": {
+  "order": 0,
+  "title": "Reflecting on The Borrowed Futures of Nepal's Foreign Policy",
+  "title_np": "नेपालको परराष्ट्र नीतिको उधारो भविष्यबारे चिन्तन",
+  "author": "Research Team",
+  "author_np": "अनुसन्धान टिम",
+  "date": "2026-08-20",
+  "date_np": "अगस्ट २०, २०२६"
+ }
+},
+{
+ "model": "website.blogpost",
+ "pk": 2,
+ "fields": {
+  "order": 0,
+  "title": "From AIT to Global Impact: A Journey in Gender and Climate Leadership",
+  "title_np": "एआईटीदेखि विश्वस्तरीय प्रभावसम्म: लैङ्गिकता र जलवायु नेतृत्वको यात्रा",
+  "author": "Office of Communications",
+  "author_np": "सञ्चार महाशाखा",
+  "date": "2025-12-15",
+  "date_np": "डिसेम्बर १५, २०२५"
+ }
+},
+{
+ "model": "website.blogpost",
+ "pk": 3,
+ "fields": {
+  "order": 0,
+  "title": "Climate change: What Nepal's local leaders think about it",
+  "title_np": "जलवायु परिवर्तन: नेपालका स्थानीय नेतृत्वकर्ताहरू के सोच्छन्?",
+  "author": "Research Associate",
+  "author_np": "अनुसन्धान सहायक",
+  "date": "2025-10-29",
+  "date_np": "अक्टोबर २९, २०२५"
+ }
+},
+{
+ "model": "website.blogpost",
+ "pk": 4,
+ "fields": {
+  "order": 0,
+  "title": "On the Evolution of Nepali Civil Society: Co-Opted or Still Catalyzing Change?",
+  "title_np": "नेपाली नागरिक समाजको विकासक्रम: उपयोग भयो वा अझै परिवर्तनका कटुस?",
+  "author": "Researcher",
+  "author_np": "अनुसन्धानकर्ता",
+  "date": "2025-08-04",
+  "date_np": "अगस्ट ४, २०२५"
+ }
+},
+{
+ "model": "website.blogpost",
+ "pk": 5,
+ "fields": {
+  "order": 0,
+  "title": "Evidence-Based Policy Making in Nepal: Challenges and the Way Forward",
+  "title_np": "नेपालमा प्रमाण–आधारित नीति निर्माण: चुनौती र अगाडिको बाटो",
+  "author": "Program Coordinator",
+  "author_np": "कार्यक्रम संयोजक",
+  "date": "2024-04-29",
+  "date_np": "अप्रिल २९, २०२४"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 1,
+ "fields": {
+  "order": 1,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g1.jpg",
+  "alt": "g1"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 2,
+ "fields": {
+  "order": 2,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g2.jpg",
+  "alt": "g2"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 3,
+ "fields": {
+  "order": 3,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g3.jpg",
+  "alt": "g3"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 4,
+ "fields": {
+  "order": 4,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g4.jpg",
+  "alt": "g4"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 5,
+ "fields": {
+  "order": 5,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g5.jpg",
+  "alt": "g5"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 6,
+ "fields": {
+  "order": 6,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g6.jpg",
+  "alt": "g6"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 7,
+ "fields": {
+  "order": 7,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g7.jpg",
+  "alt": "g7"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 8,
+ "fields": {
+  "order": 8,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g8.jpg",
+  "alt": "g8"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 9,
+ "fields": {
+  "order": 9,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g9.jpg",
+  "alt": "g9"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 10,
+ "fields": {
+  "order": 10,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g10.jpg",
+  "alt": "g10"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 11,
+ "fields": {
+  "order": 11,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g11.jpg",
+  "alt": "g11"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 12,
+ "fields": {
+  "order": 12,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g12.jpg",
+  "alt": "g12"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 13,
+ "fields": {
+  "order": 13,
+  "section": "home_gallery",
+  "image": "gallery/gallery/g13.jpg",
+  "alt": "g13"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 14,
+ "fields": {
+  "order": 1,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c1.jpg",
+  "alt": "c1"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 15,
+ "fields": {
+  "order": 2,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c2.jpg",
+  "alt": "c2"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 16,
+ "fields": {
+  "order": 3,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c3.jpg",
+  "alt": "c3"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 17,
+ "fields": {
+  "order": 4,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c4.jpg",
+  "alt": "c4"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 18,
+ "fields": {
+  "order": 5,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c5.jpg",
+  "alt": "c5"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 19,
+ "fields": {
+  "order": 6,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c6.jpg",
+  "alt": "c6"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 20,
+ "fields": {
+  "order": 7,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c7.jpg",
+  "alt": "c7"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 21,
+ "fields": {
+  "order": 8,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c8.jpg",
+  "alt": "c8"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 22,
+ "fields": {
+  "order": 9,
+  "section": "constitution_gallery",
+  "image": "gallery/constitution/c9.jpg",
+  "alt": "c9"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 24,
+ "fields": {
+  "order": 1,
+  "section": "hero_home",
+  "image": "gallery/pages/home/home-02.jpg",
+  "alt": "home-02"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 26,
+ "fields": {
+  "order": 3,
+  "section": "hero_home",
+  "image": "gallery/pages/home/home-04.jpg",
+  "alt": "home-04"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 27,
+ "fields": {
+  "order": 4,
+  "section": "hero_home",
+  "image": "gallery/pages/home/home-05.jpg",
+  "alt": "home-05"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 28,
+ "fields": {
+  "order": 8,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-01.jpg",
+  "alt": "institution-01"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 29,
+ "fields": {
+  "order": 1,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-02.jpg",
+  "alt": "institution-02"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 30,
+ "fields": {
+  "order": 7,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-03.jpg",
+  "alt": "institution-03"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 31,
+ "fields": {
+  "order": 6,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-04.jpg",
+  "alt": "institution-04"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 32,
+ "fields": {
+  "order": 5,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-05.jpg",
+  "alt": "institution-05"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 33,
+ "fields": {
+  "order": 6,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-06.jpg",
+  "alt": "institution-06"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 34,
+ "fields": {
+  "order": 7,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-07.jpg",
+  "alt": "institution-07"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 35,
+ "fields": {
+  "order": 8,
+  "section": "hero_institution",
+  "image": "gallery/pages/institution/institution-08.jpg",
+  "alt": "institution-08"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 36,
+ "fields": {
+  "order": 1,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-01.jpg",
+  "alt": "province-01"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 37,
+ "fields": {
+  "order": 2,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-02.jpg",
+  "alt": "province-02"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 38,
+ "fields": {
+  "order": 3,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-03.jpg",
+  "alt": "province-03"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 39,
+ "fields": {
+  "order": 4,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-04.jpg",
+  "alt": "province-04"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 40,
+ "fields": {
+  "order": 5,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-05.jpg",
+  "alt": "province-05"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 41,
+ "fields": {
+  "order": 6,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-06.jpg",
+  "alt": "province-06"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 42,
+ "fields": {
+  "order": 7,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-07.jpg",
+  "alt": "province-07"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 43,
+ "fields": {
+  "order": 8,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-08.jpg",
+  "alt": "province-08"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 44,
+ "fields": {
+  "order": 9,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-09.jpg",
+  "alt": "province-09"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 45,
+ "fields": {
+  "order": 10,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-10.jpg",
+  "alt": "province-10"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 46,
+ "fields": {
+  "order": 11,
+  "section": "hero_province",
+  "image": "gallery/pages/province/province-11.jpg",
+  "alt": "province-11"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 47,
+ "fields": {
+  "order": 1,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-01.jpg",
+  "alt": "constitution-01"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 48,
+ "fields": {
+  "order": 2,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-02.jpg",
+  "alt": "constitution-02"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 49,
+ "fields": {
+  "order": 3,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-03.jpg",
+  "alt": "constitution-03"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 50,
+ "fields": {
+  "order": 4,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-04.jpg",
+  "alt": "constitution-04"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 51,
+ "fields": {
+  "order": 5,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-05.jpg",
+  "alt": "constitution-05"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 52,
+ "fields": {
+  "order": 6,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-06.jpg",
+  "alt": "constitution-06"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 53,
+ "fields": {
+  "order": 7,
+  "section": "hero_constitution",
+  "image": "gallery/pages/constitution/constitution-07.jpg",
+  "alt": "constitution-07"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 54,
+ "fields": {
+  "order": 1,
+  "section": "hero_events",
+  "image": "gallery/events-banner/banner-1.jpg",
+  "alt": "banner-1"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 55,
+ "fields": {
+  "order": 2,
+  "section": "hero_events",
+  "image": "gallery/events-banner/banner-2.jpg",
+  "alt": "banner-2"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 56,
+ "fields": {
+  "order": 3,
+  "section": "hero_events",
+  "image": "gallery/events-banner/banner-3.jpg",
+  "alt": "banner-3"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 57,
+ "fields": {
+  "order": 4,
+  "section": "hero_events",
+  "image": "gallery/events-banner/banner-4.jpg",
+  "alt": "banner-4"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 58,
+ "fields": {
+  "order": 1,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-01.jpg",
+  "alt": "fellows-01"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 59,
+ "fields": {
+  "order": 2,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-02.jpg",
+  "alt": "fellows-02"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 60,
+ "fields": {
+  "order": 3,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-03.jpg",
+  "alt": "fellows-03"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 61,
+ "fields": {
+  "order": 4,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-07.jpg",
+  "alt": "fellows-07"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 62,
+ "fields": {
+  "order": 5,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-08.jpg",
+  "alt": "fellows-08"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 63,
+ "fields": {
+  "order": 6,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-09.jpg",
+  "alt": "fellows-09"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 64,
+ "fields": {
+  "order": 7,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-12.jpg",
+  "alt": "fellows-12"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 65,
+ "fields": {
+  "order": 8,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-13.jpg",
+  "alt": "fellows-13"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 66,
+ "fields": {
+  "order": 9,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-16.jpg",
+  "alt": "fellows-16"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 67,
+ "fields": {
+  "order": 10,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-17.jpg",
+  "alt": "fellows-17"
+ }
+},
+{
+ "model": "website.galleryphoto",
+ "pk": 68,
+ "fields": {
+  "order": 11,
+  "section": "hero_ypg",
+  "image": "gallery/pages/ypg/fellows-18.jpg",
+  "alt": "fellows-18"
+ }
+}
+]

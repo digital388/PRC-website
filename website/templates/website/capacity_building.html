@@ -1,0 +1,168 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}Capacity Building Program | Pokhara Research Centre{% endblock %}
+
+{% block meta_description %}PRC's Capacity Building Program focuses on skill development, bill analysis, mentorship and inter-provincial exchange for women MPs and MPs from marginalized groups of the Gandaki Provincial Assembly.{% endblock %}
+
+{% block content %}
+<!-- Page hero (rotating photo band) -->
+<section class="hero compact photo-hero">
+    <div class="hero-slides" aria-hidden="true">
+        {% for photo in province_photos %}
+        <div class="hero-slide" style="background-image:url('{{ photo }}')"></div>
+        {% endfor %}
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <h1 class="hero-line"><span class="nowrap en">Capacity Building Program</span><span class="nowrap np">क्षमता अभिवृद्धि कार्यक्रम</span></h1>
+    </div>
+</section>
+
+<!-- Overview -->
+<section class="section">
+    <div class="container">
+        <div class="about-split">
+            <div class="bilingual">
+                <div class="en">
+                    <h2><span class="en">Building Capable Legislators</span><span class="np">सक्षम विधायक निर्माण</span></h2>
+                    <p>PRC's Capacity Building Program works with the Gandaki Provincial Assembly to strengthen women MPs and MPs from marginalized groups. Delivered under UNDP Nepal's Parliament Support Project (PSP), the programme concentrates on four things that make a legislator effective: the skills to do the job, the analysis that improves bills, sustained mentorship, and exchange with peers across provinces.</p>
+                </div>
+                <div class="np">
+                    <h2>सक्षम विधायक निर्माण</h2>
+                    <p>पोखरा रिसर्च सेन्टरको क्षमता अभिवृद्धि कार्यक्रमले गण्डकी प्रदेश सभाका महिला सांसद तथा अल्पसङ्ख्यक समुदायका सांसदहरूको क्षमता सुदृढ गर्दै आएको छ। संयुक्त राष्ट्रसंघीय विकास कार्यक्रम (UNDP) नेपालको संसदीय सहयोग परियोजना (PSP) अन्तर्गत सञ्चालित यस कार्यक्रमले सांसदलाई प्रभावकारी बनाउने चार पक्षमा केन्द्रित छ: आवश्यक सीप, विधेयक सुधार गर्ने विश्लेषण, निरन्तर मार्गदर्शन र प्रदेशहरूबीचको अनुभव आदानप्रदान।</p>
+                </div>
+            </div>
+            <div class="about-media">
+                <img class="about-photo" src="{% static 'website/images/pages/province/province-02.jpg' %}" alt="Capacity building program with provincial assembly members" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Four focus areas -->
+<section class="section alt">
+    <div class="container">
+        <h2><span class="en">What We Focus On</span><span class="np">हाम्रो केन्द्रबिन्दु</span></h2>
+
+        <div class="cb-focus">
+            <article class="cb-focus-item" id="skill-development">
+                <div>
+                    <h3><span class="en">Skill Development</span><span class="np">सीप विकास</span></h3>
+                    <p>Need-based, expert-led trainings that give MPs the practical skills to legislate, scrutinise budgets and represent their constituents with confidence. Training topics are chosen from a rapid need assessment and the Assembly's live agenda.</p>
+                    <ul class="cb-points">
+                        <li>Two half-day, non-residential trainings in each programme cycle</li>
+                        <li>At least 25 MPs per event, with gender-balanced experts and participants</li>
+                        <li>Thematic and technical skills: law making, oversight, representation and emerging policy issues</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="cb-focus-item" id="bill-analysis">
+                <div>
+                    <h3><span class="en">Bill Analysis</span><span class="np">विधेयक विश्लेषण</span></h3>
+                    <p>Research support for parliamentary committees so that laws are reviewed on evidence, not assumption. PRC mobilises thematic experts to scrutinise a selected bill and to analyse policy from a gender and human rights (GHRIA) perspective.</p>
+                    <ul class="cb-points">
+                        <li>Review of amendment notices, gaps and drafting issues in the selected bill</li>
+                        <li>Alignment with the Constitution of Nepal, federal laws and judicial precedents</li>
+                        <li>Consultations with CSOs, research institutions and MPs, followed by a sharing meeting and a final review report</li>
+                        <li>One policy brief analysing a provincial policy or bill from a GHRIA perspective</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="cb-focus-item" id="mentorship">
+                <div>
+                    <h3><span class="en">Mentorship</span><span class="np">मार्गदर्शन</span></h3>
+                    <p>Sustained group mentoring for a small cohort of MPs, built around the issues their province actually faces. Rather than one-off events, the programme supports the same mentees across a series of sessions and tracks their progress.</p>
+                    <ul class="cb-points">
+                        <li>Up to 10 mentees selected from the need assessment</li>
+                        <li>Five group sessions of 2–3 hours on province-specific issues</li>
+                        <li>Expert-facilitated discussions, exercises and peer problem-solving</li>
+                        <li>Progress tracked after every session, with case studies capturing change</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="cb-focus-item" id="inter-province">
+                <div>
+                    <h3><span class="en">Inter-Province Exchange</span><span class="np">अन्तर-प्रदेश अनुभव आदानप्रदान</span></h3>
+                    <p>A community of practice that connects mentees across Nepal's provinces, so that MPs learn from peers facing similar challenges and can advocate together on shared agendas.</p>
+                    <ul class="cb-points">
+                        <li>Virtual community-of-practice meetings, with each partner leading a session in turn</li>
+                        <li>Participation in partner-led sessions from other provinces</li>
+                        <li>An in-person, 2-night/3-day inter-provincial sharing programme</li>
+                        <li>Up to 10 participants from each provincial assembly, building a lasting peer network</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Programme editions -->
+<section class="section">
+    <div class="container">
+        <h2><span class="en">Programme Editions</span><span class="np">कार्यक्रमका संस्करणहरू</span></h2>
+        <div class="cb-editions">
+            <article class="cb-edition">
+                <span class="cb-year">2025</span>
+                <h3><span class="en">Capacity Building Support &amp; Research in Law Making</span><span class="np">क्षमता अभिवृद्धि तथा कानुन निर्माणमा अनुसन्धान</span></h3>
+                <p class="cb-period">11 March – 31 October 2025</p>
+                <ul>
+                    <li>2 skill development trainings</li>
+                    <li>4–5 group mentoring sessions</li>
+                    <li>1 bill review and 1 policy analysis (GHRIA)</li>
+                    <li>5 case studies documenting change</li>
+                </ul>
+            </article>
+            <article class="cb-edition">
+                <span class="cb-year">2026</span>
+                <h3><span class="en">Capacity Building Program for MPs of Gandaki PA</span><span class="np">गण्डकी प्रदेश सभाका सांसदहरूका लागि क्षमता अभिवृद्धि कार्यक्रम</span></h3>
+                <p class="cb-period">15 March – 31 October 2026</p>
+                <ul>
+                    <li>2 skill development trainings</li>
+                    <li>5 group mentoring sessions</li>
+                    <li>Virtual community-of-practice exchange and one inter-provincial sharing programme</li>
+                    <li>5 case studies and a short video on the mentoring journey</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .cb-focus { display: grid; gap: 18px; margin-top: 8px; }
+    .cb-focus-item {
+        background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+        padding: 28px 26px; box-shadow: 0 4px 14px rgba(16,16,20,.07);
+    }
+    .cb-focus-item h3 { margin: 0 0 10px; font-size: clamp(1.15rem, 2.2vw, 1.45rem); }
+    .cb-focus-item p { margin: 0 0 12px; line-height: 1.65; max-width: 80ch; }
+    .cb-points { margin: 0; padding-left: 18px; color: var(--muted); font-size: .95rem; line-height: 1.6; }
+    .cb-points li + li { margin-top: 5px; }
+    .cb-points li::marker { color: var(--accent); }
+
+    .cb-editions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 8px; }
+    .cb-edition {
+        background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+        padding: 26px 24px; box-shadow: 0 4px 14px rgba(16,16,20,.07);
+    }
+    .cb-year {
+        display: inline-block; font-family: var(--font-ui); font-weight: 700; font-size: .8rem;
+        letter-spacing: .08em; color: var(--accent); border: 1px solid var(--accent);
+        border-radius: 999px; padding: 3px 12px; margin-bottom: 12px;
+    }
+    .cb-edition h3 { margin: 0 0 4px; font-size: 1.08rem; }
+    .cb-period { margin: 0 0 14px; color: var(--muted); font-size: .88rem; font-weight: 600; }
+    .cb-edition ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: .94rem; line-height: 1.6; }
+    .cb-edition li + li { margin-top: 6px; }
+
+    @media (max-width: 800px) {
+        .cb-editions { grid-template-columns: 1fr; }
+    }
+</style>
+{% endblock %}

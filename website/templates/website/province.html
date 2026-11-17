@@ -1,0 +1,187 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}Province | Pokhara Research Centre{% endblock %}
+
+{% block content %}
+<!-- Page hero (rotating photo band) -->
+<section class="hero compact photo-hero">
+    <div class="hero-slides" aria-hidden="true">
+        {% for photo in province_photos %}
+        <div class="hero-slide" style="background-image:url('{{ photo }}')"></div>
+        {% endfor %}
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <h1 class="hero-line"><span class="nowrap en">{{ pt.province.hero_title.en }}</span><span class="nowrap np">{{ pt.province.hero_title.np }}</span></h1>
+    </div>
+</section>
+
+<!-- Mission -->
+<section class="section">
+    <div class="container">
+        <div class="about-split">
+            <div class="bilingual">
+                <div class="en">
+                    <h2><span class="en">{{ pt.province.mission_heading.en }}</span><span class="np">{{ pt.province.mission_heading.np }}</span></h2>
+                <p>{{ pt.province.mission_body_1.en }}</p>
+                <p>{{ pt.province.mission_body_2.en }}</p>
+            </div>
+            <div class="np">
+                <h2>प्रदेश सेल</h2>
+                <p>{{ pt.province.mission_body_1.np }}</p>
+                <p>{{ pt.province.mission_body_2.np }}</p>
+            </div>
+            </div>
+            <div class="about-media">
+                <img class="about-photo" src="{% static 'website/images/pages/province/province-01.jpg' %}" alt="Province Cell program" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Flagship Programs -->
+<section class="section">
+    <div class="container">
+        <h2><span class="en">{{ pt.province.flagship_heading.en }}</span><span class="np">{{ pt.province.flagship_heading.np }}</span></h2>
+        <div class="flagship-grid">
+            {% for program in flagship_programs %}
+            <div class="flagship-card" tabindex="0">
+                <h3><span class="en">{{ program.title_en }}</span><span class="np">{{ program.title_np }}</span></h3>
+                <div class="flagship-media">
+                    <img src="{{ program.image }}" alt="{{ program.title_en }}" loading="lazy">
+                    <div class="flagship-overlay">
+                        <p><span class="en">{{ program.description_en }}</span><span class="np">{{ program.description_np }}</span></p>
+                        {% if program.link %}<a class="btn" href="{{ program.link }}"><span class="en">{{ program.link_label_en }}</span><span class="np">{{ program.link_label_np }}</span></a>{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Past Projects -->
+<section class="section alt" id="past-projects">
+    <div class="container">
+        <h2><span class="en">Past Projects</span><span class="np">सम्पन्न परियोजनाहरू</span></h2>
+        <ol class="project-timeline">
+            {% for project in past_projects %}
+            <li class="project-node">
+                <span class="project-dot" aria-hidden="true"></span>
+                <article class="project-card">
+                    <div class="project-meta">
+                        <span class="project-year">{{ project.year }}</span>
+                        {% if project.partner %}<span class="project-partner">{{ project.partner }}</span>{% endif %}
+                        {% if project.period %}<span class="project-period">{{ project.period }}</span>{% endif %}
+                    </div>
+                    <h3 class="project-title">{{ project.title }}</h3>
+                    {% if project.summary %}<p class="project-summary">{{ project.summary }}</p>{% endif %}
+                    {% if project.details %}
+                    <details class="project-details">
+                        <summary><span class="en">Details</span><span class="np">विवरण</span></summary>
+                        <div class="project-details-body">{{ project.details|linebreaksbr }}</div>
+                    </details>
+                    {% endif %}
+                </article>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .flagship-grid {
+        margin-top: 28px;
+        display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px;
+    }
+    .flagship-card {
+        background: #F1F1F1;
+        text-align: center;
+        padding: 24px 20px 26px;
+        transition: transform .3s ease;
+        display: flex; flex-direction: column;
+    }
+    .flagship-card:hover { transform: scale(1.04); }
+    .flagship-card h3 { margin: 0 0 16px; font-size: 1.1rem; line-height: 1.4; }
+    .flagship-media {
+        position: relative; overflow: hidden;
+        background: #fff; aspect-ratio: 4 / 5;
+        display: flex; align-items: center; justify-content: center;
+    }
+    .flagship-media > img { max-width: 84%; max-height: 100%; object-fit: contain; }
+    .flagship-overlay {
+        position: absolute; inset: 0;
+        background: rgba(211, 216, 222, .96); color: #333a44;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        gap: 14px; padding: 18px;
+        opacity: 0; transition: opacity .25s ease;
+    }
+    .flagship-card:hover .flagship-overlay,
+    .flagship-card:focus-within .flagship-overlay { opacity: 1; }
+    .flagship-overlay p {
+        margin: 0; font-size: .88rem; line-height: 1.55; color: #333a44;
+        /* Clamp long descriptions so the Explore button always stays visible */
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .flagship-details {
+        width: 100%; margin-top: 22px; padding-top: 22px;
+        border-top: 1px solid var(--line);
+        text-align: left;
+        display: flex; flex-direction: column; gap: 18px;
+    }
+    .flagship-details[hidden] { display: none; }
+    @media (max-width: 1100px) { .flagship-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 640px) { .flagship-grid { grid-template-columns: 1fr; } }
+
+    /* ===== Past Projects timeline ===== */
+    .project-timeline { position: relative; list-style: none; margin: 34px 0 0; padding: 0; }
+    .project-timeline::before {
+        content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px;
+        width: 2px; background: var(--line);
+    }
+    .project-node { position: relative; padding: 0 0 24px 44px; }
+    .project-node:last-child { padding-bottom: 0; }
+    .project-dot {
+        position: absolute; left: 0; top: 8px;
+        width: 16px; height: 16px; border-radius: 50%;
+        background: var(--surface); border: 2px solid var(--accent);
+    }
+    .project-card {
+        background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+        padding: 18px 20px; box-shadow: 0 4px 14px rgba(16,16,20,.06);
+    }
+    .project-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 8px; }
+    .project-year {
+        font-weight: 700; font-size: .8rem; letter-spacing: .04em; color: #fff;
+        background: var(--accent); padding: 2px 10px; border-radius: 999px;
+    }
+    .project-partner {
+        font-size: .76rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+        color: var(--accent);
+    }
+    .project-period { font-size: .84rem; font-weight: 600; color: var(--muted); }
+    .project-title { margin: 0 0 6px; font-size: 1.05rem; line-height: 1.4; }
+    .project-summary { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.55; }
+    .project-details { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .project-details summary {
+        display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+        list-style: none; font-weight: 700; font-size: .85rem; color: var(--accent);
+    }
+    .project-details summary::-webkit-details-marker { display: none; }
+    .project-details summary::before { content: "\002B"; font-weight: 700; }
+    .project-details[open] summary::before { content: "\2212"; }
+    .project-details-body { margin-top: 10px; font-size: .9rem; line-height: 1.6; color: var(--ink); }
+    @media (max-width: 700px) {
+        .project-node { padding-left: 32px; }
+        .project-timeline::before { left: 6px; }
+        .project-dot { left: -1px; }
+    }
+</style>
+{% endblock %}

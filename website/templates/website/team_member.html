@@ -1,0 +1,91 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}{{ member.en_name }} | Pokhara Research Centre{% endblock %}
+
+{% block content %}
+<!-- Page hero with photo -->
+<section class="hero compact member-hero-sec">
+    <div class="hero-inner member-hero">
+        <div class="member-back-row">
+            <a class="btn btn-outline member-back" href="{% url 'institution' %}#team"><span class="en">&larr; Back to Team</span><span class="np">&larr; टिममा फर्कनुहोस्</span></a>
+        </div>
+        <img class="member-photo" src="{{ photo }}" alt="{{ member.en_name }}" loading="lazy">
+        <h1 class="hero-line">
+            <span class="nowrap en">{{ member.en_name }}</span>
+            <span class="nowrap np">{{ member.np_name }}</span>
+        </h1>
+        <div class="member-role">
+            <span class="en">{{ member.title_en }}</span>
+            <span class="np">{{ member.title_np }}</span>
+        </div>
+        <div class="member-bio-wrap">
+            <div class="member-bio">
+                <span class="en">{{ member.bio_en }}</span>
+                <span class="np">{{ member.bio_np }}</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Prev / next navigation -->
+<section class="section" style="padding-top: 0;">
+    <div class="container member-nav">
+        {% if prev_member %}
+        <a class="member-nav-link" href="{% url 'team_member' prev_member.slug %}">
+            <span class="member-nav-label"><span class="en">&larr; Previous</span><span class="np">&larr; अघिल्लो</span></span>
+            <span class="en">{{ prev_member.en_name }}</span>
+            <span class="np">{{ prev_member.np_name }}</span>
+        </a>
+        {% else %}<span></span>{% endif %}
+        {% if next_member %}
+        <a class="member-nav-link right" href="{% url 'team_member' next_member.slug %}">
+            <span class="member-nav-label"><span class="en">Next &rarr;</span><span class="np">अर्को &rarr;</span></span>
+            <span class="en">{{ next_member.en_name }}</span>
+            <span class="np">{{ next_member.np_name }}</span>
+        </a>
+        {% else %}<span></span>{% endif %}
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .member-hero { text-align: center; }
+    .member-hero-sec { padding-bottom: clamp(40px, 6vw, 70px); }
+    .member-back-row { max-width: 920px; margin: 0 auto 10px; text-align: left; }
+    .member-back { font-size: .92rem; }
+    .member-photo {
+        width: 170px; height: 170px; border-radius: 50%;
+        object-fit: cover; margin: 0 auto 28px;
+        box-shadow: 0 12px 30px rgba(16,16,20,.18);
+    }
+    .member-hero .hero-line { font-size: clamp(1.6rem, 4vw, 2.6rem); }
+    .member-role { margin-top: 14px; font-size: 1.05rem; color: var(--muted); font-weight: 600; }
+    .member-bio-wrap {
+        max-width: 920px; margin: 36px auto 0;
+        border-top: 1px solid var(--line); padding-top: 30px;
+        text-align: justify;
+    }
+    .member-bio {
+        font-size: 1.08rem; line-height: 1.8; color: var(--ink);
+        margin-bottom: 0; max-width: none;
+    }
+    .member-bio .np { font-size: 1.05rem; }
+    .member-nav {
+        display: flex; justify-content: space-between; gap: 20px;
+        border-top: 1px solid var(--line); padding-top: 26px;
+    }
+    .member-nav-link { display: flex; flex-direction: column; gap: 2px; font-weight: 600; }
+    .member-nav-link.right { text-align: right; align-items: flex-end; }
+    .member-nav-link:hover span.en, .member-nav-link:hover span.np { color: var(--accent); }
+    .member-nav-label {
+        font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
+        color: var(--muted); font-weight: 700;
+    }
+    @media (max-width: 700px) {
+        .member-nav { flex-direction: column; }
+        .member-nav-link.right { text-align: left; align-items: flex-start; }
+    }
+</style>
+{% endblock %}

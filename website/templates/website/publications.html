@@ -1,0 +1,229 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block title %}Publications | Pokhara Research Centre{% endblock %}
+
+{% block meta_description %}Explore our research reports, policy briefs, session briefs, analytical articles and monographs that provide evidence-based insights and actionable recommendations on Nepal's key public policy challenges.{% endblock %}
+
+{% block content %}
+<!-- Publications -->
+<section class="section">
+    <div class="container">
+        <h2><span class="en">Our Publications</span><span class="np">हाम्रा प्रकाशनहरू</span></h2>
+
+        <!-- Filters -->
+        <div class="pub-filters">
+            <label class="pub-filter">
+                <span class="en">Filter by Year</span><span class="np">वर्ष</span>
+                <select id="filterYear">
+                    <option value="" data-en="All" data-ne="सबै">All</option>
+                    {% for y in years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
+                </select>
+            </label>
+            <label class="pub-filter">
+                <span class="en">Filter by Wing</span><span class="np">विङ</span>
+                <select id="filterWing">
+                    <option value="" data-en="All" data-ne="सबै">All</option>
+                    {% for w in wings %}<option value="{{ w }}">{{ w }}</option>{% endfor %}
+                </select>
+            </label>
+            <label class="pub-filter">
+                <span class="en">Filter by Partner</span><span class="np">साझेदार</span>
+                <select id="filterPartner">
+                    <option value="" data-en="All" data-ne="सबै">All</option>
+                    {% for pt in partners %}<option value="{{ pt }}">{{ pt }}</option>{% endfor %}
+                </select>
+            </label>
+            <span class="pub-count numeral" id="pubCount">{{ publications|length }} / {{ publications|length }}</span>
+        </div>
+
+        <!-- Cards -->
+        <div class="pub-grid" id="pubGrid">
+            {% for p in publications %}
+            <a class="pub-card" href="{{ p.link }}" target="_blank" rel="noopener"{% if forloop.counter0 > 7 %} hidden{% endif %}
+               data-year="{{ p.year }}" data-wing="{{ p.wing }}" data-partner="{{ p.partner }}"
+               aria-label="{{ p.title }} — {{ p.partner }}, {{ p.wing }}, {{ p.year }}">
+                {% if p.image %}
+                <img class="pub-cover" src="{{ p.image }}" alt="{{ p.title }} cover" loading="lazy">
+                {% else %}
+                <span class="pub-cover pub-cover-fallback" aria-hidden="true">{{ p.title }}</span>
+                {% endif %}
+                <div class="pub-details">
+                    <h3 class="pub-title">{{ p.title }}</h3>
+                    <span class="pub-partner">{{ p.partner }}</span>
+                    <span class="pub-wing">{{ p.wing }}</span>
+                    <span class="pub-year">{{ p.year }}</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        <p class="pub-empty" id="pubEmpty" hidden><span class="en">No publications match the selected filters.</span><span class="np">छनोट गरिएका फिल्टरसँग मिल्ने कुनै प्रकाशन भेटिएन।</span></p>
+
+        <!-- Pagination footer -->
+        <div class="pub-pagination" id="pubPagination">
+            <button type="button" class="pub-page-arrow" id="pubPrev" aria-label="Previous page">‹</button>
+            <div class="pub-page-btns" id="pubPageBtns"></div>
+            <button type="button" class="pub-page-arrow" id="pubNext" aria-label="Next page">›</button>
+            <span class="pub-page-label">Page <span id="pubPageLabel">1</span></span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .pub-filters {
+        display: flex; flex-wrap: wrap; gap: 14px; align-items: end;
+        margin: 26px 0 26px; padding: 16px 18px;
+        background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    }
+    .pub-filter { display: flex; flex-direction: column; gap: 5px; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .pub-filter select {
+        font-family: var(--font-ui); font-size: .92rem; color: var(--ink);
+        padding: 8px 10px; border: 1.5px solid var(--line); border-radius: 8px; background: #fff; min-width: 180px;
+    }
+    .pub-count { margin-left: auto; font-size: .85rem; color: var(--muted); }
+    .pub-grid {
+        display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;
+    }
+    /* Cover-first tile: the publication cover fills the card, details reveal on hover/focus */
+    .pub-card {
+        position: relative; display: block; overflow: hidden;
+        aspect-ratio: 2 / 3; /* taller tile so the cover reads as the hero */
+        background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+        box-shadow: 0 4px 14px rgba(16,16,20,.07);
+        transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .pub-card:hover, .pub-card:focus-visible { transform: translateY(-4px); box-shadow: 0 18px 34px rgba(16,16,20,.2); }
+    .pub-card:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    .pub-card[hidden] { display: none; }
+    /* The first page fills the whole tile. At 280px+ tiles the 2:3 card only trims a few
+       percent off the page's left/right edges, and the browser never has to enlarge the
+       bitmap. No hover zoom on purpose — rescaling was what made the covers look soft. */
+    .pub-cover {
+        width: 100%; height: 100%;
+        object-fit: cover;
+    }
+    .pub-cover-fallback {
+        position: absolute; inset: 0;
+        display: flex; align-items: center; justify-content: center; text-align: center;
+        padding: 20px; font-family: var(--font-display); font-size: 1.02rem; line-height: 1.4;
+        color: var(--ink); background: linear-gradient(150deg, #eef4f9, #dbe8f2);
+    }
+    .pub-details {
+        position: absolute; inset: 0;
+        display: flex; flex-direction: column; justify-content: flex-end; gap: 10px;
+        padding: 18px 16px;
+        /* Footer grey (#d3d8de, as in .site-footer) instead of a black scrim */
+        background: linear-gradient(to top, rgba(211,216,222,.98) 0%, rgba(211,216,222,.95) 55%, rgba(211,216,222,.75) 100%);
+        opacity: 0; visibility: hidden; transform: translateY(10px);
+        transition: opacity .25s ease, transform .25s ease, visibility .25s;
+    }
+    .pub-card:hover .pub-details, .pub-card:focus-visible .pub-details { opacity: 1; visibility: visible; transform: none; }
+    .pub-title {
+        margin: 0; color: #333a44; font-size: 1.02rem; line-height: 1.4;
+        display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .pub-partner {
+        align-self: flex-start;
+        background: var(--accent); color: #fff;
+        padding: 4px 12px; border-radius: 999px;
+        font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+    }
+    .pub-wing {
+        color: rgba(51,58,68,.84); font-size: .82rem; line-height: 1.45;
+        display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .pub-year { color: #333a44; font-weight: 700; font-size: .9rem; }
+    /* Touch devices have no hover: keep the details visible so covers stay useful */
+    @media (hover: none) {
+        .pub-details { opacity: 1; visibility: visible; transform: none; }
+        .pub-title { -webkit-line-clamp: 4; }
+        .pub-wing { -webkit-line-clamp: 2; }
+    }
+    .pub-empty { color: var(--muted); padding: 26px 0; }
+    .pub-pagination {
+        display: flex; justify-content: center; align-items: center; gap: 14px;
+        margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line);
+        font-size: .9rem; color: var(--muted);
+    }
+    .pub-page-btns { display: flex; gap: 8px; }
+    .pub-page-btn, .pub-page-arrow {
+        display: inline-flex; align-items: center; justify-content: center;
+        min-width: 32px; height: 32px; padding: 0 10px;
+        border: 1.5px solid var(--line); background: var(--surface); color: var(--ink);
+        border-radius: 8px; font-family: var(--font-ui); font-size: .9rem; font-weight: 700;
+        cursor: pointer; transition: all .15s ease;
+    }
+    .pub-page-btn:hover, .pub-page-arrow:hover { border-color: var(--accent); color: var(--accent); }
+    .pub-page-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .pub-page-arrow:disabled { opacity: .35; cursor: default; }
+    .pub-page-arrow:disabled:hover { border-color: var(--line); color: var(--ink); }
+    @media (max-width: 1000px) { .pub-grid { grid-template-columns: repeat(2, 1fr); } }
+    /* Single column only while the tile stays narrow enough to show the page at full
+       resolution — past ~620px a one-column tile would have to enlarge the bitmap. */
+    @media (max-width: 620px) { .pub-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 700px) {
+        .pub-count { margin-left: 0; width: 100%; }
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const yearSel = document.getElementById('filterYear');
+        const wingSel = document.getElementById('filterWing');
+        const partnerSel = document.getElementById('filterPartner');
+        const cards = Array.from(document.querySelectorAll('.pub-card'));
+        const countEl = document.getElementById('pubCount');
+        const emptyEl = document.getElementById('pubEmpty');
+        const pageLabel = document.getElementById('pubPageLabel');
+        const pageBtns = document.getElementById('pubPageBtns');
+        const pagEl = document.getElementById('pubPagination');
+        const prevBtn = document.getElementById('pubPrev');
+        const nextBtn = document.getElementById('pubNext');
+        const PER_PAGE = 8;
+        let page = 1;
+
+        function apply() {
+            const y = yearSel.value, w = wingSel.value, pt = partnerSel.value;
+            const visible = [];
+            cards.forEach(c => {
+                const ok = (!y || c.dataset.year === y) && (!w || c.dataset.wing === w) && (!pt || c.dataset.partner === pt);
+                if (ok) visible.push(c);
+                c.hidden = true; // pagination decides actual visibility below
+            });
+
+            const pages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
+            if (page > pages) page = pages;
+            if (page < 1) page = 1;
+
+            visible.forEach((c, i) => { c.hidden = !((i >= (page - 1) * PER_PAGE) && (i < page * PER_PAGE)); });
+
+            const D = window.prcNumerals.toNepaliDigits;
+            // Bilingual counters: both digit systems written, CSS picks the visible one
+            const pair = s => '<span class="en">' + s + '</span><span class="np">' + D(s) + '</span>';
+            countEl.innerHTML = pair(visible.length + ' / ' + cards.length);
+            emptyEl.hidden = visible.length > 0;
+
+            // Rebuild page buttons
+            pageBtns.innerHTML = '';
+            for (let p = 1; p <= pages; p++) {
+                const b = document.createElement('button');
+                b.type = 'button';
+                b.className = 'pub-page-btn' + (p === page ? ' active' : '');
+                b.innerHTML = pair(p);
+                b.addEventListener('click', function () { page = p; apply(); });
+                pageBtns.appendChild(b);
+            }
+            pagEl.style.display = (pages > 1) ? '' : 'none';
+            prevBtn.disabled = (page <= 1);
+            nextBtn.disabled = (page >= pages);
+            pageLabel.innerHTML = pair(page);
+        }
+
+        prevBtn.addEventListener('click', function () { if (page > 1) { page--; apply(); window.scrollTo({ top: 0, behavior: 'smooth' }); } });
+        nextBtn.addEventListener('click', function () { page++; apply(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        [yearSel, wingSel, partnerSel].forEach(s => s.addEventListener('change', function () { page = 1; apply(); }));
+        apply();
+    });
+</script>
+{% endblock %}
