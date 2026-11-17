@@ -26,10 +26,10 @@ If Git asks for a password, use a **Personal Access Token** (GitHub → Settings
 Developer settings → Personal access tokens → Fine-grained tokens → repo
 contents: read/write) as the password.
 
-> The repo is ~560 MB because the site's images are tracked. The first push and
-> the first clone take a while. Keep it under GitHub's 1 GB guidance by not
-> committing `venv/`, `dist/`, `staticfiles/` or `db.sqlite3` (`.gitignore`
-> already handles this).
+> Only source is tracked (~64 files, under 1 MB). `media/` (admin uploads) and
+> `website/static/website/images/` (the photo library) are **not** in git: they
+> live in `~/prcapp` on the server and are left untouched by deploys. `venv/`,
+> `dist/`, `staticfiles/` and `db.sqlite3` are ignored too.
 
 ---
 
@@ -85,8 +85,10 @@ python -c "from django.core.management.utils import get_random_secret_key; print
 1. cPanel → **Git Version Control** → `prc-website` → **Manage** →
    **Pull or Deploy** → **Update from Remote**, then **Deploy HEAD Commit**.
 2. This runs `.cpanel.yml`, which copies `manage.py`, `app.py`,
-   `passenger_wsgi.py`, `requirements.txt`, `prc_data.json`, `config/`,
-   `website/` and `media/` into `~/prcapp`.
+   `passenger_wsgi.py`, `requirements.txt`, `prc_data.json`, `config/` and
+   `website/` into `~/prcapp`. Images in `media/` and the static photo library
+   are not in git and stay where they are; a brand-new server needs those
+   uploaded separately (or use the zip package for the first install).
 3. Verify:
 
 ```bash
@@ -143,8 +145,10 @@ modules.
 ### Media uploads
 
 Images uploaded through `/admin/` go to `~/prcapp/media/` and are **not** in
-Git. Deploys only copy over files that exist in the repo, so admin uploads are
-never deleted. Do not run `git clean` in `~/prcapp`.
+Git, same for `website/static/website/images/`. Deploys only copy files that
+exist in the repo (`cp -u`), so both directories are never deleted or
+overwritten. Do not run `git clean` in `~/prcapp`. Use cPanel backups or a
+separate copy/rsync for those assets.
 
 ---
 
