@@ -8,11 +8,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=$HOME/prcapp
-    - /bin/mkdir -p $DEPLOYPATH/config $DEPLOYPATH/website
-    - /bin/cp -f manage.py app.py passenger_wsgi.py requirements.txt prc_data.json $DEPLOYPATH/
+    - /bin/mkdir -p "$DEPLOYPATH/config" "$DEPLOYPATH/website"
+    - /bin/cp -f manage.py app.py passenger_wsgi.py requirements.txt prc_data.json "$DEPLOYPATH/"
     # -u = only copy files newer than the server copy, so a routine deploy does
-    # not rewrite hundreds of MB of images that did not change.
-    - /bin/cp -Ru config/. $DEPLOYPATH/config/
-    - /bin/cp -Ru website/. $DEPLOYPATH/website/
+    # not rewrite files that did not change. Images are not tracked in git, so
+    # ~/prcapp/media and the static photo library are left untouched.
+    - /bin/cp -Ru config/. "$DEPLOYPATH/config/"
+    - /bin/cp -Ru website/. "$DEPLOYPATH/website/"
     # media/ and the static photo library are deliberately not in git; they stay
     # in ~/prcapp on the server and are untouched by a deploy.
